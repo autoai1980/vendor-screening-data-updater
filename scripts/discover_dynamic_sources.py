@@ -40,13 +40,16 @@ def inspect_json_endpoints():
         "idb_datastore": "https://data.iadb.org/api/action/datastore_search?resource_id=cd0bd9ac-18c6-44bc-8592-9be468c2efd9&limit=5",
     }
     for label, url in endpoints.items():
-        response = requests.get(url, headers={"User-Agent": UA}, timeout=120)
-        response.raise_for_status()
-        payload = response.json()
-        print(json.dumps({"label": label, "top_type": type(payload).__name__,
-                          "top_keys": list(payload)[:30] if isinstance(payload, dict) else None,
-                          "sample": payload if len(response.content) < 15000 else str(payload)[:12000]},
-                         ensure_ascii=False))
+        try:
+            response = requests.get(url, headers={"User-Agent": UA}, timeout=120)
+            response.raise_for_status()
+            payload = response.json()
+            print(json.dumps({"label": label, "top_type": type(payload).__name__,
+                              "top_keys": list(payload)[:30] if isinstance(payload, dict) else None,
+                              "sample": payload if len(response.content) < 15000 else str(payload)[:12000]},
+                             ensure_ascii=False))
+        except Exception as exc:
+            print(json.dumps({"label": label, "error": str(exc)}))
 
 def inspect_world_bank():
     url = "https://www.worldbank.org/en/projects-operations/procurement/debarred-firms"
