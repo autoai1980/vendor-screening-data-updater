@@ -24,18 +24,28 @@ def local(tag):
 def fetch(url):
     req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "*/*"})
     with urllib.request.urlopen(req, timeout=90) as response:
-        return response.status, response.headers.get("Content-Type", ""), response.geturl(), response.read()
+        return {
+            "status": response.status,
+            "content_type": response.headers.get("Content-Type", ""),
+            "last_modified": response.headers.get("Last-Modified"),
+            "content_disposition": response.headers.get("Content-Disposition"),
+            "final_url": response.geturl(),
+            "body": response.read(),
+        }
 
 def main():
     cfg = json.loads(Path("config/sources.json").read_text())
     failed = []
     for src in cfg["sources"]:
         try:
-            status, ctype, final_url, body = fetch(src["url"])
+            response = fetch(src["url"])
+            status, ctype, final_url, body = response["status"], response["content_type"], response["final_url"], response["body"]
             info = {
                 "id": src["id"], "status": status, "contentType": ctype,
                 "bytes": len(body), "sha256": hashlib.sha256(body).hexdigest(),
-                "redirected": final_url != src["url"]
+                "redirected": final_url != src["url"],
+                "lastModified": response["last_modified"],
+                "contentDisposition": response["content_disposition"]
             }
             if src["format"] == "xml":
                 root = ET.fromstring(body)
@@ -44,7 +54,14 @@ def main():
                     key = local(element.tag)
                     tags[key] = tags.get(key, 0) + 1
                 info["root"] = local(root.tag)
-                info["topTags"] = sorted(tags.items(), key=lambda item: -item[1])[:20]
+                info["topTags"] = sorted(tags.items(), key=lambda item: -item[1])[:30]
+                leaves = []
+                for element in root.iter():
+                    if len(element) == 0 and (element.text or "").strip():
+                        leaves.append([local(element.tag), (element.text or "").strip()[:120]])
+                    if len(leaves) == 20:
+                        break
+                info["sampleLeaves"] = leaves
             elif src["format"] == "csv":
                 text = body.decode("utf-8-sig")
                 reader = csv.reader(io.StringIO(text))
