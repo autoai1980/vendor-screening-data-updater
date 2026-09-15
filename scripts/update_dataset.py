@@ -28,8 +28,10 @@ def get(url,accept="*/*"):
     if not r.content: raise RuntimeError(f"Empty response from {url}")
     return r
 def tag(el,name):
-    node=el.find(lambda x: x.tag.rsplit("}",1)[-1]==name)
-    return clean(node.text) if node is not None else ""
+    for node in el.iter():
+        if node.tag.rsplit("}",1)[-1]==name:
+            return clean(node.text)
+    return ""
 def children(el,name):
     return [x for x in el.iter() if x.tag.rsplit("}",1)[-1]==name]
 
