@@ -37,6 +37,7 @@ def inspect_html(url, label):
 def inspect_json_endpoints():
     endpoints = {
         "world_bank_json": "https://apigwext.worldbank.org/dvsvc/v1.0/json/APPLICATION/ADOBE_EXPRNCE_MGR/FIRM/SANCTIONED_FIRM",
+        "idb_package": "https://data.iadb.org/api/3/action/package_show?id=3a873ab8-20cb-4e12-9826-9abcdac3f51a",
         "idb_datastore": "https://data.iadb.org/api/action/datastore_search?resource_id=cd0bd9ac-18c6-44bc-8592-9be468c2efd9&limit=5",
     }
     for label, url in endpoints.items():
