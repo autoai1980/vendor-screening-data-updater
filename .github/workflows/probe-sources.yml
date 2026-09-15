@@ -18,3 +18,9 @@ jobs:
           python-version: "3.12"
       - name: Probe authoritative sources
         run: python scripts/probe_sources.py
+      - name: Install dynamic-source diagnostics
+        run: |
+          python -m pip install --disable-pip-version-check requests beautifulsoup4 playwright
+          python -m playwright install --with-deps chromium
+      - name: Discover dynamic source structures
+        run: python scripts/discover_dynamic_sources.py
