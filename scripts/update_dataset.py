@@ -152,7 +152,7 @@ def idb(src,browser):
     page.goto("https://data.iadb.org/dataset/dataset-of-sanctioned-firms-and-individuals",wait_until="domcontentloaded",timeout=TIMEOUT*1000)
     link=page.locator('a[href*="/files/download/"]').first
     link.wait_for(timeout=TIMEOUT*1000)
-    with page.expect_download(timeout=TIMEOUT*1000) as event: link.click()
+    with page.expect_download(timeout=TIMEOUT*1000) as event: link.click(force=True)
     download=event.value; path=download.path(); body=Path(path).read_bytes(); page.close()
     text=body.decode("utf-8-sig"); reader=csv.DictReader(io.StringIO(text))
     headers=reader.fieldnames or []
