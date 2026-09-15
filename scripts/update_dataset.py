@@ -74,7 +74,7 @@ def un_list(src):
     return out,r
 
 def terrorist_entities(src):
-    r=get(src["url"],"text/html"); soup=BeautifulSoup(r.content,"html.parser"); main=soup.find("main") or soup
+    r=get(src["url"],"text/html"); soup=BeautifulSoup(r.content,"html.parser"); main=soup
     names=[]; active=False
     for h in main.select("h1,h2,h3,h4"):
         text=clean(h.get_text(" ",strip=True))
