@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://autoai1980.github.io/vendor-screening-data-updater/update-package.schema.json",
+  "title": "Vendor Screening Update Package",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "datasetVersion", "generatedAt", "recordCount", "sources", "records"],
+  "properties": {
+    "schemaVersion": {"const": 1},
+    "datasetVersion": {"type": "string", "minLength": 1},
+    "generatedAt": {"type": "string", "format": "date-time"},
+    "recordCount": {"type": "integer", "minimum": 1},
+    "sources": {
+      "type": "array",
+      "minItems": 6,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "name", "authority", "sourceUrl", "retrievedAt", "recordCount"],
+        "properties": {
+          "id": {"type": "string"},
+          "name": {"type": "string"},
+          "authority": {"type": "string"},
+          "sourceUrl": {"type": "string", "format": "uri"},
+          "retrievedAt": {"type": "string", "format": "date-time"},
+          "publishedAt": {"type": ["string", "null"]},
+          "recordCount": {"type": "integer", "minimum": 0},
+          "contentSha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+        }
+      }
+    },
+    "records": {
+      "type": "array",
+      "items": {
+        "type": "array",
+        "minItems": 15,
+        "maxItems": 15,
+        "prefixItems": [
+          {"type": ["integer", "string"]},
+          {"type": "string"},
+          {"type": "string", "minLength": 1},
+          {"type": "string"},
+          {"type": "string"},
+          {"type": "string"},
+          {"type": "string"},
+          {"type": "string"},
+          {"type": "string"},
+          {"type": "string"},
+          {"type": "string"},
+          {"type": "array", "items": {"type": "string"}},
+          {"type": "array", "items": {"type": "string"}},
+          {"type": "string"},
+          {"type": "array", "items": {"type": "string"}}
+        ]
+      }
+    }
+  }
+}
