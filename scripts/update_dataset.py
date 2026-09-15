@@ -79,8 +79,8 @@ def terrorist_entities(src):
     for h in main.select("h1,h2,h3,h4"):
         text=clean(h.get_text(" ",strip=True))
         if text=="Currently listed entities": active=True; continue
-        if active and text=="Notice of amendments": break
-        if active and text and text not in {"About this site"}: names.append(text)
+        if active and text=="About this site": break
+        if active and text and text not in {"Notice of amendments"}: names.append(text)
     names=list(dict.fromkeys(names))
     if not 70<=len(names)<=150: raise RuntimeError(f"Unexpected terrorist-entity count: {len(names)}")
     out=[]
