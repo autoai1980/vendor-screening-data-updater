@@ -151,9 +151,20 @@ def idb(src,browser):
     page=browser.new_page(user_agent=UA)
     page.goto("https://data.iadb.org/dataset/dataset-of-sanctioned-firms-and-individuals",wait_until="domcontentloaded",timeout=TIMEOUT*1000)
     link=page.locator('a[href*="/files/download/"]').first
-    link.wait_for(timeout=TIMEOUT*1000)
-    with page.expect_download(timeout=TIMEOUT*1000) as event: link.click(force=True)
-    download=event.value; path=download.path(); body=Path(path).read_bytes(); page.close()
+    link.wait_for(timeout=TIMEOUT*1000); href=link.get_attribute("href")
+    downloads=[]; page.on("download",lambda item: downloads.append(item))
+    link.click(force=True)
+    body=None
+    for _ in range(24):
+        if downloads:
+            path=downloads[0].path(); body=Path(path).read_bytes(); break
+        response=page.context.request.get(href,headers={"Referer":page.url},timeout=30000)
+        candidate=response.body()
+        if response.ok and len(candidate)>100 and b"Title" in candidate[:500] and b"Entity" in candidate[:500]:
+            body=candidate; break
+        page.wait_for_timeout(5000)
+    page.close()
+    if not body: raise RuntimeError("IDB dataset download did not become available after retry window")
     text=body.decode("utf-8-sig"); reader=csv.DictReader(io.StringIO(text))
     headers=reader.fieldnames or []
     required={"Title","Entity","Country","From","To","Prohibited Practice","IDB Sanction Source"}
