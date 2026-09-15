@@ -156,6 +156,10 @@ def idb(src,browser):
     download=event.value; path=download.path(); body=Path(path).read_bytes(); page.close()
     text=body.decode("utf-8-sig"); reader=csv.DictReader(io.StringIO(text))
     headers=reader.fieldnames or []
+    preview=[]
+    for _,sample in zip(range(3),reader): preview.append(sample)
+    print(json.dumps({"idbHeaders":headers,"idbPreview":preview},ensure_ascii=False))
+    reader=csv.DictReader(io.StringIO(text))
     def find(*terms):
         for h in headers:
             n=unicodedata.normalize("NFKD",h).encode("ascii","ignore").decode().lower()
