@@ -22,6 +22,36 @@ def split_aliases(v):
 def record(source,name,aliases=None,country="",ref="",listed="",until="",grounds="",kind="Entity",weak=None):
     return [0,source,clean(name),"","; ".join(aliases or []),clean(country),clean(ref),clean(listed),
             clean(until),clean(grounds),"",aliases or [],weak or [],kind,[source]]
+
+def normalized_value(value):
+    if isinstance(value,list):
+        return tuple(sorted(normalized_value(x) for x in value))
+    return re.sub(r"\s+"," ",unicodedata.normalize("NFKC",str(value or "")).casefold()).strip()
+
+def record_key(row):
+    # IDs are assigned after deduplication. Every other material field, including
+    # source, country, reference and listing dates, must match before a row is removed.
+    return tuple(normalized_value(value) for value in row[1:])
+
+def deduplicate_records(rows):
+    kept=[]; seen=set(); removed=[]
+    for row in rows:
+        key=record_key(row)
+        if key in seen: removed.append(row)
+        else: seen.add(key); kept.append(row)
+    return kept,removed
+
+def dataset_delta(previous,current):
+    old={}; new={}
+    for row in previous:
+        old.setdefault(record_key(row),[]).append(row)
+    for row in current:
+        new.setdefault(record_key(row),[]).append(row)
+    added=[]; removed=[]
+    for key in set(old)|set(new):
+        before=old.get(key,[]); after=new.get(key,[]); matched=min(len(before),len(after))
+        removed.extend(before[matched:]); added.extend(after[matched:])
+    return added,removed
 def get(url,accept="*/*"):
     r=requests.get(url,headers={"User-Agent":UA,"Accept":accept},timeout=TIMEOUT)
     r.raise_for_status()
@@ -158,6 +188,10 @@ def main():
             metadata.append({"id":sid,"name":src["name"],"authority":src["authority"],"sourceUrl":src["url"],
                              "retrievedAt":now(),"recordCount":len(rows),"contentSha256":sha(response.content)})
         browser.close()
+    raw_count=len(all_records)
+    all_records,duplicates_removed=deduplicate_records(all_records)
+    for item in metadata:
+        item["recordCount"]=sum(1 for row in all_records if row[1]==item["name"])
     for i,row in enumerate(all_records,1): row[0]=i
     if len(all_records)<7500: raise RuntimeError(f"Combined dataset unexpectedly small: {len(all_records)}")
     stamp=datetime.now(timezone.utc).strftime("%Y-%m-%d")
@@ -165,13 +199,30 @@ def main():
              "recordCount":len(all_records),"sources":metadata,"records":all_records}
     schema=json.loads((ROOT/"schema/update-package.schema.json").read_text()); validate(package,schema)
     out=ROOT/"data"; out.mkdir(exist_ok=True)
+    current_path=out/"vendor-screening-data.json"
+    previous=json.loads(current_path.read_text()) if current_path.exists() else None
     payload=json.dumps(package,ensure_ascii=False,separators=(",",":")).encode()
-    (out/"vendor-screening-data.json").write_bytes(payload)
+    current_path.write_bytes(payload)
+
+    # The first deduplicated package becomes the fixed audit baseline. Later
+    # removals remain in dated delta files but do not stay active for screening.
+    baseline_path=out/"retention-baseline.json"
+    if not baseline_path.exists(): baseline_path.write_bytes(payload)
+    added,removed=dataset_delta(previous.get("records",[]) if previous else [],all_records)
+    if previous and (added or removed):
+        history=out/"history"; history.mkdir(exist_ok=True)
+        delta={"schemaVersion":1,"fromDatasetVersion":previous.get("datasetVersion"),"toDatasetVersion":package["datasetVersion"],
+               "generatedAt":package["generatedAt"],"addedCount":len(added),"removedCount":len(removed),
+               "addedRecords":added,"removedRecords":removed}
+        (history/f"{stamp}.json").write_text(json.dumps(delta,ensure_ascii=False,indent=2)+"\n")
+
     manifest={"schemaVersion":1,"datasetVersion":package["datasetVersion"],"generatedAt":package["generatedAt"],
               "recordCount":package["recordCount"],"sha256":sha(payload),"dataUrl":"vendor-screening-data.json",
               "sources":metadata}
     (out/"manifest.json").write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+"\n")
-    print(json.dumps({"recordCount":len(all_records),"sources":{m["id"]:m["recordCount"] for m in metadata},"sha256":sha(payload)}))
+    print(json.dumps({"rawRecordCount":raw_count,"duplicatesRemoved":len(duplicates_removed),
+                      "recordCount":len(all_records),"sources":{m["id"]:m["recordCount"] for m in metadata},
+                      "addedSincePrevious":len(added),"removedSincePrevious":len(removed),"sha256":sha(payload)}))
 
 if __name__=="__main__":
     try: main()
