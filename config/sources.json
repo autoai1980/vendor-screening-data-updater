@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "ca_autonomous_sanctions",
+      "name": "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List",
+      "authority": "Government of Canada",
+      "url": "https://www.international.gc.ca/world-monde/assets/office_docs/international_relations-relations_internationales/sanctions/sema-lmes.xml",
+      "format": "xml",
+      "required": true
+    },
+    {
+      "id": "un_sc_consolidated",
+      "name": "United Nations Security Council Consolidated List",
+      "authority": "United Nations Security Council",
+      "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
+      "format": "xml",
+      "required": true
+    },
+    {
+      "id": "ca_criminal_code_terrorist_entities",
+      "name": "Currently Listed Terrorist Entities",
+      "authority": "Public Safety Canada",
+      "url": "https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cntr-trrrsm/lstd-ntts/crrnt-lstd-ntts-en.aspx",
+      "format": "html",
+      "required": true
+    },
+    {
+      "id": "ca_riunrst",
+      "name": "Regulations Implementing the United Nations Resolutions on the Suppression of Terrorism",
+      "authority": "Justice Laws Website, Government of Canada",
+      "url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2001-360/FullText.html",
+      "format": "html",
+      "required": true
+    },
+    {
+      "id": "world_bank_debarments",
+      "name": "World Bank Listing of Ineligible Firms and Individuals",
+      "authority": "World Bank",
+      "url": "https://www.worldbank.org/en/projects-operations/procurement/debarred-firms",
+      "format": "dynamic-html",
+      "required": true
+    },
+    {
+      "id": "idb_sanctions",
+      "name": "Dataset of Sanctioned Firms and Individuals",
+      "authority": "Inter-American Development Bank",
+      "url": "https://data.iadb.org/files/download/f5022f04-a3f1-4604-a099-5d562e3a0aa5",
+      "format": "csv",
+      "required": true
+    }
+  ],
+  "publicationPolicy": {
+    "failClosed": true,
+    "minimumRecordRatioAgainstPrevious": 0.8,
+    "requireAllSources": true,
+    "retainPreviousOnFailure": true
+  }
+}
