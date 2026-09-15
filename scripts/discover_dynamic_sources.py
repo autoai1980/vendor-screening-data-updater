@@ -34,6 +34,20 @@ def inspect_html(url, label):
     list_items = [node.get_text(" ", strip=True)[:220] for node in soup.select("li") if node.get_text(" ", strip=True)]
     print(json.dumps({"label": label, "headings": headings[:120], "list_sample": list_items[:160]}, ensure_ascii=False))
 
+def inspect_json_endpoints():
+    endpoints = {
+        "world_bank_json": "https://apigwext.worldbank.org/dvsvc/v1.0/json/APPLICATION/ADOBE_EXPRNCE_MGR/FIRM/SANCTIONED_FIRM",
+        "idb_datastore": "https://data.iadb.org/api/action/datastore_search?resource_id=cd0bd9ac-18c6-44bc-8592-9be468c2efd9&limit=5",
+    }
+    for label, url in endpoints.items():
+        response = requests.get(url, headers={"User-Agent": UA}, timeout=120)
+        response.raise_for_status()
+        payload = response.json()
+        print(json.dumps({"label": label, "top_type": type(payload).__name__,
+                          "top_keys": list(payload)[:30] if isinstance(payload, dict) else None,
+                          "sample": payload if len(response.content) < 15000 else str(payload)[:12000]},
+                         ensure_ascii=False))
+
 def inspect_world_bank():
     url = "https://www.worldbank.org/en/projects-operations/procurement/debarred-firms"
     interesting = []
@@ -59,4 +73,5 @@ if __name__ == "__main__":
     inspect_idb()
     inspect_html("https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cntr-trrrsm/lstd-ntts/crrnt-lstd-ntts-en.aspx", "terrorist_entities")
     inspect_html("https://laws-lois.justice.gc.ca/eng/regulations/SOR-2001-360/FullText.html", "riunrst")
+    inspect_json_endpoints()
     inspect_world_bank()
