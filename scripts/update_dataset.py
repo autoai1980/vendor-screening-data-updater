@@ -156,20 +156,19 @@ def idb(src,browser):
     download=event.value; path=download.path(); body=Path(path).read_bytes(); page.close()
     text=body.decode("utf-8-sig"); reader=csv.DictReader(io.StringIO(text))
     headers=reader.fieldnames or []
-    def find(*terms):
-        for h in headers:
-            n=unicodedata.normalize("NFKD",h).encode("ascii","ignore").decode().lower()
-            if all(t in n for t in terms): return h
-    name_col=find("name") or find("nombre")
-    if not name_col: raise RuntimeError(f"IDB name column not found; headers={headers}")
-    country_col=find("country") or find("pais"); from_col=find("from") or find("start") or find("desde")
-    to_col=find("to") or find("end") or find("hasta"); grounds_col=find("ground") or find("practice") or find("motivo")
+    required={"Title","Entity","Country","From","To","Prohibited Practice","IDB Sanction Source"}
+    missing=sorted(required-set(headers))
+    if missing: raise RuntimeError(f"IDB required columns missing: {missing}; headers={headers}")
     out=[]
     for row in reader:
-        name=clean(row.get(name_col))
-        if name: out.append(record(src["name"],name,country=row.get(country_col,"") if country_col else "",
-                                   listed=row.get(from_col,"") if from_col else "",until=row.get(to_col,"") if to_col else "",
-                                   grounds=row.get(grounds_col,"") if grounds_col else "",kind="Firm / individual"))
+        name=clean(row.get("Title"))
+        if not name or name.upper()=="NULL": continue
+        country=clean(row.get("Country")) or clean(row.get("Nationality"))
+        reference=" / ".join(x for x in (clean(row.get("IDB Sanction Source")),clean(row.get("Tipo de sancion del BID"))) if x)
+        out.append(record(src["name"],name,country=country,ref=reference,
+                          listed=row.get("From",""),until=row.get("To",""),
+                          grounds=row.get("Prohibited Practice",""),
+                          kind=clean(row.get("Entity")) or "Firm / individual"))
     if not 500<=len(out)<=3000: raise RuntimeError(f"Unexpected IDB count: {len(out)}; headers={headers}")
     return out,type("Response",(),{"content":body,"headers":{}})()
 
@@ -207,7 +206,11 @@ def main():
     # The first deduplicated package becomes the fixed audit baseline. Later
     # removals remain in dated delta files but do not stay active for screening.
     baseline_path=out/"retention-baseline.json"
-    if not baseline_path.exists(): baseline_path.write_bytes(payload)
+    flawed_baseline_sha="61d1e254c69decc05690c644fa80a688df4da0d47be1999ced0e93bba3dbb198"
+    reset_baseline=not baseline_path.exists() or sha(baseline_path.read_bytes())==flawed_baseline_sha
+    if reset_baseline:
+        baseline_path.write_bytes(payload)
+        previous=None
     added,removed=dataset_delta(previous.get("records",[]) if previous else [],all_records)
     if previous and (added or removed):
         history=out/"history"; history.mkdir(exist_ok=True)
