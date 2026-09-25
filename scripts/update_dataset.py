@@ -203,6 +203,15 @@ def main():
     for item in metadata:
         item["recordCount"]=sum(1 for row in all_records if row[1]==item["name"])
     for i,row in enumerate(all_records,1): row[0]=i
+    # Emit source counts before the safety check so a blocked run can be diagnosed.
+    previous_manifest_path=ROOT/"data/manifest.json"
+    previous_manifest=json.loads(previous_manifest_path.read_text()) if previous_manifest_path.exists() else {}
+    previous_counts={item["id"]:item["recordCount"] for item in previous_manifest.get("sources",[])}
+    print(json.dumps({"diagnostic":"pre-publication source counts",
+                      "previousTotal":previous_manifest.get("recordCount"),
+                      "currentTotal":len(all_records),
+                      "sources":{item["id"]:{"previous":previous_counts.get(item["id"]),
+                                              "current":item["recordCount"]} for item in metadata}}),flush=True)
     if len(all_records)<7500: raise RuntimeError(f"Combined dataset unexpectedly small: {len(all_records)}")
     stamp=datetime.now(timezone.utc).strftime("%Y-%m-%d")
     package={"schemaVersion":1,"datasetVersion":f"official-{stamp}","generatedAt":now(),
