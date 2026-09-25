@@ -69,6 +69,12 @@ def canada(src):
     import xml.etree.ElementTree as ET
     r=get(src["url"],"application/xml,text/xml")
     root=ET.fromstring(r.content); out=[]
+    from collections import Counter
+    xml_tags=Counter(node.tag.rsplit("}",1)[-1] for node in root.iter())
+    print(json.dumps({"diagnostic":"Canadian XML structure","bytes":len(r.content),
+                      "rootTag":root.tag.rsplit("}",1)[-1],
+                      "recordElements":xml_tags.get("record",0),
+                      "topLevelTags":dict(Counter(node.tag.rsplit("}",1)[-1] for node in root))}),flush=True)
     for row in children(root,"record"):
         vals={x.tag.rsplit("}",1)[-1]:clean(x.text) for x in row}
         entity=vals.get("EntityOrShip-EntiteOuNavire","")
