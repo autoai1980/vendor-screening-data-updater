@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "fromDatasetVersion": "official-2026-10-22",
+  "toDatasetVersion": "official-2026-10-23",
+  "generatedAt": "2026-10-23T11:35:20Z",
+  "addedCount": 1,
+  "removedCount": 1,
+  "addedRecords": [
+    [
+      7451,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MR. ORLANDO FAJARDO CASTILLO*666",
+      "",
+      "",
+      "C/O CONSTRUCCIONES DEL SIGLO 21 S.A.S., CALLE 109 19 36 P 4, BOGOTA D.C.",
+      "",
+      "Colombia",
+      "25-Jun-2024",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ]
+  ],
+  "removedRecords": [
+    [
+      7450,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MR. ORLANDO FAJARDO CASTILLO*666",
+      "",
+      "",
+      "C/O CONSTRUCCIONES DEL SIGLO 21 S.A.S., CALLE 109 19 36 P 4, BOGOTA D.C.",
+      "",
+      "Colombia",
+      "25-Jun-2024",
+      "24-Oct-2026",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ]
+  ]
+}
