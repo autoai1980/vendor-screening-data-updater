@@ -1,0 +1,7897 @@
+{
+  "schemaVersion": 1,
+  "fromDatasetVersion": "official-2026-10-27",
+  "toDatasetVersion": "official-2026-10-28",
+  "generatedAt": "2026-10-28T12:50:42Z",
+  "addedCount": 208,
+  "removedCount": 207,
+  "addedRecords": [
+    [
+      7771,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "HUNAN ALLONWARD HYDRO-GENERATING EQUIPMENT CO., LTD.*570",
+      "",
+      "",
+      "52#, QUANZHOU NORTH RD, NINGXIANG HIGH-TECH DEVELOPMENT ZONE, CHANGSHA, HUNAN 410600",
+      "",
+      "China",
+      "09-Mar-2021",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7619,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "VIETNAM WATER AND ENVIRONMENT INVESTMENT CORPORATION – JSC*617",
+      "",
+      "",
+      "52 QUOC TU GIAM, VAN MIEU WARD, DONG DA DISTRICT, HANOI",
+      "",
+      "Viet Nam",
+      "26-Sep-2022",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8093,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "K.R.G. ASSOCIATES*251",
+      "",
+      "",
+      "#5 CHELLAN NAGAR, PUDUCHERRY 605011",
+      "",
+      "India",
+      "10-Feb-2015",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7901,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "TIGER IT BANGLADESH LTD.*475",
+      "",
+      "",
+      "HOUSE 21, ROAD 28, BLOCK-K, BANANI MODEL TOWN, DHAKA, 1213",
+      "",
+      "Bangladesh",
+      "24-Apr-2019",
+      "23-Oct-2028",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7773,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "PT. ARIS MAKMUR MANDIRI*566, 576",
+      "",
+      "",
+      "JL. RAYA CIGINTUNG NO. 126 A BOJONG, KEC. CILIMUS, KUNINGAN 45556",
+      "",
+      "Indonesia",
+      "17-Feb-2021",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8030,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MINIMIX AGENCIES (MINIMIX)*325",
+      "",
+      "",
+      "P. O. BOX 11583-00100, NAIROBI",
+      "",
+      "Kenya",
+      "17-Jun-2016",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8054,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "SAN ISIDRO-L S.R.L.*303",
+      "",
+      "",
+      "JR. SANTIAGO ANTÚNEZ DE MAYALO NO. 190, INDEPENDENCIA, ANCASH, HUARAZ",
+      "",
+      "Peru",
+      "28-Jan-2016",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7962,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "DATEX HAITI*420",
+      "",
+      "",
+      "33 PARC INDUSTRIEL (SONAPI), DELMAS",
+      "",
+      "Haiti",
+      "13-Feb-2018",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8133,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MS. CORINA RAMIREZ RODRIGUEZ*201",
+      "",
+      "",
+      "CALLE 6 NO. 151 ZONA KAMI, QUILLACOLLO, COCHABAMBA",
+      "",
+      "Bolivia",
+      "15-May-2014",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7884,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "SHANGHAI HETAI CONSTRUCTION ENGINEERING CO., LTD.*491",
+      "",
+      "",
+      "NO. 289, ZHUJING TOWN, JINSHAN DISTRICT, SHANGHAI CITY",
+      "",
+      "China",
+      "16-Jul-2019",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7783,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "YANG TING",
+      "",
+      "",
+      "NO. 6 EFANG FIRST ROAD, WEIYANG DISTRICT, XI'AN CITY",
+      "",
+      "China",
+      "16-Dec-2020",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8122,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "EMPRESA CONSTRUCTORA FERNÁNDEZ ESCOBAR*209",
+      "",
+      "",
+      "KILOMETRO 6 DOBLE VIA LA GUARDIA, BARRIO EL BAJIO SUR, CALLE 16 DE JUNIO NO. 6810, SANTA CRUZ",
+      "",
+      "Bolivia",
+      "12-Jun-2014",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8012,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "DHARMA RAJ BHANDARI",
+      "",
+      "",
+      "ANAMNAGAR, KATHMANDU; SINAMANGAL, KATHMANDU; HOUSE NO. 15/105 THAMEI, KATHMANDU",
+      "",
+      "Nepal",
+      "21-Oct-2016",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8123,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "CONSTRUCCIONES Y SERVICIOS MERUBIA*210",
+      "",
+      "",
+      "KILOMETRO 6 DOBLE VIA LA GUARDIA, BARRIO EL BAJIO SUR, CALLE 16 DE JUNIO NO. 6810, SANTA CRUZ",
+      "",
+      "Bolivia",
+      "12-Jun-2014",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7609,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "WATER EQUIPMENT MANUFACTURING, CONSTRUCTION AND INSTALLATION JSC (VIWASEEN.14)(Reg. No: 3600717644)*617",
+      "",
+      "",
+      "NR. 16, 17 BINH DUONG STREET, LONG BINH TAN, BIEN HOA, DONG NAI",
+      "",
+      "Viet Nam",
+      "26-Sep-2022",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8059,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "CHUY FRP COMPOSITE LLC*299",
+      "",
+      "",
+      "KOJOMBERDIEVA, 4 STREET, KARA-BALTA CITY, 724411",
+      "",
+      "Kyrgyz Republic",
+      "05-Jan-2016",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7745,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MR. SUJIT DAS*580",
+      "",
+      "",
+      "ADMINISTRATION MANAGER, CROSSWORDS LIMITED, UN DRIVE & RANDALL STREET JN., OPP. STELLA MARIS POLYTECHNIC, MONROVIA",
+      "",
+      "Liberia",
+      "08-Jun-2021",
+      "07-Jun-2029",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7757,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "A2Z INFRASERVICES LTD.*553",
+      "",
+      "",
+      "O-116, 1ST FLOOR, DLF SHOPPING MALL, ARJUN MARG, DLF PH-I GURUGRAM - 122002, HARYANA",
+      "",
+      "India",
+      "17-Mar-2021",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7882,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "OOO FIDES SOLUTIONS*494",
+      "",
+      "",
+      "ROOM 25A, NO. 50, OYBEK STREET, TASHKENT",
+      "",
+      "Uzbekistan",
+      "17-Jul-2019",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7604,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MR. CAO XUAN TUNG*618",
+      "",
+      "",
+      "L BLOCK, HOANG VAN THU, SUB-QUARTER (CIVIL GROUP) 56, HOANG VAN THU WARD,HOANG MAI DISTRICT, HANOI CITY",
+      "",
+      "Viet Nam",
+      "27-Sep-2022",
+      "26-Oct-2027",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8110,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "DIAMOND CONSTRUCTION & IMPORT EXPORT CO., LTD.*224",
+      "",
+      "",
+      "190EO, MAO TSE TUNG BLVD, SANGKAT TUMNUP TEK, KHAN CHAMKER, PHNOM PENH",
+      "",
+      "Cambodia",
+      "26-Aug-2014",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7998,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "INGENIEROS CIVILES ASOCIADOS S.A.*359",
+      "",
+      "",
+      "AV. 6 DE AGOSTO NO. 2577, EDIF. LAS DOS TORRES, PISO 9, LA PAZ",
+      "",
+      "Bolivia",
+      "01-Feb-2017",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7990,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "BERKMAN INTERNATIONAL, INC.*377",
+      "",
+      "",
+      "3RD FLOOR, VAG BUILDING, ORTIGAS AVE., GREENHILLS, SAN JUAN CITY",
+      "",
+      "Philippines",
+      "29-Jun-2017",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7871,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "XIAOXIAO \"KITTY\" LIANG(梁晓晓)",
+      "",
+      "",
+      "204, BUILDING 4 MYTOWN II. CHANGPING DISTRICT, BEIJING",
+      "",
+      "China",
+      "04-Oct-2019",
+      "Permanent",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7883,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MR. RAVSHAN RIZAMETOV*493",
+      "",
+      "",
+      "ROOM 25A, NO. 50, OYBEK STREET, TASHKENT",
+      "",
+      "Uzbekistan",
+      "17-Jul-2019",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7788,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "REN CHAO",
+      "",
+      "",
+      "NO. 6 EFANG FIRST ROAD, WEIYANG DISTRICT, XI'AN CITY",
+      "",
+      "China",
+      "16-Dec-2020",
+      "Permanent",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7612,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "VIWASEEN-PHUONG HUONG ENVIRONMENT INVESTMENT AND DEVELOPMENT JSC(Reg. No: 5900473230)*617",
+      "",
+      "",
+      "KM9, CHU SE DISTRICT, GIA LAI PROVINCE",
+      "",
+      "Viet Nam",
+      "26-Sep-2022",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8132,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MR. JHONNY CHOQUE ROJAS*200",
+      "",
+      "",
+      "CALLE 6 NO. 151 ZONA KAMI, QUILLACOLLO, COCHABAMBA",
+      "",
+      "Bolivia",
+      "15-May-2014",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7295,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "HEBEI HAIKUO ENVIRONMENTAL TECHNOLOGY CO., LTD.河北海阔环境科技有限公司",
+      "",
+      "",
+      "FLOOR 23, HEBEI CONSTRUCTION BUSINESS CENTER ,NO 125 , LUGANG ROAD, JINGXIU DISTRICT, BAODING CITY, HEBEI PROVINCE",
+      "",
+      "China",
+      "22-Aug-2024",
+      "22-Jul-2027",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7898,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "ULTIMATE ENGINEERING LIMITED*484",
+      "",
+      "",
+      "P.O. BOX 76408-00508, JOSEPH KANG’ETHE ROAD, WOODLEY ESTATE, NAIROBI",
+      "",
+      "Kenya",
+      "07-Jun-2019",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8032,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "CONSORCIO OCONGATE*323",
+      "",
+      "",
+      "C/O ROPRUCSA CONTRATISTAS GENERALES S.A. (ROPRUCSA S.A.), AV. NARANJAL NO. 543, URBANIZACION NARANJAL, DISTRITO DE LOS OLIVOS 39, LIMA",
+      "",
+      "Peru",
+      "24-May-2016",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7009,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "VPOWER NEW ENERGY (LINYI) LIMITED(Reg. No: 67748588) *720",
+      "",
+      "",
+      "",
+      "",
+      "Hong Kong SAR, China",
+      "26-May-2026",
+      "25-Nov-2027",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7961,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "NATIONAL ALIMENTATION SERVICES*421",
+      "",
+      "",
+      "TABARRE 60 # 58, EN FACE DE LA SUNAUTO, PORT-AU-PRINCE",
+      "",
+      "Haiti",
+      "13-Feb-2018",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7606,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "VIWASEEN3 JOINT STOCK COMPANY(Reg. No: 0102133351)*617",
+      "",
+      "",
+      "KM14+500 - HIGHWAY 1A, LIEN NINH, THANH TRI, HA NOI",
+      "",
+      "Viet Nam",
+      "26-Sep-2022",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7978,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "LONGNAN WUZHE TUNNEL ENGINEERING CO., LTD.(陇南武浙隧道工程有限公司)*457",
+      "",
+      "",
+      "GENERAL OFFICE BUILDING NO. 3, MUNICIPAL CENTER, DONGJIANG NEW DISTRICT, DONGJIANG TOWN, WUDU DISTRICT, LONGNAN CITY, GANSU PROVINCE",
+      "",
+      "China",
+      "19-Dec-2017",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8053,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MR. NABOR MIRANDA GAMBINI*304",
+      "",
+      "",
+      "PASAJE SR. DE LOS MILAGROS NO. 104, INDEPENDENCIA-HUARAZ, ANCASH",
+      "",
+      "Peru",
+      "28-Jan-2016",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7298,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "HEBEI CONSTRUCTION GROUP (NINGBO) SUPPLY CHAIN MANAGEMENT CO., LTD.河北建设集团（宁波）供应链管理有限公司",
+      "",
+      "",
+      "ROOM A1515-6, WEST BUILDING, NO 111 BINHAI SOUTH ROAD, DAXIE DEVELOPMENT ZONE, NINGBO CITY, ZHEJIANG PROVINCE",
+      "",
+      "China",
+      "22-Aug-2024",
+      "22-Jul-2027",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7976,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "JIANGXI HUAWEI CONSTRUCTION MATERIALS CO., LTD.(江西省华威建材有限公司)*470",
+      "",
+      "",
+      "112 YUHU ROAD, XIAOLAN DEVELOPMENT ZONE, NANCHANG COUNTY, NANCHANG CITY, JIANGXI PROVINCE",
+      "",
+      "China",
+      "19-Dec-2017",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7563,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "HA THANH GROUP JOINT STOCK COMPANY*625",
+      "",
+      "",
+      "2ND FLOOR, NO. 475 TRAN KHAT CHAN, THANH NHAN WARD, HAI BA TRUNG DISTRICT, HANOI",
+      "",
+      "Viet Nam",
+      "02-Feb-2023",
+      "01-Mar-2028",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7296,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "BAODING ZHONGZE WATER SUPPLY CO., LTD.保定市中泽供水有限公司",
+      "",
+      "",
+      "XIAOMAFANG VILLAGE, ZHUANG TOWN, MANCHENG DISTRICT, BAODING CITY",
+      "",
+      "China",
+      "22-Aug-2024",
+      "22-Jul-2027",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8075,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "HUBEI HENGDA STEEL STRUCTURE CO., LTD.*279",
+      "",
+      "",
+      "",
+      "",
+      "China",
+      "02-Jul-2015",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7650,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "“SUPPER FORTUNA” LLC*610",
+      "",
+      "",
+      "70 FIRDAVSI ST., GULISTAN TOWN, SYRDARYA REGION",
+      "",
+      "Uzbekistan",
+      "13-Apr-2022",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7973,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "LUGANG GROUP WUHU EARTHWORK ENGINEERING CO., LTD.(路港集团芜湖土石方工程有限公司)*457",
+      "",
+      "",
+      "ROOM 1207, TAIXIN BUSINESS CENTER, YIJIANG DISTRICT, WUHU CITY",
+      "",
+      "China",
+      "19-Dec-2017",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7902,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "JIANGXI PROVINCE QUNLI CONSTRUCTION CO., LTD.*474",
+      "",
+      "",
+      "NO. 293 YONGFENG AVENUE, GUANGFENG DISTRICT, SHANGRAO CITY, JIANGXI, CHINA 414000",
+      "",
+      "China",
+      "18-Apr-2019",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7954,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "INVEPAR CONSTRUTORA LTDA - ME(CNPJ: 20.182.043/0001-42)",
+      "",
+      "",
+      "LOT 97 PHASE 2, LETHEM, RUPUNINI, REGION NO. 9, ESSEQUIBO",
+      "",
+      "Guyana",
+      "20-Feb-2018",
+      "28-Dec-2030",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7762,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "A2Z INFRASERVICES LANKA PVT. LTD.*553",
+      "",
+      "",
+      "BOC MERCHANT TOWER, LEVEL 8, NO: 28 ST. MICHAEL’S ROAD, COLOMBO 3",
+      "",
+      "Sri Lanka",
+      "17-Mar-2021",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7622,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "PVOIL-PHU THO JOINT STOCK COMPANY(Reg. No: 0102421913)*617",
+      "",
+      "",
+      "148, HOANG QUOC VIET, CAU GIAY, HA NOI",
+      "",
+      "Viet Nam",
+      "26-Sep-2022",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7896,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "EMMYWAYS ENGINEERING/CONSTRUCTION LIMITED*487",
+      "",
+      "",
+      "HEAD OFFICE AT ANTAFIO BARIFA ROAD, PLOT 2 AYIVU CLOSE, P.O. BOX 1093, ARUA",
+      "",
+      "Uganda",
+      "18-Jun-2019",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7595,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "M/S PIR AZMAT SHAH & SONS",
+      "",
+      "",
+      "ARAA GANDI UMAR KHAN ROAD, HIKMAT ABAD, D.I. KHAN",
+      "",
+      "Pakistan",
+      "08-Nov-2022",
+      "13-Jul-2028",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7907,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "ROJOKE CNE SERVICES LTD.*465",
+      "",
+      "",
+      "NO. 2, PINTO AVENUE, GANA SAPELE, DELTA STATE",
+      "",
+      "Nigeria",
+      "05-Feb-2019",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8244,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "METAL ENGINEERING EOOD*72",
+      "",
+      "",
+      "16, ILINDEN STREET, PO BOX 293, 3000 VRATSA",
+      "",
+      "Bulgaria",
+      "16-Nov-2011",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8018,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MR. PABLO MAXIMILIANO KANTT*349",
+      "",
+      "",
+      "C/O CENTRO PRODUCTIVO DE DISEÑO S.A., MEXICO 337, CP 1097, CABA, BUENOS AIRES",
+      "",
+      "Argentina",
+      "18-Oct-2016",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7618,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "WATER SUPPLY AND SEWERAGE CONSTRUCTION JSC NO. 12 (VIWASEEN.12)(Reg. No: 4200619612)*617",
+      "",
+      "",
+      "LOT BT15, NR. 18,19 PHUOC LONG URBAN AREA, PHUOC LONG. NHA TRANG, KHANH HOA",
+      "",
+      "Viet Nam",
+      "26-Sep-2022",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7621,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "TECHONOLOGY SERVICES JOINT STOCK COMPANY (TSC)(Reg. No: 0101397873)*617",
+      "",
+      "",
+      "3RD FLOOR, THANH BINH BUILDING, N07, B2, THANH THAI ROAD, CAU GIAY, HA NOI",
+      "",
+      "Viet Nam",
+      "26-Sep-2022",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7841,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "LLC “CONMARKS”*521",
+      "",
+      "",
+      "1-18, AL-BERUNI STREET, DUSHANBE 734026",
+      "",
+      "Tajikistan",
+      "07-Apr-2020",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8052,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "BMR CONSULTORIA Y CONSTRUCCIÓN S.A.C.*306",
+      "",
+      "",
+      "CALLE BILBAO MZ. U LOTE 19, A.H., VILLA ESPANA, CHIMBOTE, ANCASH",
+      "",
+      "Peru",
+      "02-Feb-2016",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7989,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "OLIVE HEALTH CARE*383",
+      "",
+      "",
+      "REGISTERED OFFICE: GODREJ COLISEUM, SOMAIYA HOSPITAL ROAD, B-3, 2ND FLOOR, SION (EAST), MUMBAI 400 022",
+      "",
+      "India",
+      "21-Jul-2017",
+      "20-Jan-2028",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7607,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "WATER, ELECTRIC AND MECHANICAL INSTALLATION AND CONSTRUCTION JSC (VIWASEEN.4)(Reg. No: 0101890292)*617",
+      "",
+      "",
+      "KM14+500 - HIGHWAY 1A, LIEN NINH, THANH TRI, HA NOI",
+      "",
+      "Viet Nam",
+      "26-Sep-2022",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7305,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "HEBEI CONSTRUCTION GROUP CORPORATION LIMITED BEIJING BRANCH河北建设集团股份有限公司北京分公司",
+      "",
+      "",
+      "BUILDING 3, NO.2 JINGYUAN NORTH STREET, BEIJING ECONOMIC AND TECHNOLOGICAL DEVELOPMENT ZONE, BEIJING",
+      "",
+      "China",
+      "22-Aug-2024",
+      "22-Jul-2027",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8098,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "RUSLAN TIKINTI DEMONTAJ MMC/RUSLAN BUILDING DEMONTAGE LLC*245",
+      "",
+      "",
+      "AZ1021, SABAYIL DISTRICT, BADAMDAR BUILDING 9, APT. 17, BAKU",
+      "",
+      "Azerbaijan",
+      "30-Dec-2014",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8232,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "URALKOTLOSERVICE PKF ZAO (TAMBOV)(also known as UralKotloservice Commercial Production Firm Closed Joint-Stock Co.) *78",
+      "",
+      "",
+      "1 KRASNOARMEISKAYA SQUARE, 392023, TAMBOV",
+      "",
+      "Russian Federation",
+      "29-Nov-2011",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7977,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "JIANGXI LUQIAO ENGINEERING GROUP CO., LTD.(江西省路桥工程集团有限公司)*457",
+      "",
+      "",
+      "FLOOR 8, ZHONGHANG INTERNATIONAL PLAZA, 1 NORTH GANJIANG AVENUE, NANCHANG CITY",
+      "",
+      "China",
+      "19-Dec-2017",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8100,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MR. TANG CHI ANH*238",
+      "",
+      "",
+      "ROOM 101, BLOCK 8A, APARTMENT BUILDING OF WATER RESOURCES UNIVERSITY, LANE 95, CHUA BOC STREET, DONG DA DISTRICT, HANOI",
+      "",
+      "Viet Nam",
+      "03-Dec-2014",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8043,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "J&R CONTRATISTAS GENERALES S.R.L. (J&R S.R.L.)*312",
+      "",
+      "",
+      "AVENIDA NICOLÁS DE PIÉROLA 611-OF. 64, DISTRITO DE CERCADO DE LIMA, LIMA",
+      "",
+      "Peru",
+      "22-Mar-2016",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7952,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "ENG. JOSE PALAC*426",
+      "",
+      "",
+      "LAST KNOWN ADDRESS: UNIT 4A, 4TH FLOOR, J&P BUILDING, LOT 3, BLK 17.V.V. SOLIVEN AVE 1, SAN ISIDRO, CAINTA RIZAL",
+      "",
+      "Philippines",
+      "13-Mar-2018",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8061,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "SFC VIETNAM INVESTMENT DEVELOPMENT FOR ENVIRONMENT CORPORATION*297",
+      "",
+      "",
+      "TOWER CENTER OFFICE BUILDING, NO. 83A LY THUONG KIET STREET, DISTRICT HOAN KIEM, HANOI",
+      "",
+      "Viet Nam",
+      "15-Dec-2015",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7010,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "VPOWER GLOBAL SERVICE SUPPORT LIMITED(Reg. No: 71858983) *720",
+      "",
+      "",
+      "",
+      "",
+      "Hong Kong SAR, China",
+      "26-May-2026",
+      "25-Nov-2027",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7635,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "NIEMTIN COMPANY LIMITED*613",
+      "",
+      "",
+      "8TH FLOOR, 142 DOI CAN STREET, BA DINH DISTRICT, HANOI CITY",
+      "",
+      "Viet Nam",
+      "24-May-2022",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8088,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MD. BODIUZZAMAN (MBZ)(TIN: 4481005504)",
+      "",
+      "",
+      "TIKAPARA, GHORAMARA, BOALIA, RAJSHAHI",
+      "",
+      "Bangladesh",
+      "04-Mar-2015",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8042,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "THANG LOI GROUP CO., LTD.*319",
+      "",
+      "",
+      "ĐƯỜNG 57A, THỊ TRẤN LÂM, HUYỆN Ý YÊN, NAM ĐỊNH",
+      "",
+      "Viet Nam",
+      "05-Apr-2016",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8094,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "EMPRESA CONSTRUCTORA Y CONSULTORA LAPTUS S.R.L.*249",
+      "",
+      "",
+      "CALLE MUNICIPAL NO. 501, VILLA ABAROA, TARIJA",
+      "",
+      "Bolivia",
+      "10-Feb-2015",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7605,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "WATER SUPPLY SEWERAGE CONSTRUCTION AND INVESTMENT JOINT STOCK COMPANY (WASECO)(Reg. No: 0300393538)*617",
+      "",
+      "",
+      "NO.10 PHO QUANG, WARD NO. 2, TAN BINH DIST., HO CHI MINH CITY",
+      "",
+      "Viet Nam",
+      "26-Sep-2022",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7608,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "VIWASEEN6 JOINT STOCK COMPANY(Reg. No: 0800447284)*617",
+      "",
+      "",
+      "NO. 52 QUOC TU GIAM, VAN MIEU WARD, DONG DA DISTRICT, HA NOI",
+      "",
+      "Viet Nam",
+      "26-Sep-2022",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7936,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "AVTOBANI LTD.*439",
+      "",
+      "",
+      "LAST KNOWN ADDRESS: APT. 44, #22 DIMITRY TAVDADEBULI STR., TBILISI",
+      "",
+      "Georgia",
+      "30-May-2018",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7441,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "HEBEI LVJIAN INVESTMENT CO., LTD.河北绿建投资股份公司",
+      "",
+      "",
+      "NO 382, WEST DEVELOPMENT ROAD, QINGYUAN DISTRICT, BAODING CITY, HEBEI PROVINCE",
+      "",
+      "China",
+      "22-Aug-2024",
+      "22-Jul-2027",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7617,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "DRILLING AND WATER SUPPLY SEWERAGE CONSTRUCTION JSC (VIWASEEN.11)(Reg. No: 0304459758)*617",
+      "",
+      "",
+      "NO.10 PHO QUANG, WARD NO. 2, TAN BINH DIST., HO CHI MINH CITY",
+      "",
+      "Viet Nam",
+      "26-Sep-2022",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7900,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "YULIN YUYANG DISTRICT XINGYUAN HYDROPOWER ENGINEERING CO., LTD.*476",
+      "",
+      "",
+      "158 NORTH XINJIAN ROAD, YUYANG DISTRICT, YULIN CITY, SHAANXI PROVINCE, CHINA 719000",
+      "",
+      "China",
+      "26-Apr-2019",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8104,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "STEVEN NEDERHORST*234",
+      "",
+      "",
+      "POST-BOX 80, 2450 A B LEIMUIDEN",
+      "",
+      "Netherlands",
+      "04-Nov-2014",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8116,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "GROUPE DEC S.A./ DEC GROUP INC.*220",
+      "",
+      "",
+      "CARRE 3775 QUARTIER FIDJROSSE-KPOTA, BP:131 GODOMEY, COTONOU",
+      "",
+      "Benin",
+      "15-Jul-2014",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7302,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "HEBEI CONSTRUCTION GROUP CORPORATION LIMITED RENQIU BRANCH河北建设集团股份有限公司任丘分公司",
+      "",
+      "",
+      "NORTH CHINA OIL FIELD TRANSPORT COMPANY OFFICE BUILDING, NORTH STATION WEST ROAD, RENQIU CITY",
+      "",
+      "China",
+      "22-Aug-2024",
+      "22-Jul-2027",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8113,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MR. KUOY VUOCH*223",
+      "",
+      "",
+      "PEAL NHEK I VILLAGE, SANGKAT PTEAS PREY, PURSAT CITY, PURSAT PROVINCE",
+      "",
+      "Cambodia",
+      "19-Aug-2014",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7744,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "ODELGA MED GES.M.B.H.*579",
+      "",
+      "",
+      "CARLBERGERGASSE 68, 1230 VIENNA",
+      "",
+      "Austria",
+      "08-Jun-2021",
+      "07-Jun-2027",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7007,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "BUT CHINA NATIONAL TECHNICAL IMPORT AND EXPORT CORPORATION(Reg. No: 9120403231845) *720",
+      "",
+      "",
+      "JAKARTA",
+      "",
+      "Indonesia",
+      "26-May-2026",
+      "25-Nov-2027",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8050,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "CONSORCIO ROPRUCSA*307",
+      "",
+      "",
+      "JR. CONDESUYO 549,A 3ER PISO, CERCADO DE LIMA",
+      "",
+      "Peru",
+      "05-Feb-2016",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8021,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "APQ S.A.C.*338",
+      "",
+      "",
+      "MANZANA D LOTE 18, URBANIZACIÓN BALLESTAS, PISCO, ICA",
+      "",
+      "Peru",
+      "23-Aug-2016",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8003,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MR. JAIME SALAZAR ESPINOZA*353",
+      "",
+      "",
+      "C/O DESARROLLO CON INGENIERÍA CONTRATISTAS GENERALES S.A. (DISA-CGSA), CALLE SAN MARCOS NO. 508, URB. SAN ANTONIO, HUANCAYO, JUNIN",
+      "",
+      "Peru",
+      "27-Dec-2016",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7986,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MADHUCON PROJECTS LIMITED*396",
+      "",
+      "",
+      "PLOT NO. 1129/A, MADHUCON HOUSE, ROAD NO. 36, HITECH CITY ROAD, JUBILEE HILLS, HYDERABAD, TELANGANA, 500033",
+      "",
+      "India",
+      "26-Oct-2017",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8105,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "ELMCREST GROUP LIMITED, FORMERLY KNOWN AS LANDMARC LIMITED*234",
+      "",
+      "",
+      "COBURG HOUSE, 1 COBURG STREET, GATESHEAD, TYNE & WEAR, NE8 1NS",
+      "",
+      "United Kingdom",
+      "04-Nov-2014",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7957,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "INVEPAR CONSTRUTORA LTDA - ME(CNPJ: 20.182.043/0001-42)",
+      "",
+      "",
+      "71 SOMERSET COURT, GARDEN OF EDEN, EAST BANK DEMERARA",
+      "",
+      "Guyana",
+      "20-Feb-2018",
+      "28-Dec-2030",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7987,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "RUTH ELI CUAREZMA FUENTES(ID No. 401-220966-0008F) *389",
+      "",
+      "",
+      "C/O CORONADO INGENIEROS S.A., HOSPITAL HUMBERTO ALVARADO 1 CUADRA AL ESTE, MASAYA",
+      "",
+      "Nicaragua",
+      "22-Sep-2017",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8022,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MR. ALEXANDRE ANTONIO PAREJA QUINTANILLA*339",
+      "",
+      "",
+      "CALLE PEDEMONTE 110-A, PISCO",
+      "",
+      "Peru",
+      "23-Aug-2016",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7752,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "PT. TUBAGUS RANGIN*575",
+      "",
+      "",
+      "JL. SITI ARMILAH NO. 54, RT/RW 002/013 MAJALENGKA KULON, JAWA BARAT 45418",
+      "",
+      "Indonesia",
+      "13-May-2021",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7764,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "A2Z WASTE MANAGEMENT (LUDHIANA) LTD.*553",
+      "",
+      "",
+      "GROUND FLOOR, PLOT NO. 58, SECTOR-44, GURUGRAM-122003, HARYANA",
+      "",
+      "India",
+      "17-Mar-2021",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8067,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MS. TUMENDEMBEREL BAYARMAA*295",
+      "",
+      "",
+      "C/O ECOGRAPH LLC AKA ECOGRAPHY COMPANY, BUILDING OF MONGOL ENGINEER CO. LTD., KHOROO 20, BAYANGOL DISTRICT, ULANBATAAR",
+      "",
+      "Mongolia",
+      "15-Oct-2015",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8026,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MR. NGO DUNG TOAN*333",
+      "",
+      "",
+      "DIRECTOR, AN HOA LIMITED COMPANY, 231 TRUÒNG CHINH, HAI BÀ TRUNG, PHÛ LÝ, HÀ NAM",
+      "",
+      "Viet Nam",
+      "26-Jul-2016",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7980,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "HUBEI LAOGU HIGHWAY DEVELOPMENT CO., LTD.(湖北老谷高速公路开发有限公司)*457",
+      "",
+      "",
+      "5 NORTH CHECHENG LAKE ROAD, XIANGZHOU DISTRICT, XIANGYANG CITY, HUBEI PROVINCE",
+      "",
+      "China",
+      "19-Dec-2017",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8015,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MR. PABLO MAXIMILIANO KANTT*349",
+      "",
+      "",
+      "CALLE PATERA 62, 4TO PISO OF. B, BUENOS AIRES",
+      "",
+      "Argentina",
+      "18-Oct-2016",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7613,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "TRUONG AN-VIWASEEN INVESTMENT AND CONSTRUCTION JSC(Reg. No: 0106110528)*617",
+      "",
+      "",
+      "NR. 66, NUI TRUC, GIANG VAN MINH, BA DINH, HA NOI",
+      "",
+      "Viet Nam",
+      "26-Sep-2022",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8228,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MR. DMITRY GENNADYEVICH KOSTOUSOV*80",
+      "",
+      "",
+      "12A GAGARIN STREET, APT. 45, BEREZOVSKY, SVERDLOVSK OBLAST",
+      "",
+      "Russian Federation",
+      "06-Dec-2011",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7624,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "SUOI DAU WATER SUPPLY, DRAINAGE INVESTMENT AND CONSTRUCTION JSC(Reg. No: 4201574467)*617",
+      "",
+      "",
+      "4TH FLOOR, 58 YERSIN, PHUONG SAI WARD, NHA TRANG WARD, KHANH HOA",
+      "",
+      "Viet Nam",
+      "26-Sep-2022",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7300,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "HEBEI CONSTRUCTION GROUP CORPORATION LIMITED LIAOCHENG BRANCH河北建设集团股份有限公司聊城分公司",
+      "",
+      "",
+      "ROOM 2172, 17/F, UNIT 2, BUILDING 22, RUNJINGYUAN COMMUNITY, CHANGRUNNAN ROAD, HUXI STREET, LIAOCHENG CITY, SHANDONG PROVINCE",
+      "",
+      "China",
+      "22-Aug-2024",
+      "22-Jul-2027",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7297,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "BAODING BOWANG NEW MATERIAL TECHNOLOGY CO., LTD.保定博旺新材料科技有限公司",
+      "",
+      "",
+      "NO. 3083, TIANWEI WEST ROAD, JINGXIU DISTRICT, BAODING CITY, HEBEI PROVINCE",
+      "",
+      "China",
+      "22-Aug-2024",
+      "22-Jul-2027",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7999,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "LAO-ASIE CONSULTANTS GROUP*357",
+      "",
+      "",
+      "HOUSE NO. 184, UNIT 8, BAN SAPHANTHONG-TAI, SYSATTANAK DISTRICT PO BOX 4818, VIENTIANE CAPITAL",
+      "",
+      "Lao People's Democratic Republic",
+      "31-Jan-2017",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7304,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "HEBEI CONSTRUCTION GROUP CORPORATION LIMITED ZHUHAI BRANCH河北建设集团股份有限公司珠海分公司",
+      "",
+      "",
+      "ROOM 1302 B2, SHENZHEN DEVELOPMENT BUILDING, NO8，YINHUA ROAD, XIANGZHOU DISTRICT, ZHUHAI CITY",
+      "",
+      "China",
+      "22-Aug-2024",
+      "22-Jul-2027",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7885,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MR. MUMINJON YULDASHEV*489",
+      "",
+      "",
+      "FOUNDER AND OWNER OF QUVASOY TAMIR QURILISH LLC, 71 S. TEMUR STREET, FERGANA CITY, FERGANA REGION",
+      "",
+      "Uzbekistan",
+      "08-Jul-2019",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8048,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "DESARROLLO CON INGENIERÍA CONTRATISTAS GENERALES S.A. (DISA-CGSA)*308",
+      "",
+      "",
+      "CALLE SAN MARCOS NO. 508, URB. SAN ANTONIO, HUANCAYO, JUNÍN",
+      "",
+      "Peru",
+      "09-Feb-2016",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7761,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MAGIC GENIE SMARTECH SOLUTIONS LTD.*553",
+      "",
+      "",
+      "GROUND FLOOR, PLOT NO. 58, SECTOR-44, GURUGRAM-122003, HARYANA",
+      "",
+      "India",
+      "17-Mar-2021",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7770,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "ALLONWARD HYDRO-GENERATING EQUIPMENT (HONGKONG) CO., LTD.*570",
+      "",
+      "",
+      "HONGKONG",
+      "",
+      "Hong Kong SAR, China",
+      "09-Mar-2021",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8274,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "DR. SYMPLICE MBOLA MBASSI*38",
+      "",
+      "",
+      "167, AVENUE NGUNGU, COMMUNE DE KINSHASA, KINSHASA",
+      "",
+      "Congo, Democratic Republic of",
+      "13-Jul-2011",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7549,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "OGON ASU LIMITED",
+      "",
+      "",
+      "47 HAILE SELASSIE STREET, ASOKORO, ABUJA, FCT",
+      "",
+      "Nigeria",
+      "28-Mar-2023",
+      "Permanent",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7895,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "ZHONGCHEN ROAD & BRIDGE CONSTRUCTION (BEIJING) CO., LTD.*488",
+      "",
+      "",
+      "ROOM 205, BEIJING WUTAISHAN HOTEL, ZONGHE BUILDING, LEVEL 1, 2 & 3, JIA 23 TAIPING ROAD, BEIJING",
+      "",
+      "China",
+      "20-Jun-2019",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7905,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "SOFTWARE DEVELOPMENT & IT SOLUTION JOINT STOCK COMPANY (CADPRO., JSC.)*468",
+      "",
+      "",
+      "NO. 11, CHAU LONG STREET, TRUC BACH WARD, BA DINH DISTRICT, HANOI",
+      "",
+      "Viet Nam",
+      "25-Feb-2019",
+      "24-Nov-2028",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7775,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "PT. BINA CIPTA UTAMA*565",
+      "",
+      "",
+      "JL. CIDENG RAYA NO. 48 BLOK, STRIKEMBENG, RT/RW 003/001 DS. KERTAWINANGUN, KEC. KEDAWUNG, CIREBON, JAWA BARAT 45153",
+      "",
+      "Indonesia",
+      "17-Feb-2021",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7917,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "NREM INTERNATIONAL INC.*456",
+      "",
+      "",
+      "5914 GARTRELL ROAD, SUMMERLAND, BC V0H 1Z7",
+      "",
+      "Canada",
+      "29-Nov-2018",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8103,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "ALAMTECH INTERNATIONAL AND GENERAL SUPPLIER*235",
+      "",
+      "",
+      "34A MALAMA THOMAS STREET, FREETOWN",
+      "",
+      "Sierra Leone",
+      "06-Nov-2014",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8020,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "ESKE S.A.C.342",
+      "",
+      "",
+      "JIRON VICTOR MANTILLA NO. 237, 245 SURQUILLO, LIMA 34",
+      "",
+      "Peru",
+      "26-Aug-2016",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7879,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "HUNAN WATER AND HYDROPOWER CONSTRUCTION GROUP CO., LTD.(湖南水总水电建设集团有限公司)*498",
+      "",
+      "",
+      "FLOOR 1, TIANZE MANSION, NO. 290 NORTH SHAOSHAN ROAD, YUHUA DISTRICT, CHANGSHA CITY, HUNAN 414000",
+      "",
+      "China",
+      "26-Aug-2019",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8016,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "ZANOTTA SUDAMERICANA S.A.*347",
+      "",
+      "",
+      "C/O CENTRO PRODUCTIVO DE DISEÑO S.A., MEXICO 337, CP 1097, CABA, BUENOS AIRES",
+      "",
+      "Argentina",
+      "18-Oct-2016",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8024,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "JIANGXI HENGJIAN ROAD AND BRIDGE ENGINEERING CO., LTD.(江西恒剑路桥工程有限公司) *334",
+      "",
+      "",
+      "MIAOPU, YINCHENG COUNTY, DEXING CITY, SHANGRAO, JIANGXI PROVINCE, ZIP CODE: 334200",
+      "",
+      "China",
+      "05-Aug-2016",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7983,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "GANSU LUGANG CONSTRUCTION ENGINEERING CO., LTD.(甘肃路港建设工程有限公司)*457",
+      "",
+      "",
+      "ROOM 1105, FLOOR 11, XIMAI MANSION, 12 YANNAN ROAD, HIGH-TECH ZONE, CHENGGUAN DISTRICT, LANZHOU, GANSU PROVINCE",
+      "",
+      "China",
+      "19-Dec-2017",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7684,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "EXPRESS AUTOMATION LIMITED",
+      "",
+      "",
+      "4TH FLOOR, DELTA CORNER ANNEX, P.O. BOX 22709-00400, NAIROBI",
+      "",
+      "Kenya",
+      "01-Mar-2022",
+      "Permanent",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7610,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "WATER SUPPLY AND SEWERAGE CONSTRUCTION JSC NO. 15 (VIWASEEN.15)(Reg. No: 1800627874)*617",
+      "",
+      "",
+      "340/8 CACH MANG THANG TAM STR., AN THOI -BINH THUY WARD, CAN THO CITY",
+      "",
+      "Viet Nam",
+      "26-Sep-2022",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7702,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "THAI SON TRAFFIC WORK CONSTRUCTION JSC*590",
+      "",
+      "",
+      "SỐ 77, KHU BIỆT THỰ NGÂN LONG, ĐƯỜNG NGUYỄN HỮU THỌ,XÃ PHƯỚC KIỂN, HUYỆN NHÀ BÈ, HO CHI MINH CITY",
+      "",
+      "Viet Nam",
+      "06-Dec-2021",
+      "05-Jun-2028",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7974,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "WENZHOU OUHAI NANHU ROAD ENGINEERING CONSTRUCTION CO., LTD.(温州瓯海南湖路工程建设有限公司)*457",
+      "",
+      "",
+      "ROOM 603, FLOOR 6, RAILWAY MANSION, WENZHOU AVENUE, WENZHOU CITY, ZHEJIANG PROVINCE",
+      "",
+      "China",
+      "19-Dec-2017",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7975,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "WENZHOU LUGANG TRANSPORTATION EQUIPMENT CO., LTD.(温州路港交通设备有限公司)*457",
+      "",
+      "",
+      "ROOM F, FLOOR 10, RAILWAY MANSION, WENZHOU AVENUE, WENZHOU CITY",
+      "",
+      "China",
+      "19-Dec-2017",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8283,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "PT DDC CONSULTANTS* 29",
+      "",
+      "",
+      "JL. MASJID AN'NUR NO. 51A, KEBAYORAN LAMA, JAKARTA SELATAN",
+      "",
+      "Indonesia",
+      "25-Apr-2011",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7440,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "BEIJING TIANJIA CONSTRUCTION ENGINEERING CO., LTD.北京天嘉建筑工程有限公司",
+      "",
+      "",
+      "ROOM 206, 2ND FLOOR, BUILDING 3, NO.2 JINGYUAN NORTH STREET, ECONOMIC AND TECHNOLOGICAL DEVELOPMENT ZONE, BEIJING",
+      "",
+      "China",
+      "22-Aug-2024",
+      "22-Jul-2027",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7849,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "VODOKANALPROEKT – METALPROECT INGENEERING AD*519",
+      "",
+      "",
+      "24 KAMEN ANDREEV ST., FL. 8, SOFIA 1606",
+      "",
+      "Bulgaria",
+      "10-Mar-2020",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8101,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "CUMORAH*237",
+      "",
+      "",
+      "CALLE 6 NO. 151 ZONA KAMI, QUILLACOLLO, COCHABAMBA",
+      "",
+      "Bolivia",
+      "02-Dec-2014",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8114,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "C.D.W. CONSTRUCTION CO., LTD*221",
+      "",
+      "",
+      "HOUSE NO. 35B, ST. 476, SANGKAT TOULTOMPOUNG II, KHAN. CHAMKARMORN, PHNOM PENH",
+      "",
+      "Cambodia",
+      "24-Jul-2014",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7918,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "NREM INTERNATIONAL INC.*456",
+      "",
+      "",
+      "SUITE 1402, YUFEI PLAZA, 42 DONGZHIMENWAI DAJIE, BEIJING, 100027",
+      "",
+      "China",
+      "29-Nov-2018",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7623,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "DAI VIET DUCTILE IRON PIPES LIMITED COMPANY - WAHSIN(Reg. No: 3600254629)*617",
+      "",
+      "",
+      "NO. 2, ROAD 4A - BIEN HOA II INDUSTRIAL PARK, DONG NAI",
+      "",
+      "Viet Nam",
+      "26-Sep-2022",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8070,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "SUGDIYON-1 CO. LTD.*87 as a successor or assign to Sugdiyon Limited Liability Company. Lic. Series XT-8 #0003127 Tax ID No. 300001499",
+      "",
+      "",
+      "163 KHAKHRINAU STREET, GARAUTY SETTLEMENT, DZHILIKUL DISTRICT, KHATLON PROVINCE",
+      "",
+      "Tajikistan",
+      "24-Sep-2015",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8183,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "SUPREMATECH SOLUTIONS INC.*139",
+      "",
+      "",
+      "1201 ORANGE STREET, SUITE 600, WILMINGTON, DE, 19801",
+      "",
+      "United States",
+      "04-Dec-2012",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8259,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "NORMA KUMALAWATIAKA (Ms.) Ir. Norma Kumalawati",
+      "",
+      "",
+      "PRESIDENT DIRECTOR, PT RIFA BESTARI, WISMA STACO, 6TH FLOOR, JALAN CASABLANCA KAV 18, JAKARTA",
+      "",
+      "Indonesia",
+      "28-Sep-2011",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7720,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "TECHNIQUE IMPORT EXPORT JOINT STOCK COMPANY*585",
+      "",
+      "",
+      "NO. 70 TRAN HUNG DAO STREET, TRAN HUNG DAO WARD, HOAN KIEM DISTRICT, HANOI CITY",
+      "",
+      "Viet Nam",
+      "10-Aug-2021",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7984,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "SHAILUNG CONSTRUCTION CO. PVT. LTD.*405",
+      "",
+      "",
+      "P.O. BOX 19679, SUNAKOTHI-8, DHOLAHITY, LALITPUR",
+      "",
+      "Nepal",
+      "18-Dec-2017",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7867,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "JOYLUCK VENTURE INDIA PVT. LTD.*477",
+      "",
+      "",
+      "S-481 GREATER KAILASH-II, NEW DELHI, SOUTH DELHI, 110048",
+      "",
+      "India",
+      "07-Oct-2019",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7303,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "HEBEI TONGCHUANG LIANTAI HOSPITAL MANAGEMENT CO., LTD.河北同创联泰医院管理有限公司",
+      "",
+      "",
+      "HOSPITAL OF PEOPLE'S, NO 171, JIANKANG EAST ROAD, RAOYANG COUNTY, HENGSHUI CITY, HEBEI PROVINCE",
+      "",
+      "China",
+      "22-Aug-2024",
+      "22-Jul-2027",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8286,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MR. ANSHAR M. NOOR",
+      "",
+      "",
+      "PPA CONSULTANTS, JL. TEBET TIMUR RAYA 56-57, JAKARTA SELATAN",
+      "",
+      "Indonesia",
+      "03-Dec-2010",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8010,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "CELLUCIAN LIMITED",
+      "",
+      "",
+      "NOBLE HOUSE, 6 BRAZIL STREET, WEST INDIES, CASTRIES",
+      "",
+      "St. Lucia",
+      "14-Nov-2016",
+      "19-Sep-2027",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7299,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "HEBEI CONSTRUCTION GROUP CORPORATION LIMITED WEIFANG BRANCH河北建设集团股份有限公司潍坊分公司",
+      "",
+      "",
+      "2F, SHOP 1-5, BUILDING 1, NO 12808, LIYUAN STREET, HEALTH EAST STREET COMMUNITY, XINCHENG STREET, WEIFANG HIGH-TECH ZONE, SHANDONG PROVINCE",
+      "",
+      "China",
+      "22-Aug-2024",
+      "22-Jul-2027",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7931,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "LATIFI CONSTRUCTION AND ROAD CONSTRUCTION COMPANY*443",
+      "",
+      "",
+      "HEAD OFFICE ADDRESS #1: 10TH STREET MAIN ROAD OF WAZIR AKBAR KHAN, NEXT TO THE CHILDREN HOSPITAL, KABUL",
+      "",
+      "Afghanistan",
+      "12-Jun-2018",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7969,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MARABEF GLOBAL LIMITED*412",
+      "",
+      "",
+      "SUITE B.39 SHIRKIR PLAZA, GARKI, ABUJA",
+      "",
+      "Nigeria",
+      "11-Jan-2018",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8126,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "PRIVATE ENTERPRISE (PE) RABMER*206",
+      "",
+      "",
+      "26, PL. RYNOK, SAMBIR, 81400 LVIVSKA OBLAST",
+      "",
+      "Ukraine",
+      "03-Jun-2014",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7614,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "VIWASEEN'S INFRASTRUCTURE CONSTRUCTION INVESTMENT JOINT STOCK COMPANY(VIWASEEN.7) (Reg. No: 0103931748)*617",
+      "",
+      "",
+      "TAN SON, HOA SON, LUONG SON, HOA BINH",
+      "",
+      "Viet Nam",
+      "26-Sep-2022",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8068,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "ECOGRAPHY COMPANY*294 ECOGRAPH LLC",
+      "",
+      "",
+      "BUILDING OF MONGOL ENGINEER CO. LTD., KHOROO 20, BAYANGOL DISTRICT, ULANBATAAR",
+      "",
+      "Mongolia",
+      "15-Oct-2015",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7318,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "HEBEI CONSTRUCTION GROUP CORPORATION LIMITED QIU COUNTY BRANCH河北建设集团股份有限公司邱县分公司",
+      "",
+      "",
+      "NO. 14-13, SOUTH GATE, FENGLINWAN COMMUNITY, JIANSHE STREET, XINMATOU TOWN, QIU COUNTY, HANDAN CITY, HEBEI PROVINCE",
+      "",
+      "China",
+      "22-Aug-2024",
+      "22-Jul-2027",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7774,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "PT. BINA CIPTA UTAMA*565",
+      "",
+      "",
+      "JL. KSATRIA GG. ANGGREK NO. 114, KECAMATAN KESAMBI, KOTA CIREBON, CIREBON 45134",
+      "",
+      "Indonesia",
+      "17-Feb-2021",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7765,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "RISHIKESH WASTE MANAGEMENT LTD.(FORMERLY KNOWN AS A2Z POWERTECH LTD.) *553",
+      "",
+      "",
+      "O-116, 1ST FLOOR, DLF SHOPPING MALL, ARJUN MARG, DLF PH-I GURUGRAM - 122002, HARYANA",
+      "",
+      "India",
+      "17-Mar-2021",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7789,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "LIU LIJUN",
+      "",
+      "",
+      "NO. 6 EFANG FIRST ROAD, WEIYANG DISTRICT, XI'AN CITY",
+      "",
+      "China",
+      "16-Dec-2020",
+      "Permanent",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7967,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MARABEF GLOBAL LIMITED*412",
+      "",
+      "",
+      "PLOT 117 OKIGWE ROAD, ABA-ABIA STATE",
+      "",
+      "Nigeria",
+      "11-Jan-2018",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8275,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "CABINET DE RECHERCHE, DE FORMATION ET D'EXPERTISE EN SANTÉ*39",
+      "",
+      "",
+      "167, AVENUE NGUNGU, COMMUNE DE KINSHASA, KINSHASA",
+      "",
+      "Congo, Democratic Republic of",
+      "13-Jul-2011",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7748,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "ASBECO NIGERIA LTD.*578",
+      "",
+      "",
+      "NO. 10 EFFANGA MKPA STREET, STATE HOUSING ESTATE, CALABAR, CROSS RIVER STATE",
+      "",
+      "Nigeria",
+      "25-May-2021",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7781,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "TIAN XIAOYANG",
+      "",
+      "",
+      "NO.6 EFANG FIRST ROAD, WEIYANG DISTRICT, XI'AN CITY",
+      "",
+      "China",
+      "16-Dec-2020",
+      "Permanent",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7306,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "HEBEI CONSTRUCTION GROUP CORPORATION LIMITED BEIJING SHUNYI BRANCH河北建设集团股份有限公司北京顺义分公司",
+      "",
+      "",
+      "ROOM B-275, NO 1, SHUNLI AVENUE, NANFAXIN TOWN, SHUNYI DISTRICT, BEIJING",
+      "",
+      "China",
+      "22-Aug-2024",
+      "22-Jul-2027",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7750,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "PT. KARYA KITA PUTRA PERTIWI*574",
+      "",
+      "",
+      "JL. RAYA GUNTUR NO. 18, KEDONGDONG KIDUL, DUKUPANTANG, CIREBON 45161",
+      "",
+      "Indonesia",
+      "13-May-2021",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7703,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "THAI SON TRAFFIC WORK CONSTRUCTION JSC*590",
+      "",
+      "",
+      "SỐ 51, LȂ XUȂN OAI, PHUÒNG LONG TRUÒNG, QUȂN 9, HO CHI MINH CITY",
+      "",
+      "Viet Nam",
+      "06-Dec-2021",
+      "05-Jun-2028",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8243,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MR. VALERI ANGELOV*71",
+      "",
+      "",
+      "13B, LOUKASHOV STREET, 3000 VRATSA",
+      "",
+      "Bulgaria",
+      "16-Nov-2011",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7715,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MR. YUEHUA BAI",
+      "",
+      "",
+      "NEXTGEN APARTMENTS, BLOCK B, HOUSE NO. 41, MOMBASA ROAD, NAIROBI",
+      "",
+      "Kenya",
+      "18-Oct-2021",
+      "Permanent",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7599,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "SOMSAVANH CHALEUN CONSTRUCTION CO., LTD.(Reg No. 16-00009045/4516/(F/1))",
+      "",
+      "",
+      "PHONSAVANH VILLAGE, PAKSE DISTRICT, CHAMPASAK PROVINCE",
+      "",
+      "Lao People's Democratic Republic",
+      "01-Nov-2022",
+      "13-Jul-2027",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8136,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "OOO ARMADA CENTER(formerly known as OOO RBC Center) *197",
+      "",
+      "",
+      "15, 5TH DONSKOY PROEZD, BUILDING 6, 117344, MOSCOW",
+      "",
+      "Russian Federation",
+      "02-May-2014",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8014,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "CENTRO PRODUCTIVO DE DISENO S.A.*348",
+      "",
+      "",
+      "MEXICO 337, CP 1097, CABA, BUENOS AIRES",
+      "",
+      "Argentina",
+      "18-Oct-2016",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8004,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MR. PEWEE FLOMO*354",
+      "",
+      "",
+      "TOPOE AVENUE, GAYE TOWN, OLD ROAD, SINKOR, MONROVIA",
+      "",
+      "Liberia",
+      "27-Dec-2016",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7880,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "PT. NUGRAHA ADI TARUNA*496",
+      "",
+      "",
+      "JL. BANGKA RAYA NO. 27 E. PELA, MAMPANG, JAKARTA SELATAN, JAKARTA 12720",
+      "",
+      "Indonesia",
+      "02-Aug-2019",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7791,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "SHAANXI HUAXING NEW CENTURY AUTOMOBILE SERVICE TRADE CO. LTD.",
+      "",
+      "",
+      "AREA C5, FENGCHENG FOURTH ROAD ECONOMIC DEVELOPMENT (JINGKAI) DISTRICT, XI'AN CITY",
+      "",
+      "China",
+      "16-Dec-2020",
+      "Permanent",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8107,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "PIONEER CONSTRUCTION LTD*228",
+      "",
+      "",
+      "PLOT 2B, 5TH STREET CLOSE INDUSTRIAL AREA, P.O. BOX 21160, KAMPALA",
+      "",
+      "Uganda",
+      "30-Sep-2014",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8019,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "ASTRA BIOPHARMACEUTICALS LIMITED*343",
+      "",
+      "",
+      "43/2, RING ROAD, SHYAMOLI, DHAKA-1207",
+      "",
+      "Bangladesh",
+      "13-Sep-2016",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8121,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MS. NANCY MERUBIA YEPES*212",
+      "",
+      "",
+      "KILOMETRO 6 DOBLE VIA LA GUARDIA, BARRIO EL BAJIO SUR, CALLE 16 DE JUNIO NO. 6810, SANTA CRUZ",
+      "",
+      "Bolivia",
+      "12-Jun-2014",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7763,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "A2Z WASTE MANAGEMENT (ALIGARH) LTD.*553",
+      "",
+      "",
+      "GROUND FLOOR, PLOT NO. 58, SECTOR-44, GURUGRAM-122003, HARYANA",
+      "",
+      "India",
+      "17-Mar-2021",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      6841,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MODERN ENGINEERS PLANNERS AND CONSULTANTS LTD.(Reg No: 17161(13)/87) *740",
+      "",
+      "",
+      "66/6, WEST RAJABAZAR, (HEADQUARTERS) 17/1 (NEW), 14/17 (OLD), MONIPURIPARA (1ST FLOOR), DHAKA-1215 (REGISTERED)",
+      "",
+      "Bangladesh",
+      "27-Oct-2026",
+      "26-May-2028",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8207,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "ASDECON CORPORATION COMPANY LIMITED*109",
+      "",
+      "",
+      "2782, LAO PRAO 130, LAO PRAO ROAD, KLONGCHAN, BANGKAPI, BANGKOK",
+      "",
+      "Thailand",
+      "30-May-2012",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8138,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "COMSATEL*193",
+      "",
+      "",
+      "C. REYES ORTIZ NRO.73 EDIF. TORRES GUNDLACH, PISO 4, OF. 404 ZONA: CENTRAL, LA PAZ",
+      "",
+      "Bolivia",
+      "29-Apr-2014",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8055,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "SOCIÉTÉ GRANDS TRAVAUX MGHAIETH (GTM)*302",
+      "",
+      "",
+      "21, KEMAL ATATURK STREET, TUNIS 1001",
+      "",
+      "Tunisia",
+      "20-Jan-2016",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7442,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "HEBEI CONSTRUCTION GROUP CORPORATION LIMITED JIEYANG BRANCH河北建设集团股份有限公司揭阳分公司",
+      "",
+      "",
+      "WEST AREA SIX ROAD, DONGSHAN VILLAGE, RONGCHENG DISTRICT, JIEYANG CITY",
+      "",
+      "China",
+      "22-Aug-2024",
+      "22-Jul-2027",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8011,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "SUNAULA KHIMTI PVT. CONSTRUCTION LTD.(AKA M/S SUNAULA KHIMTI)",
+      "",
+      "",
+      "ANAMNAGAR, KATHMANDU; SINAMANGAL, KATHMANDU; HOUSE NO. 15/105 THAMEI, KATHMANDU",
+      "",
+      "Nepal",
+      "21-Oct-2016",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8124,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MR. WALTER FERNÁNDEZ FERNÁNDEZ*211",
+      "",
+      "",
+      "KILOMETRO 6 DOBLE VIA LA GUARDIA, BARRIO EL BAJIO SUR, CALLE 16 DE JUNIO NO. 6810, SANTA CRUZ",
+      "",
+      "Bolivia",
+      "12-Jun-2014",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7301,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "HEBEI CONSTRUCTION GROUP CORPORATION LIMITED YANTAI BRANCH河北建设集团股份有限公司烟台分公司",
+      "",
+      "",
+      "NO 19, BUILDING A10, NO 35 GANGCHENG WEST STREET, ZHIFU DISTRICT, YANTAI CITY, SHANDONG PROVINCE",
+      "",
+      "China",
+      "22-Aug-2024",
+      "22-Jul-2027",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8112,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "KUOY VUOCH CONSTRUCTION CO., LTD*222",
+      "",
+      "",
+      "PEAL NHEK I VILLAGE, SANGKAT PTEAS PREY, PURSAT CITY, PURSAT PROVINCE",
+      "",
+      "Cambodia",
+      "19-Aug-2014",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8111,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MR. CHEA VANTHA*225",
+      "",
+      "",
+      "190EO, MAO TSE TUNG BLVD, SANGKAT TUMNUP TEK, KHAN CHAMKER, PHNOM PENH",
+      "",
+      "Cambodia",
+      "26-Aug-2014",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8108,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MR. CHARLES KYENKYA*229",
+      "",
+      "",
+      "PLOT 2B, 5TH STREET CLOSE INDUSTRIAL AREA, P.O. BOX 21160, KAMPALA",
+      "",
+      "Uganda",
+      "30-Sep-2014",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8063,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MR. NIKOLAI GEORGIEVITCH OBRADOVITCH*296",
+      "",
+      "",
+      "LAST KNOWN ADDRESS: ANTONIENKO 3, -43, 190000 SAINT PETERSBURG",
+      "",
+      "Russian Federation",
+      "30-Oct-2015",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8139,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MR. SAMUEL CÁRDENAS COLQUE*195",
+      "",
+      "",
+      "C. REYES ORTIZ NRO. 73, EDIF. TORRES GUNDLACH, PISO 4, OF. 404, ZONA: CENTRAL, LA PAZ",
+      "",
+      "Bolivia",
+      "29-Apr-2014",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8057,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "HUNAN CONSTRUCTION GROUP CO., LTD.(湖南建设集团有限公司) *301",
+      "",
+      "",
+      "LAST KNOWN ADDRESS: STATION ROAD NO. 70, WAN XIANG XIN TIAN BUSINESS MANSION 5, BUILDING NO. 31, 32F, FURONG DISTRICT, CHANGSHA, HUNAN",
+      "",
+      "China",
+      "14-Jan-2016",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7790,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "SHAANXI HONGYI AUTOMOBILE SALES AND SERVICE CO. LTD.",
+      "",
+      "",
+      "NO. 58, FENGCHAN ROAD, WEIYANG DISTRICT, XI'AN CITY, SHAANXI PROVINCE",
+      "",
+      "China",
+      "16-Dec-2020",
+      "Permanent",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7616,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "WATER SUPPLY AND SEWERAGE CONSTRUCTION JSC NO. 1 (VIWASEEN.1)(Reg. No: 0101887839)*617",
+      "",
+      "",
+      "NO. 56 ALLEY 85, HA DINH STR., THANH XUAN, HA NOI",
+      "",
+      "Viet Nam",
+      "26-Sep-2022",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7959,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "VEVAKANAND DALIP ENTERPRISE",
+      "",
+      "",
+      "LOT 97 PHASE 2, LETHEM, RUPUNINI, REGION NO. 9, ESSEQUIBO",
+      "",
+      "Guyana",
+      "20-Feb-2018",
+      "28-Dec-2030",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8106,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "BAYON WATER PUMP CO., LTD.*233",
+      "",
+      "",
+      "PHUM RUNG CHAK,SANGKAT PHNOM PENH THMEI,KHAN SEN SOK, PHNOM PENH",
+      "",
+      "Cambodia",
+      "30-Oct-2014",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7903,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MR. NICOLÁS MAURICIO IRÍAS OSORIO*469",
+      "",
+      "",
+      "COLONIA LA GRANJA, JUTICALPA, OLANCHO",
+      "",
+      "Honduras",
+      "01-Mar-2019",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7755,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "HIKMA CONSTRUCTION AND GENERAL TRADING COMPANY*573",
+      "",
+      "",
+      "AFAR-IRDOD STREET, BAIDOA, BAY REGION",
+      "",
+      "Somalia, Federal Republic of",
+      "06-Apr-2021",
+      "05-Apr-2027",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8119,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "STEEVE LABERGE*216",
+      "",
+      "",
+      "19 BELVEDERE VAL-DES-MONTS, QUEBEC, J8N 1J1",
+      "",
+      "Canada",
+      "02-Jul-2014",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7615,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "WATER SUPPLY, SEWERAGE AND MECHANICAL CONSTRUCTION JSC (VIWASEEN.2)(Reg. No: 0101889000)*617",
+      "",
+      "",
+      "NO. 56 ALLEY 85, HA DINH STR., THANH XUAN, HA NOI",
+      "",
+      "Viet Nam",
+      "26-Sep-2022",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8297,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MAURENCE ANGUH*11",
+      "",
+      "",
+      "40 E. CHICAGO AVENUE # 200, CHICAGO, IL, 60611",
+      "",
+      "United States",
+      "01-Apr-2010",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7979,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "JIANGXI HAOZHE CONSTRUCTION ENGINEERING CO., LTD.(江西昊哲建设工程有限公司)*457",
+      "",
+      "",
+      "STORE 308#, BLOCK G5, TIME GARDEN, 86 QIANDONG AVENUE, SHUIDONG TOWN, ZHANGGONG DISTRICT, GANZHOU CITY, JIANGXI PROVINCE",
+      "",
+      "China",
+      "19-Dec-2017",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8131,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "JYC IMPORT EXPORT*199",
+      "",
+      "",
+      "CALLE 6 NO. 151 ZONA KAMI, QUILLACOLLO, COCHABAMBA",
+      "",
+      "Bolivia",
+      "15-May-2014",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8268,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "DR.HANS PETER SCHÖNE*47",
+      "",
+      "",
+      "RUNGESTRAßE 22/530, D-10179, BERLIN, GERMANY",
+      "",
+      "Germany",
+      "17-Aug-2011",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7929,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "JUYDAM-TAMIRCHI LLC*444",
+      "",
+      "",
+      "DASHNAYA 8, FERGANA REGION, FERGANA CITY",
+      "",
+      "Uzbekistan",
+      "13-Jun-2018",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7897,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "GUIZHOU ZHONGHANG SOUTH MACHINERY CONSTRUCTION CO., LTD.*486",
+      "",
+      "",
+      "UNIT 1, NO. 33, FLOOR 13, KAIDI MANSION, 51 NORTH GONGYUAN ROAD, YUNYAN DISTRICT, GUIYANG CITY, GUIZHOU PROVINCE",
+      "",
+      "China",
+      "12-Jun-2019",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8000,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MR. IYKE AMBROSE*356",
+      "",
+      "",
+      "10 OBANLE ARO AVENUE, OFF COKER ROAD, ILUPEJU, LAGOS",
+      "",
+      "Nigeria",
+      "24-Jan-2017",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7784,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "SHAANXI BEISHENG DONGFENG AUTOMOBILE SALES AND SERVICE CO. LTD.",
+      "",
+      "",
+      "EAST TO MINGGUANG ROAD, AREA G4 JINGKAI AREA, XI'AN CITY",
+      "",
+      "China",
+      "16-Dec-2020",
+      "Permanent",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8089,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MD. BODIUZZAMAN, PROPRIETOR(NATIONAL ID: 8192223142650)",
+      "",
+      "",
+      "TIKAPARA, GHORAMARA, BOALIA, RAJSHAHI",
+      "",
+      "Bangladesh",
+      "04-Mar-2015",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7881,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "PT. NUGRAHA ADI TARUNA*496",
+      "",
+      "",
+      "JL. KALIBATA INDAH BLOK T NO. 16, PANCORAN, JAKARTA SELATAN, JAKARTA 12510",
+      "",
+      "Indonesia",
+      "02-Aug-2019",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8370,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MIRNA INTERNATIONAL",
+      "",
+      "",
+      "BERKSHIRE",
+      "",
+      "United Kingdom",
+      "11-Feb-2000",
+      "Permanent",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7008,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "CNTIC BANGLADESH BRANCH COMPANY(Reg. No: 715827792052) *720",
+      "",
+      "",
+      "DHAKA",
+      "",
+      "Bangladesh",
+      "26-May-2026",
+      "25-Nov-2027",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7968,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MR. PATRICK ALOZIE ONWUKA*413",
+      "",
+      "",
+      "SUITE B.39 SHIRKIR PLAZA, GARKI, ABUJA",
+      "",
+      "Nigeria",
+      "11-Jan-2018",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7611,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "VIWASEEN MANPOWER SUPPLY, COMMERCIAL AND TOURISM JSC VIWASEEN (VIWASEEN.TMC)(Reg. No: 0102342605)*617",
+      "",
+      "",
+      "NO. 52 QUOC TU GIAM, VAN MIEU WARD, DONG DA DISTRICT, HA NOI",
+      "",
+      "Viet Nam",
+      "26-Sep-2022",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7956,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MS. SABRINA MARY WILLIAMS",
+      "",
+      "",
+      "LOT 97 PHASE 2, LETHEM, RUPUNINI, REGION NO. 9, ESSEQUIBO",
+      "",
+      "Guyana",
+      "20-Feb-2018",
+      "28-Dec-2030",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8276,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "M. BABUL M. AKHTAR",
+      "",
+      "",
+      "SOTO PALASH BARI POST OFFICE, SOTO PALASH BARI, UPAZILA BIRGANJ DISTRICT, DINAJPUR",
+      "",
+      "Bangladesh",
+      "30-Jun-2011",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ]
+  ],
+  "removedRecords": [
+    [
+      7441,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "HEBEI CONSTRUCTION GROUP CORPORATION LIMITED JIEYANG BRANCH(梁晓晓)",
+      "",
+      "",
+      "WEST AREA SIX ROAD, DONGSHAN VILLAGE, RONGCHENG DISTRICT, JIEYANG CITY",
+      "",
+      "China",
+      "22-Aug-2024",
+      "22-Jul-2027",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7784,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "SHAANXI BEISHENG DONGFENG AUTOMOBILE SALES AND SERVICE CO. LTD.*590",
+      "",
+      "",
+      "EAST TO MINGGUANG ROAD, AREA G4 JINGKAI AREA, XI'AN CITY",
+      "",
+      "China",
+      "16-Dec-2020",
+      "Permanent",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7607,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "PVOIL-PHU THO JOINT STOCK COMPANY(Reg. No: 0101397873)*617",
+      "",
+      "",
+      "148, HOANG QUOC VIET, CAU GIAY, HA NOI",
+      "",
+      "Viet Nam",
+      "26-Sep-2022",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7612,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "WATER, ELECTRIC AND MECHANICAL INSTALLATION AND CONSTRUCTION JSC (VIWASEEN.4)*496",
+      "",
+      "",
+      "KM14+500 - HIGHWAY 1A, LIEN NINH, THANH TRI, HA NOI",
+      "",
+      "Viet Nam",
+      "26-Sep-2022",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8042,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "J&R CONTRATISTAS GENERALES S.R.L. (J&R S.R.L.)*333",
+      "",
+      "",
+      "AVENIDA NICOLÁS DE PIÉROLA 611-OF. 64, DISTRITO DE CERCADO DE LIMA, LIMA",
+      "",
+      "Peru",
+      "22-Mar-2016",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7975,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "WENZHOU LUGANG TRANSPORTATION EQUIPMENT CO., LTD.(路港集团芜湖土石方工程有限公司)*457",
+      "",
+      "",
+      "ROOM F, FLOOR 10, RAILWAY MANSION, WENZHOU AVENUE, WENZHOU CITY",
+      "",
+      "China",
+      "19-Dec-2017",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7840,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "LLC “CONMARKS”*294 ECOGRAPH LLC",
+      "",
+      "",
+      "1-18, AL-BERUNI STREET, DUSHANBE 734026",
+      "",
+      "Tajikistan",
+      "07-Apr-2020",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7958,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "VEVAKANAND DALIP ENTERPRISE(CNPJ: 20.182.043/0001-42)",
+      "",
+      "",
+      "LOT 97 PHASE 2, LETHEM, RUPUNINI, REGION NO. 9, ESSEQUIBO",
+      "",
+      "Guyana",
+      "20-Feb-2018",
+      "28-Dec-2030",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7951,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "ENG. JOSE PALAC*456",
+      "",
+      "",
+      "LAST KNOWN ADDRESS: UNIT 4A, 4TH FLOOR, J&P BUILDING, LOT 3, BLK 17.V.V. SOLIVEN AVE 1, SAN ISIDRO, CAINTA RIZAL",
+      "",
+      "Philippines",
+      "13-Mar-2018",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8130,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "JYC IMPORT EXPORT*200",
+      "",
+      "",
+      "CALLE 6 NO. 151 ZONA KAMI, QUILLACOLLO, COCHABAMBA",
+      "",
+      "Bolivia",
+      "15-May-2014",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7904,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "SOFTWARE DEVELOPMENT & IT SOLUTION JOINT STOCK COMPANY (CADPRO., JSC.)*343",
+      "",
+      "",
+      "NO. 11, CHAU LONG STREET, TRUC BACH WARD, BA DINH DISTRICT, HANOI",
+      "",
+      "Viet Nam",
+      "25-Feb-2019",
+      "24-Nov-2028",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7773,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "PT. BINA CIPTA UTAMA*553",
+      "",
+      "",
+      "JL. CIDENG RAYA NO. 48 BLOK, STRIKEMBENG, RT/RW 003/001 DS. KERTAWINANGUN, KEC. KEDAWUNG, CIREBON, JAWA BARAT 45153",
+      "",
+      "Indonesia",
+      "17-Feb-2021",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7985,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MADHUCON PROJECTS LIMITED(湖南建设集团有限公司) *301",
+      "",
+      "",
+      "PLOT NO. 1129/A, MADHUCON HOUSE, ROAD NO. 36, HITECH CITY ROAD, JUBILEE HILLS, HYDERABAD, TELANGANA, 500033",
+      "",
+      "India",
+      "26-Oct-2017",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7955,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MS. SABRINA MARY WILLIAMS(CNPJ: 20.182.043/0001-42)",
+      "",
+      "",
+      "LOT 97 PHASE 2, LETHEM, RUPUNINI, REGION NO. 9, ESSEQUIBO",
+      "",
+      "Guyana",
+      "20-Feb-2018",
+      "28-Dec-2030",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8016,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "ZANOTTA SUDAMERICANA S.A.*354",
+      "",
+      "",
+      "C/O CENTRO PRODUCTIVO DE DISEÑO S.A., MEXICO 337, CP 1097, CABA, BUENOS AIRES",
+      "",
+      "Argentina",
+      "18-Oct-2016",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8241,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MR. VALERI ANGELOV*72",
+      "",
+      "",
+      "13B, LOUKASHOV STREET, 3000 VRATSA",
+      "",
+      "Bulgaria",
+      "16-Nov-2011",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7966,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MARABEF GLOBAL LIMITED",
+      "",
+      "",
+      "PLOT 117 OKIGWE ROAD, ABA-ABIA STATE",
+      "",
+      "Nigeria",
+      "11-Jan-2018",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8019,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "ESKE S.A.C.*323",
+      "",
+      "",
+      "JIRON VICTOR MANTILLA NO. 237, 245 SURQUILLO, LIMA 34",
+      "",
+      "Peru",
+      "26-Aug-2016",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7988,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "OLIVE HEALTH CARE*237",
+      "",
+      "",
+      "REGISTERED OFFICE: GODREJ COLISEUM, SOMAIYA HOSPITAL ROAD, B-3, 2ND FLOOR, SION (EAST), MUMBAI 400 022",
+      "",
+      "India",
+      "21-Jul-2017",
+      "20-Jan-2028",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8029,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MINIMIX AGENCIES (MINIMIX)*396",
+      "",
+      "",
+      "P. O. BOX 11583-00100, NAIROBI",
+      "",
+      "Kenya",
+      "17-Jun-2016",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8093,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "K.R.G. ASSOCIATES(formerly known as OOO RBC Center) *197",
+      "",
+      "",
+      "#5 CHELLAN NAGAR, PUDUCHERRY 605011",
+      "",
+      "India",
+      "10-Feb-2015",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8025,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MR. NGO DUNG TOAN",
+      "",
+      "",
+      "DIRECTOR, AN HOA LIMITED COMPANY, 231 TRUÒNG CHINH, HAI BÀ TRUNG, PHÛ LÝ, HÀ NAM",
+      "",
+      "Viet Nam",
+      "26-Jul-2016",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7340,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "HEBEI CONSTRUCTION GROUP CORPORATION LIMITED QIU COUNTY BRANCH河北建设集团股份有限公司潍坊分公司",
+      "",
+      "",
+      "NO. 14-13, SOUTH GATE, FENGLINWAN COMMUNITY, JIANSHE STREET, XINMATOU TOWN, QIU COUNTY, HANDAN CITY, HEBEI PROVINCE",
+      "",
+      "China",
+      "22-Aug-2024",
+      "22-Jul-2027",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7953,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "INVEPAR CONSTRUTORA LTDA - ME",
+      "",
+      "",
+      "LOT 97 PHASE 2, LETHEM, RUPUNINI, REGION NO. 9, ESSEQUIBO",
+      "",
+      "Guyana",
+      "20-Feb-2018",
+      "28-Dec-2030",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7330,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "BAODING BOWANG NEW MATERIAL TECHNOLOGY CO., LTD.河北同创联泰医院管理有限公司",
+      "",
+      "",
+      "NO. 3083, TIANWEI WEST ROAD, JINGXIU DISTRICT, BAODING CITY, HEBEI PROVINCE",
+      "",
+      "China",
+      "22-Aug-2024",
+      "22-Jul-2027",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8092,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "EMPRESA CONSTRUCTORA Y CONSULTORA LAPTUS S.R.L.*377",
+      "",
+      "",
+      "CALLE MUNICIPAL NO. 501, VILLA ABAROA, TARIJA",
+      "",
+      "Bolivia",
+      "10-Feb-2015",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8113,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "C.D.W. CONSTRUCTION CO., LTD*251",
+      "",
+      "",
+      "HOUSE NO. 35B, ST. 476, SANGKAT TOULTOMPOUNG II, KHAN. CHAMKARMORN, PHNOM PENH",
+      "",
+      "Cambodia",
+      "24-Jul-2014",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7999,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MR. IYKE AMBROSE*348",
+      "",
+      "",
+      "10 OBANLE ARO AVENUE, OFF COKER ROAD, ILUPEJU, LAGOS",
+      "",
+      "Nigeria",
+      "24-Jan-2017",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8067,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "ECOGRAPHY COMPANY*521",
+      "",
+      "",
+      "BUILDING OF MONGOL ENGINEER CO. LTD., KHOROO 20, BAYANGOL DISTRICT, ULANBATAAR",
+      "",
+      "Mongolia",
+      "15-Oct-2015",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7562,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "HA THANH GROUP JOINT STOCK COMPANY*618",
+      "",
+      "",
+      "2ND FLOOR, NO. 475 TRAN KHAT CHAN, THANH NHAN WARD, HAI BA TRUNG DISTRICT, HANOI",
+      "",
+      "Viet Nam",
+      "02-Feb-2023",
+      "01-Mar-2028",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8011,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "DHARMA RAJ BHANDARI(AKA M/S SUNAULA KHIMTI)",
+      "",
+      "",
+      "ANAMNAGAR, KATHMANDU; SINAMANGAL, KATHMANDU; HOUSE NO. 15/105 THAMEI, KATHMANDU",
+      "",
+      "Nepal",
+      "21-Oct-2016",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7333,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "HEBEI CONSTRUCTION GROUP CORPORATION LIMITED LIAOCHENG BRANCH河北建设集团股份有限公司邱县分公司",
+      "",
+      "",
+      "ROOM 2172, 17/F, UNIT 2, BUILDING 22, RUNJINGYUAN COMMUNITY, CHANGRUNNAN ROAD, HUXI STREET, LIAOCHENG CITY, SHANDONG PROVINCE",
+      "",
+      "China",
+      "22-Aug-2024",
+      "22-Jul-2027",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7783,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "YANG TING*570",
+      "",
+      "",
+      "NO. 6 EFANG FIRST ROAD, WEIYANG DISTRICT, XI'AN CITY",
+      "",
+      "China",
+      "16-Dec-2020",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8099,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MR. TANG CHI ANH*279",
+      "",
+      "",
+      "ROOM 101, BLOCK 8A, APARTMENT BUILDING OF WATER RESOURCES UNIVERSITY, LANE 95, CHUA BOC STREET, DONG DA DISTRICT, HANOI",
+      "",
+      "Viet Nam",
+      "03-Dec-2014",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7761,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "A2Z INFRASERVICES LANKA PVT. LTD.*573",
+      "",
+      "",
+      "BOC MERCHANT TOWER, LEVEL 8, NO: 28 ST. MICHAEL’S ROAD, COLOMBO 3",
+      "",
+      "Sri Lanka",
+      "17-Mar-2021",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8182,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "SUPREMATECH SOLUTIONS INC.*38",
+      "",
+      "",
+      "1201 ORANGE STREET, SUITE 600, WILMINGTON, DE, 19801",
+      "",
+      "United States",
+      "04-Dec-2012",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8125,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "PRIVATE ENTERPRISE (PE) RABMER*220",
+      "",
+      "",
+      "26, PL. RYNOK, SAMBIR, 81400 LVIVSKA OBLAST",
+      "",
+      "Ukraine",
+      "03-Jun-2014",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      6984,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "CNTIC BANGLADESH BRANCH COMPANY(Reg. No: 9120403231845) *720",
+      "",
+      "",
+      "DHAKA",
+      "",
+      "Bangladesh",
+      "26-May-2026",
+      "25-Nov-2027",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7781,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "TIAN XIAOYANG*590",
+      "",
+      "",
+      "NO.6 EFANG FIRST ROAD, WEIYANG DISTRICT, XI'AN CITY",
+      "",
+      "China",
+      "16-Dec-2020",
+      "Permanent",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7683,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "EXPRESS AUTOMATION LIMITED河北建设集团股份有限公司北京分公司",
+      "",
+      "",
+      "4TH FLOOR, DELTA CORNER ANNEX, P.O. BOX 22709-00400, NAIROBI",
+      "",
+      "Kenya",
+      "01-Mar-2022",
+      "Permanent",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8285,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MR. ANSHAR M. NOOR(NATIONAL ID: 8192223142650)",
+      "",
+      "",
+      "PPA CONSULTANTS, JL. TEBET TIMUR RAYA 56-57, JAKARTA SELATAN",
+      "",
+      "Indonesia",
+      "03-Dec-2010",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7756,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "A2Z INFRASERVICES LTD.*579",
+      "",
+      "",
+      "O-116, 1ST FLOOR, DLF SHOPPING MALL, ARJUN MARG, DLF PH-I GURUGRAM - 122002, HARYANA",
+      "",
+      "India",
+      "17-Mar-2021",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8003,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MR. PEWEE FLOMO*349",
+      "",
+      "",
+      "TOPOE AVENUE, GAYE TOWN, OLD ROAD, SINKOR, MONROVIA",
+      "",
+      "Liberia",
+      "27-Dec-2016",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7976,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "JIANGXI HUAWEI CONSTRUCTION MATERIALS CO., LTD.*486",
+      "",
+      "",
+      "112 YUHU ROAD, XIAOLAN DEVELOPMENT ZONE, NANCHANG COUNTY, NANCHANG CITY, JIANGXI PROVINCE",
+      "",
+      "China",
+      "19-Dec-2017",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7983,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "SHAILUNG CONSTRUCTION CO. PVT. LTD.*306",
+      "",
+      "",
+      "P.O. BOX 19679, SUNAKOTHI-8, DHOLAHITY, LALITPUR",
+      "",
+      "Nepal",
+      "18-Dec-2017",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7956,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "INVEPAR CONSTRUTORA LTDA - ME",
+      "",
+      "",
+      "71 SOMERSET COURT, GARDEN OF EDEN, EAST BANK DEMERARA",
+      "",
+      "Guyana",
+      "20-Feb-2018",
+      "28-Dec-2030",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8054,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "SOCIÉTÉ GRANDS TRAVAUX MGHAIETH (GTM)*295",
+      "",
+      "",
+      "21, KEMAL ATATURK STREET, TUNIS 1001",
+      "",
+      "Tunisia",
+      "20-Jan-2016",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8066,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MS. TUMENDEMBEREL BAYARMAA*299",
+      "",
+      "",
+      "C/O ECOGRAPH LLC AKA ECOGRAPHY COMPANY, BUILDING OF MONGOL ENGINEER CO. LTD., KHOROO 20, BAYANGOL DISTRICT, ULANBATAAR",
+      "",
+      "Mongolia",
+      "15-Oct-2015",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7760,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MAGIC GENIE SMARTECH SOLUTIONS LTD.(FORMERLY KNOWN AS A2Z POWERTECH LTD.) *553",
+      "",
+      "",
+      "GROUND FLOOR, PLOT NO. 58, SECTOR-44, GURUGRAM-122003, HARYANA",
+      "",
+      "India",
+      "17-Mar-2021",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7894,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "ZHONGCHEN ROAD & BRIDGE CONSTRUCTION (BEIJING) CO., LTD.*487",
+      "",
+      "",
+      "ROOM 205, BEIJING WUTAISHAN HOTEL, ZONGHE BUILDING, LEVEL 1, 2 & 3, JIA 23 TAIPING ROAD, BEIJING",
+      "",
+      "China",
+      "20-Jun-2019",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7974,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "WENZHOU OUHAI NANHU ROAD ENGINEERING CONSTRUCTION CO., LTD.(Reg. No: 0300393538)*617",
+      "",
+      "",
+      "ROOM 603, FLOOR 6, RAILWAY MANSION, WENZHOU AVENUE, WENZHOU CITY, ZHEJIANG PROVINCE",
+      "",
+      "China",
+      "19-Dec-2017",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7754,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "HIKMA CONSTRUCTION AND GENERAL TRADING COMPANY*570",
+      "",
+      "",
+      "AFAR-IRDOD STREET, BAIDOA, BAY REGION",
+      "",
+      "Somalia, Federal Republic of",
+      "06-Apr-2021",
+      "05-Apr-2027",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8123,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MR. WALTER FERNÁNDEZ FERNÁNDEZ*357",
+      "",
+      "",
+      "KILOMETRO 6 DOBLE VIA LA GUARDIA, BARRIO EL BAJIO SUR, CALLE 16 DE JUNIO NO. 6810, SANTA CRUZ",
+      "",
+      "Bolivia",
+      "12-Jun-2014",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7903,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MR. NICOLÁS MAURICIO IRÍAS OSORIO*476",
+      "",
+      "",
+      "COLONIA LA GRANJA, JUTICALPA, OLANCHO",
+      "",
+      "Honduras",
+      "01-Mar-2019",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7774,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "PT. ARIS MAKMUR MANDIRI",
+      "",
+      "",
+      "JL. RAYA CIGINTUNG NO. 126 A BOJONG, KEC. CILIMUS, KUNINGAN 45556",
+      "",
+      "Indonesia",
+      "17-Feb-2021",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7649,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "“SUPPER FORTUNA” LLC*613",
+      "",
+      "",
+      "70 FIRDAVSI ST., GULISTAN TOWN, SYRDARYA REGION",
+      "",
+      "Uzbekistan",
+      "13-Apr-2022",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7930,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "LATIFI CONSTRUCTION AND ROAD CONSTRUCTION COMPANY*477",
+      "",
+      "",
+      "HEAD OFFICE ADDRESS #1: 10TH STREET MAIN ROAD OF WAZIR AKBAR KHAN, NEXT TO THE CHILDREN HOSPITAL, KABUL",
+      "",
+      "Afghanistan",
+      "12-Jun-2018",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7998,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "LAO-ASIE CONSULTANTS GROUP*234",
+      "",
+      "",
+      "HOUSE NO. 184, UNIT 8, BAN SAPHANTHONG-TAI, SYSATTANAK DISTRICT PO BOX 4818, VIENTIANE CAPITAL",
+      "",
+      "Lao People's Democratic Republic",
+      "31-Jan-2017",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7619,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "VIWASEEN'S INFRASTRUCTURE CONSTRUCTION INVESTMENT JOINT STOCK COMPANY(Reg. No: 0106110528)*617",
+      "",
+      "",
+      "TAN SON, HOA SON, LUONG SON, HOA BINH",
+      "",
+      "Viet Nam",
+      "26-Sep-2022",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7935,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "AVTOBANI LTD.*359",
+      "",
+      "",
+      "LAST KNOWN ADDRESS: APT. 44, #22 DIMITRY TAVDADEBULI STR., TBILISI",
+      "",
+      "Georgia",
+      "30-May-2018",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7329,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "BAODING ZHONGZE WATER SUPPLY CO., LTD.河北建设集团股份有限公司任丘分公司",
+      "",
+      "",
+      "XIAOMAFANG VILLAGE, ZHUANG TOWN, MANCHENG DISTRICT, BAODING CITY",
+      "",
+      "China",
+      "22-Aug-2024",
+      "22-Jul-2027",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7790,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "SHAANXI HUAXING NEW CENTURY AUTOMOBILE SERVICE TRADE CO. LTD.*565",
+      "",
+      "",
+      "AREA C5, FENGCHENG FOURTH ROAD ECONOMIC DEVELOPMENT (JINGKAI) DISTRICT, XI'AN CITY",
+      "",
+      "China",
+      "16-Dec-2020",
+      "Permanent",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7744,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MR. SUJIT DAS*574",
+      "",
+      "",
+      "ADMINISTRATION MANAGER, CROSSWORDS LIMITED, UN DRIVE & RANDALL STREET JN., OPP. STELLA MARIS POLYTECHNIC, MONROVIA",
+      "",
+      "Liberia",
+      "08-Jun-2021",
+      "07-Jun-2029",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7961,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "DATEX HAITI*439",
+      "",
+      "",
+      "33 PARC INDUSTRIEL (SONAPI), DELMAS",
+      "",
+      "Haiti",
+      "13-Feb-2018",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8062,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MR. NIKOLAI GEORGIEVITCH OBRADOVITCH*338",
+      "",
+      "",
+      "LAST KNOWN ADDRESS: ANTONIENKO 3, -43, 190000 SAINT PETERSBURG",
+      "",
+      "Russian Federation",
+      "30-Oct-2015",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8118,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "STEEVE LABERGE*87 as a successor or assign to Sugdiyon Limited Liability Company. Lic. Series XT-8 #0003127 Tax ID No. 300001499",
+      "",
+      "",
+      "19 BELVEDERE VAL-DES-MONTS, QUEBEC, J8N 1J1",
+      "",
+      "Canada",
+      "02-Jul-2014",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7750,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "PT. KARYA KITA PUTRA PERTIWI*585",
+      "",
+      "",
+      "JL. RAYA GUNTUR NO. 18, KEDONGDONG KIDUL, DUKUPANTANG, CIREBON 45161",
+      "",
+      "Indonesia",
+      "13-May-2021",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7915,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "NREM INTERNATIONAL INC.*426",
+      "",
+      "",
+      "5914 GARTRELL ROAD, SUMMERLAND, BC V0H 1Z7",
+      "",
+      "Canada",
+      "29-Nov-2018",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7916,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "NREM INTERNATIONAL INC.(ID No. 401-220966-0008F) *389",
+      "",
+      "",
+      "SUITE 1402, YUFEI PLAZA, 42 DONGZHIMENWAI DAJIE, BEIJING, 100027",
+      "",
+      "China",
+      "29-Nov-2018",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7895,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "EMMYWAYS ENGINEERING/CONSTRUCTION LIMITED*489",
+      "",
+      "",
+      "HEAD OFFICE AT ANTAFIO BARIFA ROAD, PLOT 2 AYIVU CLOSE, P.O. BOX 1093, ARUA",
+      "",
+      "Uganda",
+      "18-Jun-2019",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8047,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "DESARROLLO CON INGENIERÍA CONTRATISTAS GENERALES S.A. (DISA-CGSA)(江西恒剑路桥工程有限公司) *334",
+      "",
+      "",
+      "CALLE SAN MARCOS NO. 508, URB. SAN ANTONIO, HUANCAYO, JUNÍN",
+      "",
+      "Peru",
+      "09-Feb-2016",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8031,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "CONSORCIO OCONGATE*312",
+      "",
+      "",
+      "C/O ROPRUCSA CONTRATISTAS GENERALES S.A. (ROPRUCSA S.A.), AV. NARANJAL NO. 543, URBANIZACION NARANJAL, DISTRITO DE LOS OLIVOS 39, LIMA",
+      "",
+      "Peru",
+      "24-May-2016",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7764,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "RISHIKESH WASTE MANAGEMENT LTD.",
+      "",
+      "",
+      "O-116, 1ST FLOOR, DLF SHOPPING MALL, ARJUN MARG, DLF PH-I GURUGRAM - 122002, HARYANA",
+      "",
+      "India",
+      "17-Mar-2021",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8056,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "HUNAN CONSTRUCTION GROUP CO., LTD.*303",
+      "",
+      "",
+      "LAST KNOWN ADDRESS: STATION ROAD NO. 70, WAN XIANG XIN TIAN BUSINESS MANSION 5, BUILDING NO. 31, 32F, FURONG DISTRICT, CHANGSHA, HUNAN",
+      "",
+      "China",
+      "14-Jan-2016",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7743,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "ODELGA MED GES.M.B.H.*578",
+      "",
+      "",
+      "CARLBERGERGASSE 68, 1230 VIENNA",
+      "",
+      "Austria",
+      "08-Jun-2021",
+      "07-Jun-2027",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7328,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "HEBEI HAIKUO ENVIRONMENTAL TECHNOLOGY CO., LTD.河北建设集团股份有限公司烟台分公司",
+      "",
+      "",
+      "FLOOR 23, HEBEI CONSTRUCTION BUSINESS CENTER ,NO 125 , LUGANG ROAD, JINGXIU DISTRICT, BAODING CITY, HEBEI PROVINCE",
+      "",
+      "China",
+      "22-Aug-2024",
+      "22-Jul-2027",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7960,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "NATIONAL ALIMENTATION SERVICES*420",
+      "",
+      "",
+      "TABARRE 60 # 58, EN FACE DE LA SUNAUTO, PORT-AU-PRINCE",
+      "",
+      "Haiti",
+      "13-Feb-2018",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7978,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "LONGNAN WUZHE TUNNEL ENGINEERING CO., LTD.(江西省路桥工程集团有限公司)*457",
+      "",
+      "",
+      "GENERAL OFFICE BUILDING NO. 3, MUNICIPAL CENTER, DONGJIANG NEW DISTRICT, DONGJIANG TOWN, WUDU DISTRICT, LONGNAN CITY, GANSU PROVINCE",
+      "",
+      "China",
+      "19-Dec-2017",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7620,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "WATER SUPPLY, SEWERAGE AND MECHANICAL CONSTRUCTION JSC (VIWASEEN.2)*493",
+      "",
+      "",
+      "NO. 56 ALLEY 85, HA DINH STR., THANH XUAN, HA NOI",
+      "",
+      "Viet Nam",
+      "26-Sep-2022",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7997,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "INGENIEROS CIVILES ASOCIADOS S.A.*421",
+      "",
+      "",
+      "AV. 6 DE AGOSTO NO. 2577, EDIF. LAS DOS TORRES, PISO 9, LA PAZ",
+      "",
+      "Bolivia",
+      "01-Feb-2017",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8258,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "NORMA KUMALAWATI",
+      "",
+      "",
+      "PRESIDENT DIRECTOR, PT RIFA BESTARI, WISMA STACO, 6TH FLOOR, JALAN CASABLANCA KAV 18, JAKARTA",
+      "",
+      "Indonesia",
+      "28-Sep-2011",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8069,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "SUGDIYON-1 CO. LTD.*212",
+      "",
+      "",
+      "163 KHAKHRINAU STREET, GARAUTY SETTLEMENT, DZHILIKUL DISTRICT, KHATLON PROVINCE",
+      "",
+      "Tajikistan",
+      "24-Sep-2015",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7866,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "JOYLUCK VENTURE INDIA PVT. LTD.*443",
+      "",
+      "",
+      "S-481 GREATER KAILASH-II, NEW DELHI, SOUTH DELHI, 110048",
+      "",
+      "India",
+      "07-Oct-2019",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      6983,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "BUT CHINA NATIONAL TECHNICAL IMPORT AND EXPORT CORPORATION(Reg. No: 71858983) *720",
+      "",
+      "",
+      "JAKARTA",
+      "",
+      "Indonesia",
+      "26-May-2026",
+      "25-Nov-2027",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8106,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "PIONEER CONSTRUCTION LTD*234",
+      "",
+      "",
+      "PLOT 2B, 5TH STREET CLOSE INDUSTRIAL AREA, P.O. BOX 21160, KAMPALA",
+      "",
+      "Uganda",
+      "30-Sep-2014",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7883,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "SHANGHAI HETAI CONSTRUCTION ENGINEERING CO., LTD.(湖北老谷高速公路开发有限公司)*457",
+      "",
+      "",
+      "NO. 289, ZHUJING TOWN, JINSHAN DISTRICT, SHANGHAI CITY",
+      "",
+      "China",
+      "16-Jul-2019",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7789,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "SHAANXI HONGYI AUTOMOBILE SALES AND SERVICE CO. LTD.*565",
+      "",
+      "",
+      "NO. 58, FENGCHAN ROAD, WEIYANG DISTRICT, XI'AN CITY, SHAANXI PROVINCE",
+      "",
+      "China",
+      "16-Dec-2020",
+      "Permanent",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8107,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MR. CHARLES KYENKYA*297",
+      "",
+      "",
+      "PLOT 2B, 5TH STREET CLOSE INDUSTRIAL AREA, P.O. BOX 21160, KAMPALA",
+      "",
+      "Uganda",
+      "30-Sep-2014",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7331,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "HEBEI CONSTRUCTION GROUP (NINGBO) SUPPLY CHAIN MANAGEMENT CO., LTD.河北建设集团股份有限公司珠海分公司",
+      "",
+      "",
+      "ROOM A1515-6, WEST BUILDING, NO 111 BINHAI SOUTH ROAD, DAXIE DEVELOPMENT ZONE, NINGBO CITY, ZHEJIANG PROVINCE",
+      "",
+      "China",
+      "22-Aug-2024",
+      "22-Jul-2027",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8010,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "SUNAULA KHIMTI PVT. CONSTRUCTION LTD.",
+      "",
+      "",
+      "ANAMNAGAR, KATHMANDU; SINAMANGAL, KATHMANDU; HOUSE NO. 15/105 THAMEI, KATHMANDU",
+      "",
+      "Nepal",
+      "21-Oct-2016",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7747,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "ASBECO NIGERIA LTD.",
+      "",
+      "",
+      "NO. 10 EFFANGA MKPA STREET, STATE HOUSING ESTATE, CALABAR, CROSS RIVER STATE",
+      "",
+      "Nigeria",
+      "25-May-2021",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7335,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "HEBEI CONSTRUCTION GROUP CORPORATION LIMITED RENQIU BRANCH",
+      "",
+      "",
+      "NORTH CHINA OIL FIELD TRANSPORT COMPANY OFFICE BUILDING, NORTH STATION WEST ROAD, RENQIU CITY",
+      "",
+      "China",
+      "22-Aug-2024",
+      "22-Jul-2027",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8087,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MD. BODIUZZAMAN (MBZ)",
+      "",
+      "",
+      "TIKAPARA, GHORAMARA, BOALIA, RAJSHAHI",
+      "",
+      "Bangladesh",
+      "04-Mar-2015",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7611,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "VIWASEEN3 JOINT STOCK COMPANY*484",
+      "",
+      "",
+      "KM14+500 - HIGHWAY 1A, LIEN NINH, THANH TRI, HA NOI",
+      "",
+      "Viet Nam",
+      "26-Sep-2022",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7339,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "HEBEI CONSTRUCTION GROUP CORPORATION LIMITED BEIJING SHUNYI BRANCH河北建设集团（宁波）供应链管理有限公司",
+      "",
+      "",
+      "ROOM B-275, NO 1, SHUNLI AVENUE, NANFAXIN TOWN, SHUNYI DISTRICT, BEIJING",
+      "",
+      "China",
+      "22-Aug-2024",
+      "22-Jul-2027",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8230,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "URALKOTLOSERVICE PKF ZAO (TAMBOV)*139",
+      "",
+      "",
+      "1 KRASNOARMEISKAYA SQUARE, 392023, TAMBOV",
+      "",
+      "Russian Federation",
+      "29-Nov-2011",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7614,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "WATER EQUIPMENT MANUFACTURING, CONSTRUCTION AND INSTALLATION JSC (VIWASEEN.14)(Reg. No: 0101890292)*617",
+      "",
+      "",
+      "NR. 16, 17 BINH DUONG STREET, LONG BINH TAN, BIEN HOA, DONG NAI",
+      "",
+      "Viet Nam",
+      "26-Sep-2022",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7967,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MR. PATRICK ALOZIE ONWUKA*412",
+      "",
+      "",
+      "SUITE B.39 SHIRKIR PLAZA, GARKI, ABUJA",
+      "",
+      "Nigeria",
+      "11-Jan-2018",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8110,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MR. CHEA VANTHA*222",
+      "",
+      "",
+      "190EO, MAO TSE TUNG BLVD, SANGKAT TUMNUP TEK, KHAN CHAMKER, PHNOM PENH",
+      "",
+      "Cambodia",
+      "26-Aug-2014",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7609,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "SUOI DAU WATER SUPPLY, DRAINAGE INVESTMENT AND CONSTRUCTION JSC(Reg. No: 3600254629)*617",
+      "",
+      "",
+      "4TH FLOOR, 58 YERSIN, PHUONG SAI WARD, NHA TRANG WARD, KHANH HOA",
+      "",
+      "Viet Nam",
+      "26-Sep-2022",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8138,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MR. SAMUEL CÁRDENAS COLQUE*216",
+      "",
+      "",
+      "C. REYES ORTIZ NRO. 73, EDIF. TORRES GUNDLACH, PISO 4, OF. 404, ZONA: CENTRAL, LA PAZ",
+      "",
+      "Bolivia",
+      "29-Apr-2014",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7900,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "TIGER IT BANGLADESH LTD.*444",
+      "",
+      "",
+      "HOUSE 21, ROAD 28, BLOCK-K, BANANI MODEL TOWN, DHAKA, 1213",
+      "",
+      "Bangladesh",
+      "24-Apr-2019",
+      "23-Oct-2028",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8120,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MS. NANCY MERUBIA YEPES*209",
+      "",
+      "",
+      "KILOMETRO 6 DOBLE VIA LA GUARDIA, BARRIO EL BAJIO SUR, CALLE 16 DE JUNIO NO. 6810, SANTA CRUZ",
+      "",
+      "Bolivia",
+      "12-Jun-2014",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8132,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MS. CORINA RAMIREZ RODRIGUEZ*206",
+      "",
+      "",
+      "CALLE 6 NO. 151 ZONA KAMI, QUILLACOLLO, COCHABAMBA",
+      "",
+      "Bolivia",
+      "15-May-2014",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7634,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "NIEMTIN COMPANY LIMITED*610",
+      "",
+      "",
+      "8TH FLOOR, 142 DOI CAN STREET, BA DINH DISTRICT, HANOI CITY",
+      "",
+      "Viet Nam",
+      "24-May-2022",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8074,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "HUBEI HENGDA STEEL STRUCTURE CO., LTD.*199",
+      "",
+      "",
+      "",
+      "",
+      "China",
+      "02-Jul-2015",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7622,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "DRILLING AND WATER SUPPLY SEWERAGE CONSTRUCTION JSC (VIWASEEN.11)(Reg. No: 0101887839)*617",
+      "",
+      "",
+      "NO.10 PHO QUANG, WARD NO. 2, TAN BINH DIST., HO CHI MINH CITY",
+      "",
+      "Viet Nam",
+      "26-Sep-2022",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7878,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "HUNAN WATER AND HYDROPOWER CONSTRUCTION GROUP CO., LTD.(温州瓯海南湖路工程建设有限公司)*457",
+      "",
+      "",
+      "FLOOR 1, TIANZE MANSION, NO. 290 NORTH SHAOSHAN ROAD, YUHUA DISTRICT, CHANGSHA CITY, HUNAN 414000",
+      "",
+      "China",
+      "26-Aug-2019",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7598,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "SOMSAVANH CHALEUN CONSTRUCTION CO., LTD.",
+      "",
+      "",
+      "PHONSAVANH VILLAGE, PAKSE DISTRICT, CHAMPASAK PROVINCE",
+      "",
+      "Lao People's Democratic Republic",
+      "01-Nov-2022",
+      "13-Jul-2027",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7613,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "VIWASEEN6 JOINT STOCK COMPANY(Reg. No: 0102133351)*617",
+      "",
+      "",
+      "NO. 52 QUOC TU GIAM, VAN MIEU WARD, DONG DA DISTRICT, HA NOI",
+      "",
+      "Viet Nam",
+      "26-Sep-2022",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7881,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "OOO FIDES SOLUTIONS(江西省华威建材有限公司)*470",
+      "",
+      "",
+      "ROOM 25A, NO. 50, OYBEK STREET, TASHKENT",
+      "",
+      "Uzbekistan",
+      "17-Jul-2019",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8295,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MAURENCE ANGUH*71",
+      "",
+      "",
+      "40 E. CHICAGO AVENUE # 200, CHICAGO, IL, 60611",
+      "",
+      "United States",
+      "01-Apr-2010",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8282,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "PT DDC CONSULTANTS*245",
+      "",
+      "",
+      "JL. MASJID AN'NUR NO. 51A, KEBAYORAN LAMA, JAKARTA SELATAN",
+      "",
+      "Indonesia",
+      "25-Apr-2011",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7882,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MR. RAVSHAN RIZAMETOV(VIWASEEN.7) (Reg. No: 0103931748)*617",
+      "",
+      "",
+      "ROOM 25A, NO. 50, OYBEK STREET, TASHKENT",
+      "",
+      "Uzbekistan",
+      "17-Jul-2019",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8275,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "M. BABUL M. AKHTARAKA (Ms.) Ir. Norma Kumalawati",
+      "",
+      "",
+      "SOTO PALASH BARI POST OFFICE, SOTO PALASH BARI, UPAZILA BIRGANJ DISTRICT, DINAJPUR",
+      "",
+      "Bangladesh",
+      "30-Jun-2011",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7616,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "VIWASEEN MANPOWER SUPPLY, COMMERCIAL AND TOURISM JSC VIWASEEN (VIWASEEN.TMC)(Reg. No: 3600717644)*617",
+      "",
+      "",
+      "NO. 52 QUOC TU GIAM, VAN MIEU WARD, DONG DA DISTRICT, HA NOI",
+      "",
+      "Viet Nam",
+      "26-Sep-2022",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7899,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "YULIN YUYANG DISTRICT XINGYUAN HYDROPOWER ENGINEERING CO., LTD.(Reg. No: 0304459758)*617",
+      "",
+      "",
+      "158 NORTH XINJIAN ROAD, YUYANG DISTRICT, YULIN CITY, SHAANXI PROVINCE, CHINA 719000",
+      "",
+      "China",
+      "26-Apr-2019",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7608,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "DAI VIET DUCTILE IRON PIPES LIMITED COMPANY - WAHSIN(Reg. No: 0102421913)*617",
+      "",
+      "",
+      "NO. 2, ROAD 4A - BIEN HOA II INDUSTRIAL PARK, DONG NAI",
+      "",
+      "Viet Nam",
+      "26-Sep-2022",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7594,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "M/S PIR AZMAT SHAH & SONS(Reg No. 16-00009045/4516/(F/1))",
+      "",
+      "",
+      "ARAA GANDI UMAR KHAN ROAD, HIKMAT ABAD, D.I. KHAN",
+      "",
+      "Pakistan",
+      "08-Nov-2022",
+      "13-Jul-2028",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8023,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "JIANGXI HENGJIAN ROAD AND BRIDGE ENGINEERING CO., LTD.*475",
+      "",
+      "",
+      "MIAOPU, YINCHENG COUNTY, DEXING CITY, SHANGRAO, JIANGXI PROVINCE, ZIP CODE: 334200",
+      "",
+      "China",
+      "05-Aug-2016",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7989,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "BERKMAN INTERNATIONAL, INC.* 29",
+      "",
+      "",
+      "3RD FLOOR, VAG BUILDING, ORTIGAS AVE., GREENHILLS, SAN JUAN CITY",
+      "",
+      "Philippines",
+      "29-Jun-2017",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8014,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "CENTRO PRODUCTIVO DE DISENO S.A.*349",
+      "",
+      "",
+      "MEXICO 337, CP 1097, CABA, BUENOS AIRES",
+      "",
+      "Argentina",
+      "18-Oct-2016",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8051,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "BMR CONSULTORIA Y CONSTRUCCIÓN S.A.C.*307",
+      "",
+      "",
+      "CALLE BILBAO MZ. U LOTE 19, A.H., VILLA ESPANA, CHIMBOTE, ANCASH",
+      "",
+      "Peru",
+      "02-Feb-2016",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7762,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "A2Z WASTE MANAGEMENT (ALIGARH) LTD.",
+      "",
+      "",
+      "GROUND FLOOR, PLOT NO. 58, SECTOR-44, GURUGRAM-122003, HARYANA",
+      "",
+      "India",
+      "17-Mar-2021",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7928,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "JUYDAM-TAMIRCHI LLC342",
+      "",
+      "",
+      "DASHNAYA 8, FERGANA REGION, FERGANA CITY",
+      "",
+      "Uzbekistan",
+      "13-Jun-2018",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8009,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "CELLUCIAN LIMITED*356",
+      "",
+      "",
+      "NOBLE HOUSE, 6 BRAZIL STREET, WEST INDIES, CASTRIES",
+      "",
+      "St. Lucia",
+      "14-Nov-2016",
+      "19-Sep-2027",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7715,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MR. YUEHUA BAI河北建设集团股份有限公司聊城分公司",
+      "",
+      "",
+      "NEXTGEN APARTMENTS, BLOCK B, HOUSE NO. 41, MOMBASA ROAD, NAIROBI",
+      "",
+      "Kenya",
+      "18-Oct-2021",
+      "Permanent",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8021,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "APQ S.A.C.*339",
+      "",
+      "",
+      "MANZANA D LOTE 18, URBANIZACIÓN BALLESTAS, PISCO, ICA",
+      "",
+      "Peru",
+      "23-Aug-2016",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8242,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "METAL ENGINEERING EOOD*47",
+      "",
+      "",
+      "16, ILINDEN STREET, PO BOX 293, 3000 VRATSA",
+      "",
+      "Bulgaria",
+      "16-Nov-2011",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7623,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "WATER SUPPLY AND SEWERAGE CONSTRUCTION JSC NO. 12 (VIWASEEN.12)*519",
+      "",
+      "",
+      "LOT BT15, NR. 18,19 PHUOC LONG URBAN AREA, PHUOC LONG. NHA TRANG, KHANH HOA",
+      "",
+      "Viet Nam",
+      "26-Sep-2022",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8115,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "GROUPE DEC S.A./ DEC GROUP INC.*193",
+      "",
+      "",
+      "CARRE 3775 QUARTIER FIDJROSSE-KPOTA, BP:131 GODOMEY, COTONOU",
+      "",
+      "Benin",
+      "15-Jul-2014",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7972,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "GANSU LUGANG CONSTRUCTION ENGINEERING CO., LTD.*474",
+      "",
+      "",
+      "ROOM 1105, FLOOR 11, XIMAI MANSION, 12 YANNAN ROAD, HIGH-TECH ZONE, CHENGGUAN DISTRICT, LANZHOU, GANSU PROVINCE",
+      "",
+      "China",
+      "19-Dec-2017",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7769,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "ALLONWARD HYDRO-GENERATING EQUIPMENT (HONGKONG) CO., LTD.*566, 576",
+      "",
+      "",
+      "HONGKONG",
+      "",
+      "Hong Kong SAR, China",
+      "09-Mar-2021",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7615,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "WATER SUPPLY AND SEWERAGE CONSTRUCTION JSC NO. 15 (VIWASEEN.15)(Reg. No: 0800447284)*617",
+      "",
+      "",
+      "340/8 CACH MANG THANG TAM STR., AN THOI -BINH THUY WARD, CAN THO CITY",
+      "",
+      "Viet Nam",
+      "26-Sep-2022",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7986,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "RUTH ELI CUAREZMA FUENTES*456",
+      "",
+      "",
+      "C/O CORONADO INGENIEROS S.A., HOSPITAL HUMBERTO ALVARADO 1 CUADRA AL ESTE, MASAYA",
+      "",
+      "Nicaragua",
+      "22-Sep-2017",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8015,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MR. PABLO MAXIMILIANO KANTT*353",
+      "",
+      "",
+      "CALLE PATERA 62, 4TO PISO OF. B, BUENOS AIRES",
+      "",
+      "Argentina",
+      "18-Oct-2016",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8267,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "DR.HANS PETER SCHÖNE*235",
+      "",
+      "",
+      "RUNGESTRAßE 22/530, D-10179, BERLIN, GERMANY",
+      "",
+      "Germany",
+      "17-Aug-2011",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7337,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "HEBEI CONSTRUCTION GROUP CORPORATION LIMITED ZHUHAI BRANCH保定市中泽供水有限公司",
+      "",
+      "",
+      "ROOM 1302 B2, SHENZHEN DEVELOPMENT BUILDING, NO8，YINHUA ROAD, XIANGZHOU DISTRICT, ZHUHAI CITY",
+      "",
+      "China",
+      "22-Aug-2024",
+      "22-Jul-2027",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7973,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "LUGANG GROUP WUHU EARTHWORK ENGINEERING CO., LTD.*469",
+      "",
+      "",
+      "ROOM 1207, TAIXIN BUSINESS CENTER, YIJIANG DISTRICT, WUHU CITY",
+      "",
+      "China",
+      "19-Dec-2017",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7618,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "TRUONG AN-VIWASEEN INVESTMENT AND CONSTRUCTION JSC(Reg. No: 5900473230)*617",
+      "",
+      "",
+      "NR. 66, NUI TRUC, GIANG VAN MINH, BA DINH, HA NOI",
+      "",
+      "Viet Nam",
+      "26-Sep-2022",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8041,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "THANG LOI GROUP CO., LTD.*308",
+      "",
+      "",
+      "ĐƯỜNG 57A, THỊ TRẤN LÂM, HUYỆN Ý YÊN, NAM ĐỊNH",
+      "",
+      "Viet Nam",
+      "05-Apr-2016",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7907,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "ROJOKE CNE SERVICES LTD.*496",
+      "",
+      "",
+      "NO. 2, PINTO AVENUE, GANA SAPELE, DELTA STATE",
+      "",
+      "Nigeria",
+      "05-Feb-2019",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7788,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "LIU LIJUN*575",
+      "",
+      "",
+      "NO. 6 EFANG FIRST ROAD, WEIYANG DISTRICT, XI'AN CITY",
+      "",
+      "China",
+      "16-Dec-2020",
+      "Permanent",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7770,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "HUNAN ALLONWARD HYDRO-GENERATING EQUIPMENT CO., LTD.*580",
+      "",
+      "",
+      "52#, QUANZHOU NORTH RD, NINGXIANG HIGH-TECH DEVELOPMENT ZONE, CHANGSHA, HUNAN 410600",
+      "",
+      "China",
+      "09-Mar-2021",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8204,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "ASDECON CORPORATION COMPANY LIMITED*39",
+      "",
+      "",
+      "2782, LAO PRAO 130, LAO PRAO ROAD, KLONGCHAN, BANGKAPI, BANGKOK",
+      "",
+      "Thailand",
+      "30-May-2012",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8058,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "CHUY FRP COMPOSITE LLC*304",
+      "",
+      "",
+      "KOJOMBERDIEVA, 4 STREET, KARA-BALTA CITY, 724411",
+      "",
+      "Kyrgyz Republic",
+      "05-Jan-2016",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8049,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "CONSORCIO ROPRUCSA*468",
+      "",
+      "",
+      "JR. CONDESUYO 549,A 3ER PISO, CERCADO DE LIMA",
+      "",
+      "Peru",
+      "05-Feb-2016",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8103,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "STEVEN NEDERHORST*228",
+      "",
+      "",
+      "POST-BOX 80, 2450 A B LEIMUIDEN",
+      "",
+      "Netherlands",
+      "04-Nov-2014",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7772,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "PT. BINA CIPTA UTAMA*553",
+      "",
+      "",
+      "JL. KSATRIA GG. ANGGREK NO. 114, KECAMATAN KESAMBI, KOTA CIREBON, CIREBON 45134",
+      "",
+      "Indonesia",
+      "17-Feb-2021",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8273,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "DR. SYMPLICE MBOLA MBASSI*11",
+      "",
+      "",
+      "167, AVENUE NGUNGU, COMMUNE DE KINSHASA, KINSHASA",
+      "",
+      "Congo, Democratic Republic of",
+      "13-Jul-2011",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8097,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "RUSLAN TIKINTI DEMONTAJ MMC/RUSLAN BUILDING DEMONTAGE LLC*249",
+      "",
+      "",
+      "AZ1021, SABAYIL DISTRICT, BADAMDAR BUILDING 9, APT. 17, BAKU",
+      "",
+      "Azerbaijan",
+      "30-Dec-2014",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7603,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MR. CAO XUAN TUNG*625",
+      "",
+      "",
+      "L BLOCK, HOANG VAN THU, SUB-QUARTER (CIVIL GROUP) 56, HOANG VAN THU WARD,HOANG MAI DISTRICT, HANOI CITY",
+      "",
+      "Viet Nam",
+      "27-Sep-2022",
+      "26-Oct-2027",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8135,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "OOO ARMADA CENTER*225",
+      "",
+      "",
+      "15, 5TH DONSKOY PROEZD, BUILDING 6, 117344, MOSCOW",
+      "",
+      "Russian Federation",
+      "02-May-2014",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7610,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "WATER SUPPLY SEWERAGE CONSTRUCTION AND INVESTMENT JOINT STOCK COMPANY (WASECO)(甘肃路港建设工程有限公司)*457",
+      "",
+      "",
+      "NO.10 PHO QUANG, WARD NO. 2, TAN BINH DIST., HO CHI MINH CITY",
+      "",
+      "Viet Nam",
+      "26-Sep-2022",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7880,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "PT. NUGRAHA ADI TARUNA(Reg. No: 4200619612)*617",
+      "",
+      "",
+      "JL. KALIBATA INDAH BLOK T NO. 16, PANCORAN, JAKARTA SELATAN, JAKARTA 12510",
+      "",
+      "Indonesia",
+      "02-Aug-2019",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7701,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "THAI SON TRAFFIC WORK CONSTRUCTION JSC",
+      "",
+      "",
+      "SỐ 77, KHU BIỆT THỰ NGÂN LONG, ĐƯỜNG NGUYỄN HỮU THỌ,XÃ PHƯỚC KIỂN, HUYỆN NHÀ BÈ, HO CHI MINH CITY",
+      "",
+      "Viet Nam",
+      "06-Dec-2021",
+      "05-Jun-2028",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8112,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MR. KUOY VUOCH*238",
+      "",
+      "",
+      "PEAL NHEK I VILLAGE, SANGKAT PTEAS PREY, PURSAT CITY, PURSAT PROVINCE",
+      "",
+      "Cambodia",
+      "19-Aug-2014",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8052,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MR. NABOR MIRANDA GAMBINI*325",
+      "",
+      "",
+      "PASAJE SR. DE LOS MILAGROS NO. 104, INDEPENDENCIA-HUARAZ, ANCASH",
+      "",
+      "Peru",
+      "28-Jan-2016",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7439,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "BEIJING TIANJIA CONSTRUCTION ENGINEERING CO., LTD.河北绿建投资股份公司",
+      "",
+      "",
+      "ROOM 206, 2ND FLOOR, BUILDING 3, NO.2 JINGYUAN NORTH STREET, ECONOMIC AND TECHNOLOGICAL DEVELOPMENT ZONE, BEIJING",
+      "",
+      "China",
+      "22-Aug-2024",
+      "22-Jul-2027",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8274,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "CABINET DE RECHERCHE, DE FORMATION ET D'EXPERTISE EN SANTÉ*80",
+      "",
+      "",
+      "167, AVENUE NGUNGU, COMMUNE DE KINSHASA, KINSHASA",
+      "",
+      "Congo, Democratic Republic of",
+      "13-Jul-2011",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7440,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "HEBEI LVJIAN INVESTMENT CO., LTD.河北建设集团股份有限公司揭阳分公司",
+      "",
+      "",
+      "NO 382, WEST DEVELOPMENT ROAD, QINGYUAN DISTRICT, BAODING CITY, HEBEI PROVINCE",
+      "",
+      "China",
+      "22-Aug-2024",
+      "22-Jul-2027",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8131,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MR. JHONNY CHOQUE ROJAS*201",
+      "",
+      "",
+      "CALLE 6 NO. 151 ZONA KAMI, QUILLACOLLO, COCHABAMBA",
+      "",
+      "Bolivia",
+      "15-May-2014",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8013,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MR. PABLO MAXIMILIANO KANTT*319",
+      "",
+      "",
+      "C/O CENTRO PRODUCTIVO DE DISEÑO S.A., MEXICO 337, CP 1097, CABA, BUENOS AIRES",
+      "",
+      "Argentina",
+      "18-Oct-2016",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8002,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MR. JAIME SALAZAR ESPINOZA*347",
+      "",
+      "",
+      "C/O DESARROLLO CON INGENIERÍA CONTRATISTAS GENERALES S.A. (DISA-CGSA), CALLE SAN MARCOS NO. 508, URB. SAN ANTONIO, HUANCAYO, JUNIN",
+      "",
+      "Peru",
+      "27-Dec-2016",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8053,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "SAN ISIDRO-L S.R.L.*296",
+      "",
+      "",
+      "JR. SANTIAGO ANTÚNEZ DE MAYALO NO. 190, INDEPENDENCIA, ANCASH, HUARAZ",
+      "",
+      "Peru",
+      "28-Jan-2016",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8122,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "CONSTRUCCIONES Y SERVICIOS MERUBIA*211",
+      "",
+      "",
+      "KILOMETRO 6 DOBLE VIA LA GUARDIA, BARRIO EL BAJIO SUR, CALLE 16 DE JUNIO NO. 6810, SANTA CRUZ",
+      "",
+      "Bolivia",
+      "12-Jun-2014",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7879,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "PT. NUGRAHA ADI TARUNA(湖南水总水电建设集团有限公司)*498",
+      "",
+      "",
+      "JL. BANGKA RAYA NO. 27 E. PELA, MAMPANG, JAKARTA SELATAN, JAKARTA 12720",
+      "",
+      "Indonesia",
+      "02-Aug-2019",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7870,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "XIAOXIAO \"KITTY\" LIANG",
+      "",
+      "",
+      "204, BUILDING 4 MYTOWN II. CHANGPING DISTRICT, BEIJING",
+      "",
+      "China",
+      "04-Oct-2019",
+      "Permanent",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8102,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "ALAMTECH INTERNATIONAL AND GENERAL SUPPLIER*109",
+      "",
+      "",
+      "34A MALAMA THOMAS STREET, FREETOWN",
+      "",
+      "Sierra Leone",
+      "06-Nov-2014",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      6982,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "VPOWER GLOBAL SERVICE SUPPORT LIMITED(Reg. No: 67748588) *720",
+      "",
+      "",
+      "",
+      "",
+      "Hong Kong SAR, China",
+      "26-May-2026",
+      "25-Nov-2027",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7780,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "REN CHAO*553",
+      "",
+      "",
+      "NO. 6 EFANG FIRST ROAD, WEIYANG DISTRICT, XI'AN CITY",
+      "",
+      "China",
+      "16-Dec-2020",
+      "Permanent",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7979,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "JIANGXI HAOZHE CONSTRUCTION ENGINEERING CO., LTD.(陇南武浙隧道工程有限公司)*457",
+      "",
+      "",
+      "STORE 308#, BLOCK G5, TIME GARDEN, 86 QIANDONG AVENUE, SHUIDONG TOWN, ZHANGGONG DISTRICT, GANZHOU CITY, JIANGXI PROVINCE",
+      "",
+      "China",
+      "19-Dec-2017",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8060,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "SFC VIETNAM INVESTMENT DEVELOPMENT FOR ENVIRONMENT CORPORATION*223",
+      "",
+      "",
+      "TOWER CENTER OFFICE BUILDING, NO. 83A LY THUONG KIET STREET, DISTRICT HOAN KIEM, HANOI",
+      "",
+      "Viet Nam",
+      "15-Dec-2015",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7977,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "JIANGXI LUQIAO ENGINEERING GROUP CO., LTD.*465",
+      "",
+      "",
+      "FLOOR 8, ZHONGHANG INTERNATIONAL PLAZA, 1 NORTH GANJIANG AVENUE, NANCHANG CITY",
+      "",
+      "China",
+      "19-Dec-2017",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7338,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "HEBEI CONSTRUCTION GROUP CORPORATION LIMITED BEIJING BRANCH保定博旺新材料科技有限公司",
+      "",
+      "",
+      "BUILDING 3, NO.2 JINGYUAN NORTH STREET, BEIJING ECONOMIC AND TECHNOLOGICAL DEVELOPMENT ZONE, BEIJING",
+      "",
+      "China",
+      "22-Aug-2024",
+      "22-Jul-2027",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7334,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "HEBEI CONSTRUCTION GROUP CORPORATION LIMITED YANTAI BRANCH",
+      "",
+      "",
+      "NO 19, BUILDING A10, NO 35 GANGCHENG WEST STREET, ZHIFU DISTRICT, YANTAI CITY, SHANDONG PROVINCE",
+      "",
+      "China",
+      "22-Aug-2024",
+      "22-Jul-2027",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7980,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "HUBEI LAOGU HIGHWAY DEVELOPMENT CO., LTD.(江西昊哲建设工程有限公司)*457",
+      "",
+      "",
+      "5 NORTH CHECHENG LAKE ROAD, XIANGZHOU DISTRICT, XIANGYANG CITY, HUBEI PROVINCE",
+      "",
+      "China",
+      "19-Dec-2017",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8018,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "ASTRA BIOPHARMACEUTICALS LIMITED*405",
+      "",
+      "",
+      "43/2, RING ROAD, SHYAMOLI, DHAKA-1207",
+      "",
+      "Bangladesh",
+      "13-Sep-2016",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8100,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "CUMORAH*383",
+      "",
+      "",
+      "CALLE 6 NO. 151 ZONA KAMI, QUILLACOLLO, COCHABAMBA",
+      "",
+      "Bolivia",
+      "02-Dec-2014",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7332,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "HEBEI CONSTRUCTION GROUP CORPORATION LIMITED WEIFANG BRANCH河北建设集团股份有限公司北京顺义分公司",
+      "",
+      "",
+      "2F, SHOP 1-5, BUILDING 1, NO 12808, LIYUAN STREET, HEALTH EAST STREET COMMUNITY, XINCHENG STREET, WEIFANG HIGH-TECH ZONE, SHANDONG PROVINCE",
+      "",
+      "China",
+      "22-Aug-2024",
+      "22-Jul-2027",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7751,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "PT. TUBAGUS RANGIN*553",
+      "",
+      "",
+      "JL. SITI ARMILAH NO. 54, RT/RW 002/013 MAJALENGKA KULON, JAWA BARAT 45418",
+      "",
+      "Indonesia",
+      "13-May-2021",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8137,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "COMSATEL*195",
+      "",
+      "",
+      "C. REYES ORTIZ NRO.73 EDIF. TORRES GUNDLACH, PISO 4, OF. 404 ZONA: CENTRAL, LA PAZ",
+      "",
+      "Bolivia",
+      "29-Apr-2014",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7719,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "TECHNIQUE IMPORT EXPORT JOINT STOCK COMPANY*553",
+      "",
+      "",
+      "NO. 70 TRAN HUNG DAO STREET, TRAN HUNG DAO WARD, HOAN KIEM DISTRICT, HANOI CITY",
+      "",
+      "Viet Nam",
+      "10-Aug-2021",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7549,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "OGON ASU LIMITED北京天嘉建筑工程有限公司",
+      "",
+      "",
+      "47 HAILE SELASSIE STREET, ASOKORO, ABUJA, FCT",
+      "",
+      "Nigeria",
+      "28-Mar-2023",
+      "Permanent",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7336,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "HEBEI TONGCHUANG LIANTAI HOSPITAL MANAGEMENT CO., LTD.河北海阔环境科技有限公司",
+      "",
+      "",
+      "HOSPITAL OF PEOPLE'S, NO 171, JIANKANG EAST ROAD, RAOYANG COUNTY, HENGSHUI CITY, HEBEI PROVINCE",
+      "",
+      "China",
+      "22-Aug-2024",
+      "22-Jul-2027",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7901,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "JIANGXI PROVINCE QUNLI CONSTRUCTION CO., LTD.(Reg. No: 4201574467)*617",
+      "",
+      "",
+      "NO. 293 YONGFENG AVENUE, GUANGFENG DISTRICT, SHANGRAO CITY, JIANGXI, CHINA 414000",
+      "",
+      "China",
+      "18-Apr-2019",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8121,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "EMPRESA CONSTRUCTORA FERNÁNDEZ ESCOBAR*210",
+      "",
+      "",
+      "KILOMETRO 6 DOBLE VIA LA GUARDIA, BARRIO EL BAJIO SUR, CALLE 16 DE JUNIO NO. 6810, SANTA CRUZ",
+      "",
+      "Bolivia",
+      "12-Jun-2014",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8369,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MIRNA INTERNATIONAL*412",
+      "",
+      "",
+      "BERKSHIRE",
+      "",
+      "United Kingdom",
+      "11-Feb-2000",
+      "Permanent",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7621,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "WATER SUPPLY AND SEWERAGE CONSTRUCTION JSC NO. 1 (VIWASEEN.1)(Reg. No: 0101889000)*617",
+      "",
+      "",
+      "NO. 56 ALLEY 85, HA DINH STR., THANH XUAN, HA NOI",
+      "",
+      "Viet Nam",
+      "26-Sep-2022",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8111,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "KUOY VUOCH CONSTRUCTION CO., LTD*229",
+      "",
+      "",
+      "PEAL NHEK I VILLAGE, SANGKAT PTEAS PREY, PURSAT CITY, PURSAT PROVINCE",
+      "",
+      "Cambodia",
+      "19-Aug-2014",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7606,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "TECHONOLOGY SERVICES JOINT STOCK COMPANY (TSC)*617",
+      "",
+      "",
+      "3RD FLOOR, THANH BINH BUILDING, N07, B2, THANH THAI ROAD, CAU GIAY, HA NOI",
+      "",
+      "Viet Nam",
+      "26-Sep-2022",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8088,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MD. BODIUZZAMAN, PROPRIETOR(TIN: 4481005504)",
+      "",
+      "",
+      "TIKAPARA, GHORAMARA, BOALIA, RAJSHAHI",
+      "",
+      "Bangladesh",
+      "04-Mar-2015",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7605,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "VIETNAM WATER AND ENVIRONMENT INVESTMENT CORPORATION – JSC*491",
+      "",
+      "",
+      "52 QUOC TU GIAM, VAN MIEU WARD, DONG DA DISTRICT, HANOI",
+      "",
+      "Viet Nam",
+      "26-Sep-2022",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7848,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "VODOKANALPROEKT – METALPROECT INGENEERING AD*488",
+      "",
+      "",
+      "24 KAMEN ANDREEV ST., FL. 8, SOFIA 1606",
+      "",
+      "Bulgaria",
+      "10-Mar-2020",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8109,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "DIAMOND CONSTRUCTION & IMPORT EXPORT CO., LTD.*221",
+      "",
+      "",
+      "190EO, MAO TSE TUNG BLVD, SANGKAT TUMNUP TEK, KHAN CHAMKER, PHNOM PENH",
+      "",
+      "Cambodia",
+      "26-Aug-2014",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7896,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "GUIZHOU ZHONGHANG SOUTH MACHINERY CONSTRUCTION CO., LTD.(Reg. No: 0102342605)*617",
+      "",
+      "",
+      "UNIT 1, NO. 33, FLOOR 13, KAIDI MANSION, 51 NORTH GONGYUAN ROAD, YUNYAN DISTRICT, GUIYANG CITY, GUIZHOU PROVINCE",
+      "",
+      "China",
+      "12-Jun-2019",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8105,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "BAYON WATER PUMP CO., LTD.*224",
+      "",
+      "",
+      "PHUM RUNG CHAK,SANGKAT PHNOM PENH THMEI,KHAN SEN SOK, PHNOM PENH",
+      "",
+      "Cambodia",
+      "30-Oct-2014",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      6985,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "VPOWER NEW ENERGY (LINYI) LIMITED(Reg. No: 715827792052) *720",
+      "",
+      "",
+      "",
+      "",
+      "Hong Kong SAR, China",
+      "26-May-2026",
+      "25-Nov-2027",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7968,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MARABEF GLOBAL LIMITED*413",
+      "",
+      "",
+      "SUITE B.39 SHIRKIR PLAZA, GARKI, ABUJA",
+      "",
+      "Nigeria",
+      "11-Jan-2018",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7763,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "A2Z WASTE MANAGEMENT (LUDHIANA) LTD.",
+      "",
+      "",
+      "GROUND FLOOR, PLOT NO. 58, SECTOR-44, GURUGRAM-122003, HARYANA",
+      "",
+      "India",
+      "17-Mar-2021",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8020,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MR. ALEXANDRE ANTONIO PAREJA QUINTANILLA*302",
+      "",
+      "",
+      "CALLE PEDEMONTE 110-A, PISCO",
+      "",
+      "Peru",
+      "23-Aug-2016",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8227,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MR. DMITRY GENNADYEVICH KOSTOUSOV(also known as UralKotloservice Commercial Production Firm Closed Joint-Stock Co.) *78",
+      "",
+      "",
+      "12A GAGARIN STREET, APT. 45, BEREZOVSKY, SVERDLOVSK OBLAST",
+      "",
+      "Russian Federation",
+      "06-Dec-2011",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7617,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "VIWASEEN-PHUONG HUONG ENVIRONMENT INVESTMENT AND DEVELOPMENT JSC(Reg. No: 1800627874)*617",
+      "",
+      "",
+      "KM9, CHU SE DISTRICT, GIA LAI PROVINCE",
+      "",
+      "Viet Nam",
+      "26-Sep-2022",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7702,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "THAI SON TRAFFIC WORK CONSTRUCTION JSC",
+      "",
+      "",
+      "SỐ 51, LȂ XUȂN OAI, PHUÒNG LONG TRUÒNG, QUȂN 9, HO CHI MINH CITY",
+      "",
+      "Viet Nam",
+      "06-Dec-2021",
+      "05-Jun-2028",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      8104,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "ELMCREST GROUP LIMITED, FORMERLY KNOWN AS LANDMARC LIMITED*233",
+      "",
+      "",
+      "COBURG HOUSE, 1 COBURG STREET, GATESHEAD, TYNE & WEAR, NE8 1NS",
+      "",
+      "United Kingdom",
+      "04-Nov-2014",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7897,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "ULTIMATE ENGINEERING LIMITED(温州路港交通设备有限公司)*457",
+      "",
+      "",
+      "P.O. BOX 76408-00508, JOSEPH KANG’ETHE ROAD, WOODLEY ESTATE, NAIROBI",
+      "",
+      "Kenya",
+      "07-Jun-2019",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ],
+    [
+      7884,
+      "World Bank Listing of Ineligible Firms and Individuals",
+      "MR. MUMINJON YULDASHEV*494",
+      "",
+      "",
+      "FOUNDER AND OWNER OF QUVASOY TAMIR QURILISH LLC, 71 S. TEMUR STREET, FERGANA CITY, FERGANA REGION",
+      "",
+      "Uzbekistan",
+      "08-Jul-2019",
+      "Ongoing",
+      "",
+      [],
+      [],
+      "Firm / individual",
+      [
+        "World Bank Listing of Ineligible Firms and Individuals"
+      ]
+    ]
+  ]
+}
