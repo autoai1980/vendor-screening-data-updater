@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "datasetVersion": "official-2026-11-06",
-  "generatedAt": "2026-11-06T14:13:40Z",
-  "recordCount": 9408,
-  "sha256": "b9946628f5737f313a8b0f45a1b9b20b7c9d575a6d1fb851ce3525f3e95e92e7",
+  "datasetVersion": "official-2026-11-07",
+  "generatedAt": "2026-11-07T12:57:21Z",
+  "recordCount": 9404,
+  "sha256": "909e565ffaac9f59781ec6f451e71f35f0812a8c2683209fdaae25f58b3c6393",
   "dataUrl": "vendor-screening-data.json",
   "sources": [
     {
@@ -11,7 +11,7 @@
       "name": "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List",
       "authority": "Government of Canada",
       "sourceUrl": "https://www.international.gc.ca/world-monde/assets/office_docs/international_relations-relations_internationales/sanctions/sema-lmes.xml",
-      "retrievedAt": "2026-11-06T14:13:33Z",
+      "retrievedAt": "2026-11-07T12:57:12Z",
       "recordCount": 5708,
       "contentSha256": "61a9064720d9f35884ead9387158b708882d63c615981034cb9557d038d55bcf"
     },
@@ -20,25 +20,25 @@
       "name": "United Nations Security Council Consolidated List",
       "authority": "United Nations Security Council",
       "sourceUrl": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
-      "retrievedAt": "2026-11-06T14:13:34Z",
+      "retrievedAt": "2026-11-07T12:57:13Z",
       "recordCount": 1007,
-      "contentSha256": "90c09c80b1a094db6d794ccc3eb7cdeb058b55ab4ebc0dd0a6f295dc03f30202"
+      "contentSha256": "f9598639f9b0252fc70fc8815319d59e96f692f0e9d1a5ee3a610b05dbf70148"
     },
     {
       "id": "ca_criminal_code_terrorist_entities",
       "name": "Currently Listed Terrorist Entities",
       "authority": "Public Safety Canada",
       "sourceUrl": "https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cntr-trrrsm/lstd-ntts/crrnt-lstd-ntts-en.aspx",
-      "retrievedAt": "2026-11-06T14:13:34Z",
+      "retrievedAt": "2026-11-07T12:57:13Z",
       "recordCount": 89,
-      "contentSha256": "f45dbd79571c9df1c7e8f293831955e633039a643c53a7efa76733ab1e97abd6"
+      "contentSha256": "ba0ecbb889273452c20077b2fe7c075b917d10b12d53e6c3c6fbf33f1a359250"
     },
     {
       "id": "ca_riunrst",
       "name": "Regulations Implementing the United Nations Resolutions on the Suppression of Terrorism",
       "authority": "Justice Laws Website, Government of Canada",
       "sourceUrl": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2001-360/FullText.html",
-      "retrievedAt": "2026-11-06T14:13:34Z",
+      "retrievedAt": "2026-11-07T12:57:14Z",
       "recordCount": 36,
       "contentSha256": "e30b8fb2310cbaf3b120c044124687ac97006cf3c39ea1cce81dadde33752731"
     },
@@ -47,16 +47,16 @@
       "name": "World Bank Listing of Ineligible Firms and Individuals",
       "authority": "World Bank",
       "sourceUrl": "https://www.worldbank.org/en/projects-operations/procurement/debarred-firms",
-      "retrievedAt": "2026-11-06T14:13:38Z",
-      "recordCount": 1538,
-      "contentSha256": "062ee0d093f90e6b758da5d4cce991c3ff76a912b888c4b3dace679359faf8e1"
+      "retrievedAt": "2026-11-07T12:57:18Z",
+      "recordCount": 1534,
+      "contentSha256": "93005c73a1f8e5d414818875c48d3b10c947af9e6efbe21f4fb55361433d60f4"
     },
     {
       "id": "idb_sanctions",
       "name": "Dataset of Sanctioned Firms and Individuals",
       "authority": "Inter-American Development Bank",
       "sourceUrl": "https://data.iadb.org/files/download/f5022f04-a3f1-4604-a099-5d562e3a0aa5",
-      "retrievedAt": "2026-11-06T14:13:40Z",
+      "retrievedAt": "2026-11-07T12:57:20Z",
       "recordCount": 1030,
       "contentSha256": "6cd38e139d2246759ed5a03c8a6d067b7acc067949c458bdb93609389867a878"
     }
