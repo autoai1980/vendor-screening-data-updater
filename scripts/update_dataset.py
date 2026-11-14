@@ -167,7 +167,14 @@ def idb(src,browser):
                 or str(item.get("url","")).lower().endswith(".csv")]
     if len(candidates)!=1:
         raise RuntimeError(f"Expected one IDB CSV resource, found {len(candidates)}")
-    href=urljoin(api_url,candidates[0].get("url",""))
+    resource=candidates[0]
+    resource_url=resource.get("url","")
+    if not resource_url:
+        resource_id=resource.get("id","")
+        if not resource.get("datastore_active") or not re.fullmatch(r"[0-9a-fA-F-]{36}",resource_id):
+            raise RuntimeError("IDB CSV resource has no usable download URL or active DataStore")
+        resource_url=f"https://data.iadb.org/datastore/dump/{resource_id}"
+    href=urljoin(api_url,resource_url)
     parsed=urlparse(href)
     if parsed.scheme!="https" or parsed.hostname!="data.iadb.org":
         raise RuntimeError("IDB API returned an unexpected CSV download host")
