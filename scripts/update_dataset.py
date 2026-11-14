@@ -154,23 +154,35 @@ def world_bank(src,browser):
     return out,type("Response",(),{"content":body,"headers":{}})()
 
 def idb(src,browser):
-    page=browser.new_page(user_agent=UA)
-    page.goto("https://data.iadb.org/dataset/dataset-of-sanctioned-firms-and-individuals",wait_until="domcontentloaded",timeout=TIMEOUT*1000)
-    link=page.locator('a[href*="/files/download/"]').first
-    link.wait_for(timeout=TIMEOUT*1000); href=link.get_attribute("href")
-    downloads=[]; page.on("download",lambda item: downloads.append(item))
-    link.click(force=True)
-    body=None
-    for _ in range(24):
-        if downloads:
-            path=downloads[0].path(); body=Path(path).read_bytes(); break
-        response=page.context.request.get(href,headers={"Referer":page.url},timeout=30000)
-        candidate=response.body()
-        if response.ok and len(candidate)>100 and b"Title" in candidate[:500] and b"Entity" in candidate[:500]:
-            body=candidate; break
-        page.wait_for_timeout(5000)
-    page.close()
-    if not body: raise RuntimeError("IDB dataset download did not become available after retry window")
+    # Discover the current CSV through IDB's official CKAN API, independent of page layout.
+    from urllib.parse import urlparse
+    api_url="https://data.iadb.org/api/3/action/package_show?id=dataset-of-sanctioned-firms-and-individuals"
+    package=get(api_url,"application/json").json()
+    if package.get("success") is not True:
+        raise RuntimeError("IDB dataset API did not report success")
+    resources=package.get("result",{}).get("resources",[])
+    candidates=[item for item in resources if
+                str(item.get("format","")).upper()=="CSV"
+                or "/files/download/" in str(item.get("url",""))
+                or str(item.get("url","")).lower().endswith(".csv")]
+    if len(candidates)!=1:
+        raise RuntimeError(f"Expected one IDB CSV resource, found {len(candidates)}")
+    resource=candidates[0]
+    resource_url=resource.get("url","")
+    if not resource_url:
+        resource_id=resource.get("id","")
+        if not resource.get("datastore_active") or not re.fullmatch(r"[0-9a-fA-F-]{36}",resource_id):
+            raise RuntimeError("IDB CSV resource has no usable download URL or active DataStore")
+        resource_url=f"https://data.iadb.org/datastore/dump/{resource_id}"
+    href=urljoin(api_url,resource_url)
+    parsed=urlparse(href)
+    if parsed.scheme!="https" or parsed.hostname!="data.iadb.org":
+        raise RuntimeError("IDB API returned an unexpected CSV download host")
+    response=get(href,"text/csv")
+    body=response.content
+    src["url"]=href
+    print(json.dumps({"diagnostic":"IDB CSV resource","url":href,
+                      "bytes":len(body),"sha256":sha(body)}),flush=True)
     text=body.decode("utf-8-sig"); reader=csv.DictReader(io.StringIO(text))
     headers=reader.fieldnames or []
     required={"Title","Entity","Country","From","To","Prohibited Practice","IDB Sanction Source"}
