@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 from __future__ import annotations
-import csv, hashlib, io, json, re, sys, unicodedata
+import csv, hashlib, io, json, re, sys, time, unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urljoin
@@ -53,10 +53,48 @@ def dataset_delta(previous,current):
         removed.extend(before[matched:]); added.extend(after[matched:])
     return added,removed
 def get(url,accept="*/*"):
-    r=requests.get(url,headers={"User-Agent":UA,"Accept":accept},timeout=TIMEOUT)
-    r.raise_for_status()
-    if not r.content: raise RuntimeError(f"Empty response from {url}")
-    return r
+    # Retry only transient transport/server failures, never access denials.
+    for attempt in range(3):
+        try:
+            r=requests.get(url,headers={"User-Agent":UA,"Accept":accept},timeout=TIMEOUT)
+            if r.status_code in {429,500,502,503,504} and attempt<2:
+                time.sleep(2**attempt)
+                continue
+            if r.status_code==403:
+                raise RuntimeError(f"Source denied access: {url}; server={r.headers.get('Server','')}; response={clean(r.text[:300])}")
+            r.raise_for_status()
+            if not r.content:
+                raise RuntimeError(f"Empty response from {url}")
+            return r
+        except (requests.Timeout,requests.ConnectionError):
+            if attempt==2:
+                raise
+            time.sleep(2**attempt)
+
+def validate_source_counts(metadata,previous_manifest,policy,configured_sources):
+    ids=[item["id"] for item in metadata]
+    if len(ids)!=len(set(ids)):
+        raise RuntimeError("Duplicate source identifiers in collected metadata")
+    expected={item["id"] for item in configured_sources if item.get("required")}
+    counts={item["id"]:item["recordCount"] for item in metadata}
+    if policy.get("requireAllSources") and not expected.issubset(counts):
+        raise RuntimeError(f"Required sources missing: {sorted(expected-set(counts))}")
+    for sid in expected:
+        if counts.get(sid,0)<=0:
+            raise RuntimeError(f"Required source returned no records: {sid}")
+    ratio=policy.get("minimumRecordRatioAgainstPrevious",0.8)
+    if not isinstance(ratio,(int,float)) or not 0<ratio<=1:
+        raise RuntimeError("Invalid minimum record ratio in publication policy")
+    previous_counts={item["id"]:item["recordCount"] for item in previous_manifest.get("sources",[])}
+    for sid,count in counts.items():
+        before=previous_counts.get(sid,0)
+        if before and count<before*ratio:
+            raise RuntimeError(f"Source record count fell below {ratio:.0%}: {sid}: {before} -> {count}")
+    previous_total=previous_manifest.get("recordCount",0)
+    current_total=sum(counts.values())
+    if previous_total and current_total<previous_total*ratio:
+        raise RuntimeError(f"Combined record count fell below {ratio:.0%}: {previous_total} -> {current_total}")
+
 def tag(el,name):
     for node in el.iter():
         if node.tag.rsplit("}",1)[-1]==name:
@@ -153,39 +191,22 @@ def world_bank(src,browser):
     body=json.dumps(rows,ensure_ascii=False).encode()
     return out,type("Response",(),{"content":body,"headers":{}})()
 
+IDB_COLUMNS={"Title","Entity","Country","From","To","Prohibited Practice","IDB Sanction Source"}
+
 def idb(src,browser):
-    # Discover the current CSV through IDB's official CKAN API, independent of page layout.
-    from urllib.parse import urlparse
-    api_url="https://data.iadb.org/api/3/action/package_show?id=dataset-of-sanctioned-firms-and-individuals"
-    package=get(api_url,"application/json").json()
-    if package.get("success") is not True:
-        raise RuntimeError("IDB dataset API did not report success")
-    resources=package.get("result",{}).get("resources",[])
-    candidates=[item for item in resources if
-                str(item.get("format","")).upper()=="CSV"
-                or "/files/download/" in str(item.get("url",""))
-                or str(item.get("url","")).lower().endswith(".csv")]
-    if len(candidates)!=1:
-        raise RuntimeError(f"Expected one IDB CSV resource, found {len(candidates)}")
-    resource=candidates[0]
-    resource_url=resource.get("url","")
-    if not resource_url:
-        resource_id=resource.get("id","")
-        if not resource.get("datastore_active") or not re.fullmatch(r"[0-9a-fA-F-]{36}",resource_id):
-            raise RuntimeError("IDB CSV resource has no usable download URL or active DataStore")
-        resource_url=f"https://data.iadb.org/datastore/dump/{resource_id}"
-    href=urljoin(api_url,resource_url)
-    parsed=urlparse(href)
-    if parsed.scheme!="https" or parsed.hostname!="data.iadb.org":
-        raise RuntimeError("IDB API returned an unexpected CSV download host")
-    response=get(href,"text/csv")
-    body=response.content
-    src["url"]=href
-    print(json.dumps({"diagnostic":"IDB CSV resource","url":href,
+    # Fetch the official resource directly; avoid a second metadata API dependency.
+    # Match the standard-library client used by the successful official-source probe.
+    from urllib.request import Request, urlopen
+    req=Request(src["url"],headers={"User-Agent":UA,"Accept":"*/*"})
+    with urlopen(req,timeout=TIMEOUT) as response:
+        body=response.read()
+    if not body:
+        raise RuntimeError("IDB official CSV download was empty")
+    print(json.dumps({"diagnostic":"IDB official CSV","url":src["url"],
                       "bytes":len(body),"sha256":sha(body)}),flush=True)
     text=body.decode("utf-8-sig"); reader=csv.DictReader(io.StringIO(text))
     headers=reader.fieldnames or []
-    required={"Title","Entity","Country","From","To","Prohibited Practice","IDB Sanction Source"}
+    required=IDB_COLUMNS
     missing=sorted(required-set(headers))
     if missing: raise RuntimeError(f"IDB required columns missing: {missing}; headers={headers}")
     out=[]
@@ -208,11 +229,11 @@ def main():
     with sync_playwright() as p:
         browser=p.chromium.launch()
         for sid in ("ca_autonomous_sanctions","un_sc_consolidated","ca_criminal_code_terrorist_entities","ca_riunrst"):
-            src=sources[sid]; rows,response=parsers[sid](src); all_records.extend(rows)
+            src=sources[sid]; print(f"Retrieving source: {sid}",flush=True); rows,response=parsers[sid](src); all_records.extend(rows)
             metadata.append({"id":sid,"name":src["name"],"authority":src["authority"],"sourceUrl":src["url"],
                              "retrievedAt":now(),"recordCount":len(rows),"contentSha256":sha(response.content)})
         for sid,parser in (("world_bank_debarments",world_bank),("idb_sanctions",idb)):
-            src=sources[sid]; rows,response=parser(src,browser); all_records.extend(rows)
+            src=sources[sid]; print(f"Retrieving source: {sid}",flush=True); rows,response=parser(src,browser); all_records.extend(rows)
             metadata.append({"id":sid,"name":src["name"],"authority":src["authority"],"sourceUrl":src["url"],
                              "retrievedAt":now(),"recordCount":len(rows),"contentSha256":sha(response.content)})
         browser.close()
@@ -230,6 +251,7 @@ def main():
                       "currentTotal":len(all_records),
                       "sources":{item["id"]:{"previous":previous_counts.get(item["id"]),
                                               "current":item["recordCount"]} for item in metadata}}),flush=True)
+    validate_source_counts(metadata,previous_manifest,CONFIG["publicationPolicy"],CONFIG["sources"])
     if len(all_records)<7500: raise RuntimeError(f"Combined dataset unexpectedly small: {len(all_records)}")
     stamp=datetime.now(timezone.utc).strftime("%Y-%m-%d")
     package={"schemaVersion":1,"datasetVersion":f"official-{stamp}","generatedAt":now(),
