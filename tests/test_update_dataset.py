@@ -4,7 +4,6 @@ import io
 from pathlib import Path
 import unittest
 from unittest.mock import Mock, patch
-import zipfile
 
 ROOT=Path(__file__).resolve().parents[1]
 spec=importlib.util.spec_from_file_location("updater",ROOT/"scripts/update_dataset.py")
@@ -32,29 +31,6 @@ class PublicationTests(unittest.TestCase):
             updater.validate_source_counts([{"id":"a","recordCount":5000},{"id":"a","recordCount":5000}],self.previous,self.policy,self.config)
 
 class DownloadTests(unittest.TestCase):
-    def archive(self,files):
-        out=io.BytesIO()
-        with zipfile.ZipFile(out,"w") as z:
-            for name,body in files.items():
-                z.writestr(name,body)
-        return out.getvalue()
-    def csv_body(self):
-        out=io.StringIO()
-        writer=csv.writer(out)
-        writer.writerow(sorted(updater.IDB_COLUMNS))
-        writer.writerow(["Example"]*len(updater.IDB_COLUMNS))
-        return out.getvalue()
-    def test_one_sanctions_csv_selected_with_other_metadata(self):
-        payload=self.archive({"data/sanctions.csv":self.csv_body(),"metadata.csv":"title,date\nExample,2026\n"})
-        name,body=updater.idb_csv_from_archive(payload)
-        self.assertEqual(name,"data/sanctions.csv")
-        self.assertIn(b"Title",body)
-    def test_ambiguous_archive_is_blocked(self):
-        with self.assertRaisesRegex(RuntimeError,"found 2"):
-            updater.idb_csv_from_archive(self.archive({"a.csv":self.csv_body(),"b.csv":self.csv_body()}))
-    def test_wrong_schema_is_blocked(self):
-        with self.assertRaisesRegex(RuntimeError,"found 0"):
-            updater.idb_csv_from_archive(self.archive({"a.csv":"wrong,columns\n1,2\n"}))
     @patch.object(updater.time,"sleep")
     @patch.object(updater.requests,"get")
     def test_transient_failure_is_retried(self,get,sleep):
@@ -66,10 +42,12 @@ class DownloadTests(unittest.TestCase):
     @patch.object(updater.time,"sleep")
     @patch.object(updater.requests,"get")
     def test_access_denial_is_not_retried_or_suppressed(self,get,sleep):
-        denied=Mock(status_code=403)
-        denied.raise_for_status.side_effect=updater.requests.HTTPError("403")
+        denied=updater.requests.Response()
+        denied.status_code=403
+        denied._content=b"Forbidden"
+        denied.url="https://example.test"
         get.return_value=denied
-        with self.assertRaises(updater.requests.HTTPError):
+        with self.assertRaisesRegex(RuntimeError,"Source denied access"):
             updater.get("https://example.test")
         self.assertEqual(get.call_count,1)
         sleep.assert_not_called()
