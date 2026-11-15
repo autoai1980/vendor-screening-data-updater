@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 from __future__ import annotations
-import csv, hashlib, io, json, re, sys, time, unicodedata, zipfile
+import csv, hashlib, io, json, re, sys, time, unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urljoin
@@ -193,34 +193,15 @@ def world_bank(src,browser):
 
 IDB_COLUMNS={"Title","Entity","Country","From","To","Prohibited Practice","IDB Sanction Source"}
 
-def idb_csv_from_archive(payload):
-    candidates=[]
-    with zipfile.ZipFile(io.BytesIO(payload)) as archive:
-        members=[item for item in archive.infolist() if not item.is_dir()]
-        if sum(item.file_size for item in members)>64*1024*1024:
-            raise RuntimeError("IDB archive exceeds the uncompressed size limit")
-        for item in members:
-            if not item.filename.lower().endswith(".csv"):
-                continue
-            if item.file_size>25*1024*1024:
-                raise RuntimeError("IDB CSV exceeds the size limit")
-            body=archive.read(item)
-            headers=next(csv.reader(io.StringIO(body.decode("utf-8-sig"))),[])
-            if IDB_COLUMNS.issubset(headers):
-                candidates.append((item.filename,body))
-    if len(candidates)!=1:
-        raise RuntimeError(f"Expected one IDB sanctions CSV in official archive, found {len(candidates)}")
-    return candidates[0]
-
 def idb(src,browser):
-    # Use Download Dataset offered by the official dataset page; no discovery API is required.
-    response=get(src["url"],"application/zip")
-    member,body=idb_csv_from_archive(response.content)
-    print(json.dumps({"diagnostic":"IDB official archive","url":src["url"],
-                      "member":member,"bytes":len(body),"sha256":sha(body)}),flush=True)
+    # Fetch the official resource directly; avoid a second metadata API dependency.
+    response=get(src["url"],"text/csv")
+    body=response.content
+    print(json.dumps({"diagnostic":"IDB official CSV","url":src["url"],
+                      "bytes":len(body),"sha256":sha(body)}),flush=True)
     text=body.decode("utf-8-sig"); reader=csv.DictReader(io.StringIO(text))
     headers=reader.fieldnames or []
-    required={"Title","Entity","Country","From","To","Prohibited Practice","IDB Sanction Source"}
+    required=IDB_COLUMNS
     missing=sorted(required-set(headers))
     if missing: raise RuntimeError(f"IDB required columns missing: {missing}; headers={headers}")
     out=[]
