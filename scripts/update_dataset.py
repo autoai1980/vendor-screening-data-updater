@@ -195,8 +195,13 @@ IDB_COLUMNS={"Title","Entity","Country","From","To","Prohibited Practice","IDB S
 
 def idb(src,browser):
     # Fetch the official resource directly; avoid a second metadata API dependency.
-    response=get(src["url"],"text/csv")
-    body=response.content
+    # Match the standard-library client used by the successful official-source probe.
+    from urllib.request import Request, urlopen
+    req=Request(src["url"],headers={"User-Agent":UA,"Accept":"*/*"})
+    with urlopen(req,timeout=TIMEOUT) as response:
+        body=response.read()
+    if not body:
+        raise RuntimeError("IDB official CSV download was empty")
     print(json.dumps({"diagnostic":"IDB official CSV","url":src["url"],
                       "bytes":len(body),"sha256":sha(body)}),flush=True)
     text=body.decode("utf-8-sig"); reader=csv.DictReader(io.StringIO(text))
