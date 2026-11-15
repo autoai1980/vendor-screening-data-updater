@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 from __future__ import annotations
-import csv, hashlib, io, json, re, sys, unicodedata
+import csv, hashlib, io, json, re, sys, time, unicodedata, zipfile
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urljoin
@@ -153,36 +153,33 @@ def world_bank(src,browser):
     body=json.dumps(rows,ensure_ascii=False).encode()
     return out,type("Response",(),{"content":body,"headers":{}})()
 
-def idb(src,browser):
-    # Discover the current CSV through IDB's official CKAN API, independent of page layout.
-    from urllib.parse import urlparse
-    api_url="https://data.iadb.org/api/3/action/package_show?id=dataset-of-sanctioned-firms-and-individuals"
-    package=get(api_url,"application/json").json()
-    if package.get("success") is not True:
-        raise RuntimeError("IDB dataset API did not report success")
-    resources=package.get("result",{}).get("resources",[])
-    candidates=[item for item in resources if
-                str(item.get("format","")).upper()=="CSV"
-                or "/files/download/" in str(item.get("url",""))
-                or str(item.get("url","")).lower().endswith(".csv")]
+IDB_COLUMNS={"Title","Entity","Country","From","To","Prohibited Practice","IDB Sanction Source"}
+
+def idb_csv_from_archive(payload):
+    candidates=[]
+    with zipfile.ZipFile(io.BytesIO(payload)) as archive:
+        members=[item for item in archive.infolist() if not item.is_dir()]
+        if sum(item.file_size for item in members)>64*1024*1024:
+            raise RuntimeError("IDB archive exceeds the uncompressed size limit")
+        for item in members:
+            if not item.filename.lower().endswith(".csv"):
+                continue
+            if item.file_size>25*1024*1024:
+                raise RuntimeError("IDB CSV exceeds the size limit")
+            body=archive.read(item)
+            headers=next(csv.reader(io.StringIO(body.decode("utf-8-sig"))),[])
+            if IDB_COLUMNS.issubset(headers):
+                candidates.append((item.filename,body))
     if len(candidates)!=1:
-        raise RuntimeError(f"Expected one IDB CSV resource, found {len(candidates)}")
-    resource=candidates[0]
-    resource_url=resource.get("url","")
-    if not resource_url:
-        resource_id=resource.get("id","")
-        if not resource.get("datastore_active") or not re.fullmatch(r"[0-9a-fA-F-]{36}",resource_id):
-            raise RuntimeError("IDB CSV resource has no usable download URL or active DataStore")
-        resource_url=f"https://data.iadb.org/datastore/dump/{resource_id}"
-    href=urljoin(api_url,resource_url)
-    parsed=urlparse(href)
-    if parsed.scheme!="https" or parsed.hostname!="data.iadb.org":
-        raise RuntimeError("IDB API returned an unexpected CSV download host")
-    response=get(href,"text/csv")
-    body=response.content
-    src["url"]=href
-    print(json.dumps({"diagnostic":"IDB CSV resource","url":href,
-                      "bytes":len(body),"sha256":sha(body)}),flush=True)
+        raise RuntimeError(f"Expected one IDB sanctions CSV in official archive, found {len(candidates)}")
+    return candidates[0]
+
+def idb(src,browser):
+    # Use Download Dataset offered by the official dataset page; no discovery API is required.
+    response=get(src["url"],"application/zip")
+    member,body=idb_csv_from_archive(response.content)
+    print(json.dumps({"diagnostic":"IDB official archive","url":src["url"],
+                      "member":member,"bytes":len(body),"sha256":sha(body)}),flush=True)
     text=body.decode("utf-8-sig"); reader=csv.DictReader(io.StringIO(text))
     headers=reader.fieldnames or []
     required={"Title","Entity","Country","From","To","Prohibited Practice","IDB Sanction Source"}
