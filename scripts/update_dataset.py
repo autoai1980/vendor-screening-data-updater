@@ -60,6 +60,8 @@ def get(url,accept="*/*"):
             if r.status_code in {429,500,502,503,504} and attempt<2:
                 time.sleep(2**attempt)
                 continue
+            if r.status_code==403:
+                raise RuntimeError(f"Source denied access: {url}; server={r.headers.get('Server','')}; response={clean(r.text[:300])}")
             r.raise_for_status()
             if not r.content:
                 raise RuntimeError(f"Empty response from {url}")
