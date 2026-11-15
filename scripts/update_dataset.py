@@ -53,10 +53,46 @@ def dataset_delta(previous,current):
         removed.extend(before[matched:]); added.extend(after[matched:])
     return added,removed
 def get(url,accept="*/*"):
-    r=requests.get(url,headers={"User-Agent":UA,"Accept":accept},timeout=TIMEOUT)
-    r.raise_for_status()
-    if not r.content: raise RuntimeError(f"Empty response from {url}")
-    return r
+    # Retry only transient transport/server failures, never access denials.
+    for attempt in range(3):
+        try:
+            r=requests.get(url,headers={"User-Agent":UA,"Accept":accept},timeout=TIMEOUT)
+            if r.status_code in {429,500,502,503,504} and attempt<2:
+                time.sleep(2**attempt)
+                continue
+            r.raise_for_status()
+            if not r.content:
+                raise RuntimeError(f"Empty response from {url}")
+            return r
+        except (requests.Timeout,requests.ConnectionError):
+            if attempt==2:
+                raise
+            time.sleep(2**attempt)
+
+def validate_source_counts(metadata,previous_manifest,policy,configured_sources):
+    ids=[item["id"] for item in metadata]
+    if len(ids)!=len(set(ids)):
+        raise RuntimeError("Duplicate source identifiers in collected metadata")
+    expected={item["id"] for item in configured_sources if item.get("required")}
+    counts={item["id"]:item["recordCount"] for item in metadata}
+    if policy.get("requireAllSources") and not expected.issubset(counts):
+        raise RuntimeError(f"Required sources missing: {sorted(expected-set(counts))}")
+    for sid in expected:
+        if counts.get(sid,0)<=0:
+            raise RuntimeError(f"Required source returned no records: {sid}")
+    ratio=policy.get("minimumRecordRatioAgainstPrevious",0.8)
+    if not isinstance(ratio,(int,float)) or not 0<ratio<=1:
+        raise RuntimeError("Invalid minimum record ratio in publication policy")
+    previous_counts={item["id"]:item["recordCount"] for item in previous_manifest.get("sources",[])}
+    for sid,count in counts.items():
+        before=previous_counts.get(sid,0)
+        if before and count<before*ratio:
+            raise RuntimeError(f"Source record count fell below {ratio:.0%}: {sid}: {before} -> {count}")
+    previous_total=previous_manifest.get("recordCount",0)
+    current_total=sum(counts.values())
+    if previous_total and current_total<previous_total*ratio:
+        raise RuntimeError(f"Combined record count fell below {ratio:.0%}: {previous_total} -> {current_total}")
+
 def tag(el,name):
     for node in el.iter():
         if node.tag.rsplit("}",1)[-1]==name:
@@ -205,11 +241,11 @@ def main():
     with sync_playwright() as p:
         browser=p.chromium.launch()
         for sid in ("ca_autonomous_sanctions","un_sc_consolidated","ca_criminal_code_terrorist_entities","ca_riunrst"):
-            src=sources[sid]; rows,response=parsers[sid](src); all_records.extend(rows)
+            src=sources[sid]; print(f"Retrieving source: {sid}",flush=True); rows,response=parsers[sid](src); all_records.extend(rows)
             metadata.append({"id":sid,"name":src["name"],"authority":src["authority"],"sourceUrl":src["url"],
                              "retrievedAt":now(),"recordCount":len(rows),"contentSha256":sha(response.content)})
         for sid,parser in (("world_bank_debarments",world_bank),("idb_sanctions",idb)):
-            src=sources[sid]; rows,response=parser(src,browser); all_records.extend(rows)
+            src=sources[sid]; print(f"Retrieving source: {sid}",flush=True); rows,response=parser(src,browser); all_records.extend(rows)
             metadata.append({"id":sid,"name":src["name"],"authority":src["authority"],"sourceUrl":src["url"],
                              "retrievedAt":now(),"recordCount":len(rows),"contentSha256":sha(response.content)})
         browser.close()
@@ -227,6 +263,7 @@ def main():
                       "currentTotal":len(all_records),
                       "sources":{item["id"]:{"previous":previous_counts.get(item["id"]),
                                               "current":item["recordCount"]} for item in metadata}}),flush=True)
+    validate_source_counts(metadata,previous_manifest,CONFIG["publicationPolicy"],CONFIG["sources"])
     if len(all_records)<7500: raise RuntimeError(f"Combined dataset unexpectedly small: {len(all_records)}")
     stamp=datetime.now(timezone.utc).strftime("%Y-%m-%d")
     package={"schemaVersion":1,"datasetVersion":f"official-{stamp}","generatedAt":now(),
