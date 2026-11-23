@@ -1,0 +1,1086 @@
+{
+  "schemaVersion": 1,
+  "fromDatasetVersion": "official-2026-11-22",
+  "toDatasetVersion": "official-2026-11-23",
+  "generatedAt": "2026-11-23T18:04:45Z",
+  "addedCount": 27,
+  "removedCount": 27,
+  "addedRecords": [
+    [
+      829,
+      "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List",
+      "Hamid Hosseini",
+      "",
+      "",
+      "Iran",
+      "1, Part 2 / 114",
+      "2026-08-13",
+      "",
+      "",
+      "",
+      [],
+      [],
+      "Individual",
+      [
+        "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List"
+      ]
+    ],
+    [
+      831,
+      "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List",
+      "Davoud Moazami Goudarzi",
+      "",
+      "داوود معظمی گودرزی",
+      "Iran",
+      "1, Part 2 / 116",
+      "2026-09-22",
+      "",
+      "",
+      "",
+      [
+        "داوود معظمی گودرزی"
+      ],
+      [],
+      "Individual",
+      [
+        "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List"
+      ]
+    ],
+    [
+      835,
+      "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List",
+      "Ruhollah Momen Nasab",
+      "",
+      "· روح الله مؤمن نسب",
+      "Iran",
+      "1, Part 2 / 120",
+      "2026-09-22",
+      "",
+      "",
+      "",
+      [
+        "· روح الله مؤمن نسب"
+      ],
+      [],
+      "Individual",
+      [
+        "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List"
+      ]
+    ],
+    [
+      684,
+      "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List",
+      "Naftiran Intertrade Company/Société Naftiran Intertrade",
+      "",
+      "",
+      "Iran",
+      "1, Part 1 / 243",
+      "2026-11-05",
+      "",
+      "",
+      "",
+      [],
+      [],
+      "Entity",
+      [
+        "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List"
+      ]
+    ],
+    [
+      811,
+      "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List",
+      "Hossein Hatefi Ardakani",
+      "",
+      "حسین هاتفی اردکانی",
+      "Iran",
+      "1, Part 2 / 96",
+      "2025-03-06",
+      "",
+      "",
+      "",
+      [
+        "حسین هاتفی اردکانی"
+      ],
+      [],
+      "Individual",
+      [
+        "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List"
+      ]
+    ],
+    [
+      814,
+      "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List",
+      "Naji Ibrahim Sharifi Zindashti",
+      "",
+      "ناجی ابراهیم شریفی زندشتی",
+      "Iran",
+      "1, Part 2 / 99",
+      "2026-02-13",
+      "",
+      "",
+      "",
+      [
+        "ناجی ابراهیم شریفی زندشتی"
+      ],
+      [],
+      "Individual",
+      [
+        "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List"
+      ]
+    ],
+    [
+      833,
+      "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List",
+      "Rasoul Jalili",
+      "",
+      "رسول جلیلی",
+      "Iran",
+      "1, Part 2 / 118",
+      "2026-09-22",
+      "",
+      "",
+      "",
+      [
+        "رسول جلیلی"
+      ],
+      [],
+      "Individual",
+      [
+        "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List"
+      ]
+    ],
+    [
+      687,
+      "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List",
+      "Nuclear Reactors Fuel Company/ Société de combustible pour réacteurs nucléaires",
+      "",
+      "",
+      "Iran",
+      "1, Part 1 / 246",
+      "2026-11-05",
+      "",
+      "",
+      "",
+      [],
+      [],
+      "Entity",
+      [
+        "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List"
+      ]
+    ],
+    [
+      935,
+      "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List",
+      "Mohammad Masroor",
+      "",
+      "محمد مسرور",
+      "Iran",
+      "1, Part 2.1 / 100",
+      "2023-09-14",
+      "",
+      "",
+      "",
+      [
+        "محمد مسرور"
+      ],
+      [],
+      "Individual",
+      [
+        "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List"
+      ]
+    ],
+    [
+      691,
+      "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List",
+      "Bank of Industry and Mine/ Banque de l’industrie et des mines",
+      "",
+      "",
+      "Iran",
+      "1, Part 1 / 250",
+      "2026-11-05",
+      "",
+      "",
+      "",
+      [],
+      [],
+      "Entity",
+      [
+        "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List"
+      ]
+    ],
+    [
+      828,
+      "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List",
+      "Ebrahim Azizi",
+      "",
+      "",
+      "Iran",
+      "1, Part 2 / 113",
+      "2026-08-13",
+      "",
+      "",
+      "",
+      [],
+      [],
+      "Individual",
+      [
+        "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List"
+      ]
+    ],
+    [
+      790,
+      "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List",
+      "Ali Akbar Ahmadian",
+      "",
+      "علی اکبر احمدیان بابکی",
+      "Iran",
+      "1, Part 2 / 75",
+      "2023-08-04",
+      "",
+      "",
+      "",
+      [
+        "علی اکبر احمدیان بابکی"
+      ],
+      [],
+      "Individual",
+      [
+        "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List"
+      ]
+    ],
+    [
+      683,
+      "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List",
+      "Kala Naft",
+      "",
+      "",
+      "Iran",
+      "1, Part 1 / 242",
+      "2026-11-05",
+      "",
+      "",
+      "",
+      [],
+      [],
+      "Entity",
+      [
+        "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List"
+      ]
+    ],
+    [
+      826,
+      "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List",
+      "Ali Abdollahi",
+      "",
+      "Ali Abdollahi Aliabadi",
+      "Iran",
+      "1, Part 2 / 111",
+      "2026-08-13",
+      "",
+      "",
+      "",
+      [
+        "Ali Abdollahi Aliabadi"
+      ],
+      [],
+      "Individual",
+      [
+        "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List"
+      ]
+    ],
+    [
+      689,
+      "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List",
+      "Bank Mellat/Banque Mellat",
+      "",
+      "",
+      "Iran",
+      "1, Part 1 / 248",
+      "2026-11-05",
+      "",
+      "",
+      "",
+      [],
+      [],
+      "Entity",
+      [
+        "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List"
+      ]
+    ],
+    [
+      686,
+      "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List",
+      "National Iranian Tanker Company",
+      "",
+      "",
+      "Iran",
+      "1, Part 1 / 245",
+      "2026-11-05",
+      "",
+      "",
+      "",
+      [],
+      [],
+      "Entity",
+      [
+        "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List"
+      ]
+    ],
+    [
+      830,
+      "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List",
+      "Shahram Irani",
+      "",
+      "",
+      "Iran",
+      "1, Part 2 / 115",
+      "2026-08-13",
+      "",
+      "",
+      "",
+      [],
+      [],
+      "Individual",
+      [
+        "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List"
+      ]
+    ],
+    [
+      685,
+      "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List",
+      "National Iranian Oil Company/Société nationale iranienne du pétrole",
+      "",
+      "",
+      "Iran",
+      "1, Part 1 / 244",
+      "2026-11-05",
+      "",
+      "",
+      "",
+      [],
+      [],
+      "Entity",
+      [
+        "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List"
+      ]
+    ],
+    [
+      834,
+      "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List",
+      "Mohsen Fathizadeh",
+      "",
+      "محسن فتحی زاده",
+      "Iran",
+      "1, Part 2 / 119",
+      "2026-09-22",
+      "",
+      "",
+      "",
+      [
+        "محسن فتحی زاده"
+      ],
+      [],
+      "Individual",
+      [
+        "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List"
+      ]
+    ],
+    [
+      832,
+      "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List",
+      "Eskandar Momeni",
+      "",
+      "اسکندر مومنی",
+      "Iran",
+      "1, Part 2 / 117",
+      "2026-09-22",
+      "",
+      "",
+      "",
+      [
+        "اسکندر مومنی"
+      ],
+      [],
+      "Individual",
+      [
+        "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List"
+      ]
+    ],
+    [
+      690,
+      "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List",
+      "Bank Melli Iran/Banque Melli Iran",
+      "",
+      "",
+      "Iran",
+      "1, Part 1 / 249",
+      "2026-11-05",
+      "",
+      "",
+      "",
+      [],
+      [],
+      "Entity",
+      [
+        "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List"
+      ]
+    ],
+    [
+      934,
+      "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List",
+      "Mohammad Mehdi Esmaili",
+      "",
+      "محمد مهدی اسماعیلی",
+      "Iran",
+      "1, Part 2.1 / 99",
+      "2023-09-14",
+      "",
+      "",
+      "",
+      [
+        "محمد مهدی اسماعیلی"
+      ],
+      [],
+      "Individual",
+      [
+        "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List"
+      ]
+    ],
+    [
+      936,
+      "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List",
+      "Mojtaba Zonnouri",
+      "",
+      "محمد مسرور",
+      "Iran",
+      "1, Part 2.1 / 101",
+      "2023-09-14",
+      "",
+      "",
+      "",
+      [
+        "محمد مسرور"
+      ],
+      [],
+      "Individual",
+      [
+        "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List"
+      ]
+    ],
+    [
+      688,
+      "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List",
+      "Nuclear Fuel Production and Procurement Company/Société de production et d’approvisionnement en combustible nucléaire",
+      "",
+      "",
+      "Iran",
+      "1, Part 1 / 247",
+      "2026-11-05",
+      "",
+      "",
+      "",
+      [],
+      [],
+      "Entity",
+      [
+        "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List"
+      ]
+    ],
+    [
+      692,
+      "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List",
+      "Export Development Bank of Iran/Banque de développement des exportations d’Iran",
+      "",
+      "",
+      "Iran",
+      "1, Part 1 / 251",
+      "2026-11-05",
+      "",
+      "",
+      "",
+      [],
+      [],
+      "Entity",
+      [
+        "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List"
+      ]
+    ],
+    [
+      827,
+      "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List",
+      "Ebrahim Zolfaghari",
+      "",
+      "",
+      "Iran",
+      "1, Part 2 / 112",
+      "2026-08-13",
+      "",
+      "",
+      "",
+      [],
+      [],
+      "Individual",
+      [
+        "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List"
+      ]
+    ],
+    [
+      693,
+      "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List",
+      "Iran Insurance Company/Compagnie d’assurance d’Iran",
+      "",
+      "",
+      "Iran",
+      "1, Part 1 / 252",
+      "2026-11-05",
+      "",
+      "",
+      "",
+      [],
+      [],
+      "Entity",
+      [
+        "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List"
+      ]
+    ]
+  ],
+  "removedRecords": [
+    [
+      942,
+      "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List",
+      "Nuclear Fuel Production and Procurement Company/Société de production et d’approvisionnement en combustible nucléaire",
+      "",
+      "",
+      "Iran",
+      "1, Part 1.1 / 247",
+      "2026-11-05",
+      "",
+      "",
+      "",
+      [],
+      [],
+      "Entity",
+      [
+        "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List"
+      ]
+    ],
+    [
+      925,
+      "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List",
+      "Zonnouri Mojtaba",
+      "",
+      "محمد مسرور",
+      "Iran",
+      "1, Part 2.1 / 101",
+      "2023-09-14",
+      "",
+      "",
+      "",
+      [
+        "محمد مسرور"
+      ],
+      [],
+      "Individual",
+      [
+        "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List"
+      ]
+    ],
+    [
+      818,
+      "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List",
+      "Hosseini Hamid",
+      "",
+      "",
+      "Iran",
+      "1, Part 2 / 114",
+      "2026-08-13",
+      "",
+      "",
+      "",
+      [],
+      [],
+      "Individual",
+      [
+        "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List"
+      ]
+    ],
+    [
+      947,
+      "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List",
+      "Iran Insurance Company/Compagnie d’assurance d’Iran",
+      "",
+      "",
+      "Iran",
+      "1, Part 1.1 / 252",
+      "2026-11-05",
+      "",
+      "",
+      "",
+      [],
+      [],
+      "Entity",
+      [
+        "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List"
+      ]
+    ],
+    [
+      819,
+      "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List",
+      "Irani Shahram",
+      "",
+      "",
+      "Iran",
+      "1, Part 2 / 115",
+      "2026-08-13",
+      "",
+      "",
+      "",
+      [],
+      [],
+      "Individual",
+      [
+        "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List"
+      ]
+    ],
+    [
+      945,
+      "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List",
+      "Bank of Industry and Mine/ Banque de l’industrie et des mines",
+      "",
+      "",
+      "Iran",
+      "1, Part 1.1 / 250",
+      "2026-11-05",
+      "",
+      "",
+      "",
+      [],
+      [],
+      "Entity",
+      [
+        "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List"
+      ]
+    ],
+    [
+      803,
+      "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List",
+      "Naji Ibrahim Sharifi-Zindashti",
+      "",
+      "ناجی ابراهیم شریفی زندشتی",
+      "Iran",
+      "1, Part 2 / 99",
+      "2026-02-13",
+      "",
+      "",
+      "",
+      [
+        "ناجی ابراهیم شریفی زندشتی"
+      ],
+      [],
+      "Individual",
+      [
+        "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List"
+      ]
+    ],
+    [
+      821,
+      "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List",
+      "Momeni Eskandar",
+      "",
+      "اسکندر مومنی",
+      "Iran",
+      "1, Part 2 / 117",
+      "2026-09-22",
+      "",
+      "",
+      "",
+      [
+        "اسکندر مومنی"
+      ],
+      [],
+      "Individual",
+      [
+        "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List"
+      ]
+    ],
+    [
+      923,
+      "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List",
+      "Esmaili Mohammad Mehdi",
+      "",
+      "محمد مهدی اسماعیلی",
+      "Iran",
+      "1, Part 2.1 / 99",
+      "2023-09-14",
+      "",
+      "",
+      "",
+      [
+        "محمد مهدی اسماعیلی"
+      ],
+      [],
+      "Individual",
+      [
+        "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List"
+      ]
+    ],
+    [
+      779,
+      "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List",
+      "Ahmadian Ali Akbar",
+      "",
+      "علی اکبر احمدیان بابکی",
+      "Iran",
+      "1, Part 2 / 75",
+      "2023-08-04",
+      "",
+      "",
+      "",
+      [
+        "علی اکبر احمدیان بابکی"
+      ],
+      [],
+      "Individual",
+      [
+        "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List"
+      ]
+    ],
+    [
+      924,
+      "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List",
+      "Masroor Mohammad",
+      "",
+      "محمد مسرور",
+      "Iran",
+      "1, Part 2.1 / 100",
+      "2023-09-14",
+      "",
+      "",
+      "",
+      [
+        "محمد مسرور"
+      ],
+      [],
+      "Individual",
+      [
+        "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List"
+      ]
+    ],
+    [
+      941,
+      "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List",
+      "Nuclear Reactors Fuel Company/ Société de combustible pour réacteurs nucléaires",
+      "",
+      "",
+      "Iran",
+      "1, Part 1.1 / 246",
+      "2026-11-05",
+      "",
+      "",
+      "",
+      [],
+      [],
+      "Entity",
+      [
+        "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List"
+      ]
+    ],
+    [
+      822,
+      "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List",
+      "Jalili Rasoul",
+      "",
+      "رسول جلیلی",
+      "Iran",
+      "1, Part 2 / 118",
+      "2026-09-22",
+      "",
+      "",
+      "",
+      [
+        "رسول جلیلی"
+      ],
+      [],
+      "Individual",
+      [
+        "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List"
+      ]
+    ],
+    [
+      943,
+      "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List",
+      "Bank Mellat/Banque Mellat",
+      "",
+      "",
+      "Iran",
+      "1, Part 1.1 / 248",
+      "2026-11-05",
+      "",
+      "",
+      "",
+      [],
+      [],
+      "Entity",
+      [
+        "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List"
+      ]
+    ],
+    [
+      824,
+      "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List",
+      "Nasab Ruhollah Momen",
+      "",
+      "· روح الله مؤمن نسب",
+      "Iran",
+      "1, Part 2 / 120",
+      "2026-09-22",
+      "",
+      "",
+      "",
+      [
+        "· روح الله مؤمن نسب"
+      ],
+      [],
+      "Individual",
+      [
+        "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List"
+      ]
+    ],
+    [
+      817,
+      "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List",
+      "Azizi Ebrahim",
+      "",
+      "",
+      "Iran",
+      "1, Part 2 / 113",
+      "2026-08-13",
+      "",
+      "",
+      "",
+      [],
+      [],
+      "Individual",
+      [
+        "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List"
+      ]
+    ],
+    [
+      800,
+      "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List",
+      "Hossein Hatef Ardakani",
+      "",
+      "حسین هاتفی اردکانی",
+      "Iran",
+      "1, Part 2 / 96",
+      "2025-03-06",
+      "",
+      "",
+      "",
+      [
+        "حسین هاتفی اردکانی"
+      ],
+      [],
+      "Individual",
+      [
+        "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List"
+      ]
+    ],
+    [
+      940,
+      "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List",
+      "National Iranian Tanker Company/Société nationale iranienne du pétrole",
+      "",
+      "",
+      "Iran",
+      "1, Part 1.1 / 245",
+      "2026-11-05",
+      "",
+      "",
+      "",
+      [],
+      [],
+      "Entity",
+      [
+        "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List"
+      ]
+    ],
+    [
+      944,
+      "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List",
+      "Bank Melli Iran/Banque Melli Iran",
+      "",
+      "",
+      "Iran",
+      "1, Part 1.1 / 249",
+      "2026-11-05",
+      "",
+      "",
+      "",
+      [],
+      [],
+      "Entity",
+      [
+        "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List"
+      ]
+    ],
+    [
+      938,
+      "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List",
+      "Naftiran Intertrade Company/Société Naftiran Intertrade",
+      "",
+      "",
+      "Iran",
+      "1, Part 1.1 / 243",
+      "2026-11-05",
+      "",
+      "",
+      "",
+      [],
+      [],
+      "Entity",
+      [
+        "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List"
+      ]
+    ],
+    [
+      946,
+      "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List",
+      "Export Development Bank of Iran/Banque de développement des exportations d’Iran",
+      "",
+      "",
+      "Iran",
+      "1, Part 1.1 / 251",
+      "2026-11-05",
+      "",
+      "",
+      "",
+      [],
+      [],
+      "Entity",
+      [
+        "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List"
+      ]
+    ],
+    [
+      823,
+      "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List",
+      "Fathizadeh Mohsen",
+      "",
+      "محسن فتحی زاده",
+      "Iran",
+      "1, Part 2 / 119",
+      "2026-09-22",
+      "",
+      "",
+      "",
+      [
+        "محسن فتحی زاده"
+      ],
+      [],
+      "Individual",
+      [
+        "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List"
+      ]
+    ],
+    [
+      937,
+      "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List",
+      "Kala Naft",
+      "",
+      "",
+      "Iran",
+      "1, Part 1.1 / 242",
+      "2026-11-05",
+      "",
+      "",
+      "",
+      [],
+      [],
+      "Entity",
+      [
+        "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List"
+      ]
+    ],
+    [
+      820,
+      "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List",
+      "Goudrazi Davoud Moazami",
+      "",
+      "داوود معظمی گودرزی",
+      "Iran",
+      "1, Part 2 / 116",
+      "2026-09-22",
+      "",
+      "",
+      "",
+      [
+        "داوود معظمی گودرزی"
+      ],
+      [],
+      "Individual",
+      [
+        "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List"
+      ]
+    ],
+    [
+      815,
+      "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List",
+      "Abdollahi Ali",
+      "",
+      "Ali Abdollahi Aliabadi",
+      "Iran",
+      "1, Part 2 / 111",
+      "2026-08-13",
+      "",
+      "",
+      "",
+      [
+        "Ali Abdollahi Aliabadi"
+      ],
+      [],
+      "Individual",
+      [
+        "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List"
+      ]
+    ],
+    [
+      939,
+      "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List",
+      "National Iranian Oil Company/Société Naftiran Intertrade",
+      "",
+      "",
+      "Iran",
+      "1, Part 1.1 / 244",
+      "2026-11-05",
+      "",
+      "",
+      "",
+      [],
+      [],
+      "Entity",
+      [
+        "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List"
+      ]
+    ],
+    [
+      816,
+      "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List",
+      "Zolfaghari Ebrahim",
+      "",
+      "",
+      "Iran",
+      "1, Part 2 / 112",
+      "2026-08-13",
+      "",
+      "",
+      "",
+      [],
+      [],
+      "Individual",
+      [
+        "Global Affairs Canada Consolidated Canadian Autonomous Sanctions List"
+      ]
+    ]
+  ]
+}
